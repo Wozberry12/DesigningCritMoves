@@ -22,7 +22,7 @@
             <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
                 <img src="assets/img/MainLogo.png" class="img-fluid float-start" alt="Crit Moves">
             </div>
-            <div class="d-flex position-absolute top-0 end-0">
+            <div class="d-flex position-absolute top-0 end-0" style="padding-top:2em; padding-right:2em;">
                 <div class="flex-shrink-0 dropdown">
                     <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false">Spring 2022
                         <img src="assets/img/Group.png" alt="Default Photo" width="45" height="45" class="rounded-circle">
@@ -66,21 +66,30 @@
 
         </nav>
         <!--Begin Setting up Vertical Columns-->
-            <div class="row align-items-start">
-                <div class="col-2"><!--Filter Category Appears here-->
-                    One of three columns
-                </div>
-                <div class="col-4"><!--Populated prompts will appear here-->
-                    One of three columns
-                </div>
-                <div class="col-6"><!---->
-                    One of three columns
-                </div>
+        <div class="row align-items-start">
+            <div class="col-3" style="padding-left:2em; padding-top:1em;">
+                <!--Fil <!--Begin Left Column-->
+                <asp:ContentPlaceHolder ID="FacultyContentLeftCol" runat="server">
+                    FacultyContent Default Left Text
+                </asp:ContentPlaceHolder>
+
             </div>
+            <div class="col-4">
+                <!--Begin Middle Column-->
+                <asp:ContentPlaceHolder ID="FacultyContentMiddleCol" runat="server">
+                    FacultyContent Default Middle Text
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <div class="col-5">
+                 <!--Begin Right Column-->
+                <asp:ContentPlaceHolder ID="FacultyContentRightCol" runat="server">
+                    FacultyContent Default Right Text
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
 
         <div>
-            <asp:ContentPlaceHolder ID="FacultyContentView" runat="server">
-            </asp:ContentPlaceHolder>
         </div>
         <footer id="masterFooter" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <a class="text-start float-start" href="#" style="padding-left: 1em; color: rgb(255,255,255);">Terms and Conditons</a>

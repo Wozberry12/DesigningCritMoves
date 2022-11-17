@@ -47,3 +47,8 @@ footer {
     float: none;
     bottom: 0;
 }
+
+.scroll{
+    max-height:80%;
+    overflow-y:auto;
+}
