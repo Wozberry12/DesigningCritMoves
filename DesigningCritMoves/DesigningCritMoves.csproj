@@ -67,11 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\img\Crit_Moves_FINAL_logos-02 1.png" />
     <Content Include="assets\img\Group.png" />
     <Content Include="assets\img\MainLogo.png" />
-    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\bootstrap\js\bootstrap.min.js" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
