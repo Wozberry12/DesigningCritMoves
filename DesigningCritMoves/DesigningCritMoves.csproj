@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPagePrompts.html" />
     <Content Include="AdminPrompt.aspx" />
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\css\stylesIndex.css" />
