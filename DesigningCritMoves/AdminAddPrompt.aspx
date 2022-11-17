@@ -26,7 +26,7 @@
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
                     <label class="form-check-label" for="flexRadioDefault1">Motion</label>
-                    </li>
+                </li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
                     <label class="form-check-label" for="flexRadioDefault1">Project</label></li>
@@ -48,9 +48,26 @@
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FacultyContentMiddleCol" runat="server">
-    Default Middle Column
+    <div class="h1" style="color: #023739;">
+        Prompts: <span style="color: #FF6555">No Filter</span>
+    </div>
+
+
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FacultyContentRightCol" runat="server">
-    Default Right Column
+    <div class="h1" style="color: #023739;">
+        Prompts: <span style="color: #FF6555">Add New</span>
+    </div>
+    <div class="container" style="padding-right:8em">
+    <select class="form-select scroll">
+        <option selected>Open this select menu</option>
+        <option value="1">Concept</option>
+        <option value="2">Typography</option>
+        <option value="3">Color</option>
+        <option value="4">Composition</option>
+        <option value="5">Usability(UX)</option>
+        <option value="6">General</option>
+    </select>
+        </div>
 </asp:Content>
 
