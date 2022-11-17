@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FacultyViewMaster.master.cs" Inherits="DesigningCritMoves.FacultyViewMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Crit Moves</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/stylesIndex.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!--Header for Crit Moves-->
+
+    <form id="form1" runat="server">
+        <header class="py-3 mb-3">
+            <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+                <img src="assets/img/MainLogo.png" class="img-fluid float-start" alt="Crit Moves">
+            </div>
+            <div class="d-flex position-absolute top-0 end-0">
+                <div class="flex-shrink-0 dropdown">           
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false">
+                        Spring 2022
+                        <img src="assets/img/Group.png" alt="Default Photo" width="45" height="45" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                        <li>
+                            <a class="dropdown-item" href="#">Administrator View</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Faculty View</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--Begin Navbar-->
+        <nav class="navbar navbar-expand-lg" style="background-color:#D9EEEA">
+            <div class="container-fluid" style="background-color: #023739">
+                <a class="navbar-brand" href="#" style="color: #FFFFFF">EDIT PROMPTS AND CATEGORIES</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">View Prompts</a></li>
+                            <li><a class="dropdown-item" href="#">Edit Categories</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="container-fluid" style="background-color: #D9EEEA">
+                <a class="navbar-brand" href="#">PROMPTS</a>
+            </div>
+            <div class="container-fluid" style="background-color: #FFFFFF">
+                <a class="navbar-brand" href="#">CATEGORIES</a>
+            </div>
+
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="FacultyContentView" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
