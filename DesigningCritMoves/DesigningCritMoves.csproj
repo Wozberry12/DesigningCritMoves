@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminPrompt.aspx" />
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\css\stylesIndex.css" />
     <Content Include="assets\css\stylesMaster.css" />
@@ -75,6 +76,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminPrompt.aspx.cs">
+      <DependentUpon>AdminPrompt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPrompt.aspx.designer.cs">
+      <DependentUpon>AdminPrompt.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CritMoves.Master.cs">
       <DependentUpon>CritMoves.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
