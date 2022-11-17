@@ -11,9 +11,19 @@
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <div class="container" id="mainLogo">
-            <img src="assets/img/MainLogo.png" />
-        </div>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <img src="assets/img/MainLogo.png" alt="Bootstrap" height="50" class="border-8" />
+            </div>
+            <ul class="dropdown-menu ml-auto" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </nav>
         <div class='tabs-x tabs-above'>
             <ul id="myTab-tabs-above" class="nav nav-tabs" role="tablist">
                 <li class="nav-item dropdown">
@@ -49,5 +59,10 @@
             <div class="tab-pane fade" id="disabled-tabs-above" role="tabpanel" aria-labelledby="disabled-tab-tabs-above">Disabled Content</div>
         </div>
         </div>
+        <footer>
+            <a class="text-start float-start" href="#" style="color: rgb(255,255,255); padding-top: 10px; padding-left: 10px;">Terms and Conditons</a>
+            <a class="text-center float-start" href="#" style="color: rgb(255,255,255); padding-top: 10px; width: 80%;">Interested In Custom Prompts?</a>
+            <p class="fs-5 text-end float-end" style="padding-top: 10px; padding-right: 10px; color: rgb(255,255,255);">@2022</p>
+        </footer>
     </body>
 </html>
