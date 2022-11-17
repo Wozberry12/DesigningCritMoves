@@ -61,7 +61,7 @@
                 </div>
             <div style="width:100%;">
                  <div class="card-footer bg-primary border-warning text-center" style="width:20%; margin: 0 auto;">
-                    <a href="#" class="btn btn-danger btn-sm"> Edite</a> 
+                    <a href="#" class="btn btn-danger btn-sm"> Edit</a> 
                </div>
             </div>
               
