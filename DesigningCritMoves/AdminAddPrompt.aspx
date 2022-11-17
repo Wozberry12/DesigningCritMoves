@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacultyViewMaster.Master" AutoEventWireup="true" CodeBehind="AdminAddPrompt.aspx.cs" Inherits="DesigningCritMoves.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminViewMaster.Master" AutoEventWireup="true" CodeBehind="AdminAddPrompt.aspx.cs" Inherits="DesigningCritMoves.WebForm1" %>
 
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="FacultyContentLeftCol" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
 
     <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; background-color: #023739">
         <div class="card-header text-white">
@@ -47,7 +47,7 @@
     </div>
 
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="FacultyContentMiddleCol" runat="server">
+<asp:Content ID="Content3" ContentPlaceHolderID="AdminContentMiddleCol" runat="server">
     Default Middle Column
 <div class="container">
     <div class="col">
@@ -71,7 +71,7 @@
 </div>
  
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="FacultyContentRightCol" runat="server">
+<asp:Content ID="Content4" ContentPlaceHolderID="AdminContentRightCol" runat="server">
     Default Right Column
 </asp:Content>
 

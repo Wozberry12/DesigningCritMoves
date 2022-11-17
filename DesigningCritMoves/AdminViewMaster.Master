@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FacultyViewMaster.master.cs" Inherits="DesigningCritMoves.FacultyViewMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminViewMaster.Master.cs" Inherits="DesigningCritMoves.FacultyViewMaster" %>
 
 <!DOCTYPE html>
 
@@ -69,21 +69,21 @@
         <div class="row align-items-start">
             <div class="col-3" style="padding-left:2em; padding-top:1em;">
                 <!--Fil <!--Begin Left Column-->
-                <asp:ContentPlaceHolder ID="FacultyContentLeftCol" runat="server">
+                <asp:ContentPlaceHolder ID="AdminContentLeftCol" runat="server">
                     FacultyContent Default Left Text
                 </asp:ContentPlaceHolder>
 
             </div>
             <div class="col-4">
                 <!--Begin Middle Column-->
-                <asp:ContentPlaceHolder ID="FacultyContentMiddleCol" runat="server">
+                <asp:ContentPlaceHolder ID="AdminContentMiddleCol" runat="server">
                     FacultyContent Default Middle Text
                 </asp:ContentPlaceHolder>
 
             </div>
             <div class="col-5">
                  <!--Begin Right Column-->
-                <asp:ContentPlaceHolder ID="FacultyContentRightCol" runat="server">
+                <asp:ContentPlaceHolder ID="AdminContentRightCol" runat="server">
                     FacultyContent Default Right Text
                 </asp:ContentPlaceHolder>
             </div>

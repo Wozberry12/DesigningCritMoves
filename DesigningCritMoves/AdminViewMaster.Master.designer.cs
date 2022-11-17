@@ -33,30 +33,30 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// FacultyContentLeftCol control.
+        /// AdminContentLeftCol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder FacultyContentLeftCol;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder AdminContentLeftCol;
 
         /// <summary>
-        /// FacultyContentMiddleCol control.
+        /// AdminContentMiddleCol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder FacultyContentMiddleCol;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder AdminContentMiddleCol;
 
         /// <summary>
-        /// FacultyContentRightCol control.
+        /// AdminContentRightCol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder FacultyContentRightCol;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder AdminContentRightCol;
     }
 }

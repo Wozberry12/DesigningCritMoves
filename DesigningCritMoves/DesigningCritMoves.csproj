@@ -85,12 +85,12 @@
     <Compile Include="AdminPrompt.aspx.designer.cs">
       <DependentUpon>AdminPrompt.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FacultyViewMaster.Master.cs">
-      <DependentUpon>FacultyViewMaster.Master</DependentUpon>
+    <Compile Include="AdminViewMaster.Master.cs">
+      <DependentUpon>AdminViewMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FacultyViewMaster.Master.designer.cs">
-      <DependentUpon>FacultyViewMaster.Master</DependentUpon>
+    <Compile Include="AdminViewMaster.Master.designer.cs">
+      <DependentUpon>AdminViewMaster.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AdminAddPrompt.aspx.cs">
@@ -102,7 +102,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FacultyViewMaster.Master" />
+    <Content Include="AdminViewMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
