@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacultyViewMaster.Master" AutoEventWireup="true" CodeBehind="AdminAddPrompt.aspx.cs" Inherits="DesigningCritMoves.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminViewMaster.Master" AutoEventWireup="true" CodeBehind="AdminAddPrompt.aspx.cs" Inherits="DesigningCritMoves.WebForm1" %>
 
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="FacultyContentLeftCol" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
 
     <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; background-color: #023739">
         <div class="card-header text-white">
@@ -26,7 +26,7 @@
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
                     <label class="form-check-label" for="flexRadioDefault1">Motion</label>
-                </li>
+                    </li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
                     <label class="form-check-label" for="flexRadioDefault1">Project</label></li>
@@ -47,27 +47,31 @@
     </div>
 
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="FacultyContentMiddleCol" runat="server">
-    <div class="h1" style="color: #023739;">
-        Prompts: <span style="color: #FF6555">No Filter</span>
-    </div>
-
-
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="FacultyContentRightCol" runat="server">
-    <div class="h1" style="color: #023739;">
-        Prompts: <span style="color: #FF6555">Add New</span>
-    </div>
-    <div class="container" style="padding-right:8em">
-    <select class="form-select scroll">
-        <option selected>Open this select menu</option>
-        <option value="1">Concept</option>
-        <option value="2">Typography</option>
-        <option value="3">Color</option>
-        <option value="4">Composition</option>
-        <option value="5">Usability(UX)</option>
-        <option value="6">General</option>
-    </select>
+<asp:Content ID="Content3" ContentPlaceHolderID="AdminContentMiddleCol" runat="server">
+    Default Middle Column
+<div class="container">
+    <div class="col">
+    <div class="col-sm-10">
+        <div class="card text-dark bg-light">
+            <div style="width:100%;">
+                <div class="card-title bg-primary text-center text-warning" style="width:35%; height:3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;"><h4>Composition</h4></div>
+            </div>
+                <div class="card-body ">
+                    <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
+                </div>
+            <div style="width:100%;">
+                 <div class="card-footer bg-primary border-warning text-center" style="width:20%; margin: 0 auto;">
+                    <a href="#" class="btn btn-danger btn-sm"> Edit</a> 
+               </div>
+            </div>
+              
         </div>
+     </div>
+  </div>
+</div>
+ 
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="AdminContentRightCol" runat="server">
+    Default Right Column
 </asp:Content>
 
