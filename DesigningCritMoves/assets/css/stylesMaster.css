@@ -1,0 +1,10 @@
+﻿nav {
+    background-color: #D9EEEA;
+}
+footer {
+    position: fixed;
+    background-color: rgba(2,55,57);
+    width: 100%;
+    float: none;
+    bottom:0;
+}

@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+}
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    /*Will-Changed Color to match Figma- No gradient*/
+    background-color: #D9EEEA;
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+}
+#mainLogo {
+    margin: 10px;
+    padding: 0;
+    width: 3%;
+}
+#mainTitle {
+    margin-left: 5%;
+    width: 45%;
+    margin-top: 5%;
+}
+#mainTitle > p{
+    font-size:12px;
+}
+#MainLoginBox {
+    width: 35%;
+    background-color: rgb(217,238,234);
+    border-radius: 16px;
+    box-shadow: -10px -6px 24px rgb(5,98,102);
+    padding-bottom: 10%;
+}
+#inputEmail {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#inputPassword {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    position: fixed;
+    background-color: rgba(2,55,57);
+    width: 100%;
+    float: none;
+    bottom: 0;
+}
+
+.scroll{
+    max-height:80%;
+    overflow-y:auto;
+}
