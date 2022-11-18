@@ -64,7 +64,6 @@
                     <a href="#" class="btn btn-danger btn-sm"> Edit</a> 
                </div>
             </div>
-              
         </div>
      </div>
   </div>
