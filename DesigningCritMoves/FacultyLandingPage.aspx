@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
     <div class="row">
-        <div class="col-sm-9">
+        <div class="col-md-9">
         <div class="card text-dark text-center bg-light">
             <div style="width:100%;">
                 <div class="card-body">
@@ -12,10 +12,10 @@
             </div>
         </div>
      </div>
-    <div class="col-sm-9">
+    <div class="col-md-9">
         <div class="card text-dark text-center bg-light">
             <div style="width:100%;">
-                <div class="card-title bg-primary text-center text-warning" style="width:35%; height:3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;"><h5>Fall 2022</h5></div>
+                <div class="card-title bg-primary text-center text-warning" style="width:55%; height:3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;"><h5>Fall 2022</h5></div>
             </div>
                 <div class="card-body ">
                     <p class="card-text text-center">GAD 2021 - 001 </p>
