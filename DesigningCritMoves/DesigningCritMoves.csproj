@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FacultyLandingPage.aspx" />
     <Content Include="Older_References\AdminPagePrompts.html" />
     <Content Include="Older_References\AdminPrompt.aspx" />
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
@@ -78,6 +79,13 @@
     <Content Include="AdminAddPrompt.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FacultyLandingPage.aspx.cs">
+      <DependentUpon>FacultyLandingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyLandingPage.aspx.designer.cs">
+      <DependentUpon>FacultyLandingPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Older_References\AdminPrompt.aspx.cs">
       <DependentUpon>AdminPrompt.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
