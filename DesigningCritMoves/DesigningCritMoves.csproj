@@ -78,6 +78,7 @@
     <Content Include="Web.config" />
     <Content Include="AdminAddPrompt.aspx" />
     <Content Include="StudentPreload.aspx" />
+    <Content Include="StudentLogin.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MobileStudent.Master.cs">
@@ -115,6 +116,13 @@
     </Compile>
     <Compile Include="StudentPreload.aspx.designer.cs">
       <DependentUpon>StudentPreload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentLogin.aspx.cs">
+      <DependentUpon>StudentLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentLogin.aspx.designer.cs">
+      <DependentUpon>StudentLogin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -13,3 +13,11 @@
     max-width:600px;
     min-height:600px;
 }
+.crit-moves-login-btn {
+    min-width: 60%;
+    min-height: auto;
+    color: #FF6555;
+}
+.form-control-login {
+    color: #4cff00;
+}
