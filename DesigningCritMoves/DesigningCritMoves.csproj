@@ -79,6 +79,7 @@
     <Content Include="AdminAddPrompt.aspx" />
     <Content Include="StudentPreload.aspx" />
     <Content Include="StudentLogin.aspx" />
+    <Content Include="StudentSelectCourse.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MobileStudent.Master.cs">
@@ -123,6 +124,13 @@
     </Compile>
     <Compile Include="StudentLogin.aspx.designer.cs">
       <DependentUpon>StudentLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSelectCourse.aspx.cs">
+      <DependentUpon>StudentSelectCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentSelectCourse.aspx.designer.cs">
+      <DependentUpon>StudentSelectCourse.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
