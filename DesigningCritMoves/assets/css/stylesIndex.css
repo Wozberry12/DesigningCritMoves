@@ -7,6 +7,7 @@ body {
     height: 100%;
     /*Will-Changed Color to match Figma- No gradient*/
     background-color: #D9EEEA;
+    background-image:linear-gradient(#D9eeea, #023739);
     font-size: 20px;
     font-family: 'Albert Sans', sans-serif;
 }
@@ -40,7 +41,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-#masterFooter {
+footer {
     position: fixed;
     background-color: rgba(2,55,57);
     width: 100%;

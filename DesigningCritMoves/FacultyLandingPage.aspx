@@ -58,11 +58,11 @@
                         <p class="card-text text-center">GAD 2021 - 001 </p>
                         <h3>Computers For Design</h3>
                         <div style="margin-bottom: 5px;">
-                            <button class="btn btn-primary">Begin Course</button>
+                            <button class="btn btn-primary">Begin Critique</button>
                         </div>
-                        <div style="margin-bottom: 5px;">
+<%--                        <div style="margin-bottom: 5px;">
                             <button class="btn btn-primary">Enter Course</button>
-                        </div>
+                        </div>--%>
                         
                     </div>
                     <div style="width: 100%;">
