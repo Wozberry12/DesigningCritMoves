@@ -74,14 +74,14 @@
                 </asp:ContentPlaceHolder>
 
             </div>
-            <div class="col-4">
+            <div class="col-4" style="width:42%;">
                 <!--Begin Middle Column-->
                 <asp:ContentPlaceHolder ID="FacultyContentMiddleCol" runat="server">
                     FacultyContent Default Middle Text
                 </asp:ContentPlaceHolder>
 
             </div>
-            <div class="col-5">
+            <div class="col-5" style="width:33%;">
                 <!--Begin Right Column-->
                 <asp:ContentPlaceHolder ID="FacultyContentRightCol" runat="server">
                     FacultyContent Default Right Text

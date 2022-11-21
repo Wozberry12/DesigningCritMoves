@@ -9,7 +9,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/stylesIndex.css">
+    <link rel="stylesheet" href="assets/css/stylesMaster.css">
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -92,7 +92,7 @@
         <div>
         </div>
         <div class="container">
-            <footer id="masterFooter" class="d-flex flex-wrap px-0 mx-0 py-1 my-1 align-items-center border-top">
+            <footer id="masterFooter" class="d-flex border-top text-white">
                 <a class="text-start float-start" href="#" style="padding-left: 1em; color: rgb(255,255,255);">Terms and Conditons</a>
                 <a class="text-center float-start" href="#" style="width: 80%; color: rgb(255,255,255);">Interested In Custom Prompts?</a>
                 <span class="fs-5 text-end float-end" style="padding-right: 2em; color: rgb(255,255,255);">@2022</span>
