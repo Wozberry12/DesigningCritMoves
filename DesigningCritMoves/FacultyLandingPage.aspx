@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="FacultyLandingPage.aspx.cs" Inherits="DesigningCritMoves.FacultyLandingPage" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="FacultyAddStudent.aspx.cs" Inherits="DesigningCritMoves.FacultyLandingPage" %>
 
 <head runat="server">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -67,7 +67,7 @@
                     </div>
                     <div style="width: 100%;">
                         <div class="card-footer bg-primary border-warning text-center" style="width: 25%; border-radius: 15px 15px 0px 0px; margin: 0 auto;">
-                            <a href="#" class="btn btn-danger btn-sm">Edit</a>
+                            <a href="FacultyAddStudent.aspx" class="btn btn-danger btn-sm">Edit</a>
                         </div>
                     </div>
                 </div>

@@ -11,7 +11,7 @@ namespace DesigningCritMoves
 {
 
 
-    public partial class AdminViewMaster
+    public partial class FacultyViewMaster
     {
 
         /// <summary>
@@ -33,30 +33,30 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// AdminContentLeftCol control.
+        /// FacultyContentLeftCol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder AdminContentLeftCol;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder FacultyContentLeftCol;
 
         /// <summary>
-        /// AdminContentMiddleCol control.
+        /// FacultyContentMiddleCol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder AdminContentMiddleCol;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder FacultyContentMiddleCol;
 
         /// <summary>
-        /// AdminContentRightCol control.
+        /// FacultyContentRightCol control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder AdminContentRightCol;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder FacultyContentRightCol;
     }
 }

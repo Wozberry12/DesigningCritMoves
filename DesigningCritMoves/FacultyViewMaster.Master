@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminViewMaster.Master.cs" Inherits="DesigningCritMoves.AdminViewMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FacultyViewMaster.Master.cs" Inherits="DesigningCritMoves.FacultyViewMaster" %>
 
 <!DOCTYPE html>
 
@@ -27,7 +27,7 @@
                     <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false">Spring 2022
                         <img src="assets/img/Group.png" alt="Default Photo" width="45" height="45" class="rounded-circle">
                     </a>
-                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                    <%--<ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
                         <li>
                             <a class="dropdown-item" href="AdminAddPrompt.aspx">Administrator View</a>
                         </li>
@@ -37,7 +37,7 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li><a class="dropdown-item" href="#">Log Out</a></li>
-                    </ul>
+                    </ul>--%>
                 </div>
             </div>  
         </header>
@@ -61,7 +61,7 @@
                 <a class="navbar-brand" href="#">PROMPTS</a>
             </div>
             <div class="container-fluid col" style="background-color: #FFFFFF">
-                <a class="navbar-brand" href="#">CATEGORIES</a>
+                <a class="navbar-brand" href="#">STUDENTS</a>
             </div>
 
         </nav>
@@ -69,21 +69,21 @@
         <div class="row align-items-start">
             <div class="col-3" style="padding-left: 2em; padding-top: 1em;">
                 <!--Fil <!--Begin Left Column-->
-                <asp:ContentPlaceHolder ID="AdminContentLeftCol" runat="server">
+                <asp:ContentPlaceHolder ID="FacultyContentLeftCol" runat="server">
                     FacultyContent Default Left Text
                 </asp:ContentPlaceHolder>
 
             </div>
             <div class="col-4">
                 <!--Begin Middle Column-->
-                <asp:ContentPlaceHolder ID="AdminContentMiddleCol" runat="server">
+                <asp:ContentPlaceHolder ID="FacultyContentMiddleCol" runat="server">
                     FacultyContent Default Middle Text
                 </asp:ContentPlaceHolder>
 
             </div>
             <div class="col-5">
                 <!--Begin Right Column-->
-                <asp:ContentPlaceHolder ID="AdminContentRightCol" runat="server">
+                <asp:ContentPlaceHolder ID="FacultyContentRightCol" runat="server">
                     FacultyContent Default Right Text
                 </asp:ContentPlaceHolder>
             </div>
