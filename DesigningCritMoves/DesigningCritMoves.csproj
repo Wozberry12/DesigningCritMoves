@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\stylesStudent.css" />
     <Content Include="Older_References\AdminPagePrompts.html" />
     <Content Include="Older_References\AdminPrompt.aspx" />
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
@@ -76,8 +77,16 @@
     <Content Include="index.html" />
     <Content Include="Web.config" />
     <Content Include="AdminAddPrompt.aspx" />
+    <Content Include="StudentPreload.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MobileStudent.Master.cs">
+      <DependentUpon>MobileStudent.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileStudent.Master.designer.cs">
+      <DependentUpon>MobileStudent.Master</DependentUpon>
+    </Compile>
     <Compile Include="Older_References\AdminPrompt.aspx.cs">
       <DependentUpon>AdminPrompt.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -100,9 +109,17 @@
     <Compile Include="AdminAddPrompt.aspx.designer.cs">
       <DependentUpon>AdminAddPrompt.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentPreload.aspx.cs">
+      <DependentUpon>StudentPreload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPreload.aspx.designer.cs">
+      <DependentUpon>StudentPreload.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminViewMaster.Master" />
+    <Content Include="MobileStudent.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
