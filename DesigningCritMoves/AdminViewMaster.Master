@@ -29,10 +29,10 @@
                     </a>
                     <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
                         <li>
-                            <a class="dropdown-item" href="#">Administrator View</a>
+                            <a class="dropdown-item" href="AdminAddPrompt.aspx">Administrator View</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Faculty View</a></li>
+                            <a class="dropdown-item" href="FacultyLandingPage.aspx">Faculty View</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -57,7 +57,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="container-fluid col" style="background-color: #D9EEEA">
+            <div class="container-fluid col" style="background-color: #D9EEEA; box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5) ">
                 <a class="navbar-brand" href="#">PROMPTS</a>
             </div>
             <div class="container-fluid col" style="background-color: #FFFFFF">
