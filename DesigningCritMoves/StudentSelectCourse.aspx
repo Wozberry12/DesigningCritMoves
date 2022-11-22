@@ -8,6 +8,7 @@
         <img src="assets/img/Crit_Moves_FINAL_logos-02 1.png" alt="Crit Moves" />
         <button type="button" class="btn btn-primary w-75 my-1" style="background-color: #FF6555">Login</button>
         <button type="button" class="btn btn-primary w-75 my-1" style="background-color: #FF6555">Login</button>
+   
         <button type="button" class="btn btn-primary w-75 my-1" style="background-color: #FF6555">Login</button>
     </div>
 </asp:Content>

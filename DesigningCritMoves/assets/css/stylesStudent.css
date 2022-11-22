@@ -4,13 +4,15 @@
     overflow: hidden;
     /*Will-Changed Color to match Figma- No gradient*/
     background-color: #D9EEEA;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Albert Sans', sans-serif;
+}
+.border-custom-color {
 }
 
 .square-box {
-    max-width: 600px;
-    min-height: 600px;
+    width: 100%;
+    min-height:300px;
 }
 
 .crit-moves-login-btn {
@@ -24,16 +26,19 @@
 }
 
 section {
-    padding: 8vh 8vh; 
+    padding: 3.0vh 1.5vh; 
     box-shadow: 0px 4px 4px rgba(2, 55, 57, 0.25);
 }
 
+.container-speech-bubble-container{
+    max-height:40%;
+}
 .speech-bubble {
     background: #FFFFFF;
     position: relative;
     border-radius:28%;
 }
-    .speech-bubble::after {
+    .speech-bubble:after {
         position: absolute;
         content: '';
         width: 10.5vh;
@@ -41,10 +46,8 @@ section {
         background: #FFFFFF;
         bottom: -1.0em;
         z-index: 5;
-    }
-    .speech-bubble::after {
-        transform:translateY(4.0em);
-        left: 45%;
+        transform: translateY(3.9em);
+        left: 60%;
         background-color: #D9EEEA;
         width: 0;
         height: 0;
@@ -52,27 +55,40 @@ section {
         border-width: 100px 25px 0 25px;
         border-color: #FFFFFF transparent transparent transparent;
     }
+    /*Begin Triangle*/
+    .speech-bubble::after {
+        transform:translateY(3.5em);
+        left: 60%;
+        background-color: #D9EEEA;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 75px 20px 0 20px;
+        border-color: #FFFFFF transparent transparent transparent;
+    }
 .container-prompt-title {
-    transform: translateY(-3.9em);
+    transform: translateY(-1em);
     background-color: #023739;
     width:25vh;
     color:#FFFFFF;
     font-weight:800;
     border-radius: 21%;
 }
-.container-prompt-content{
-    transform:translateY(-1.0em);
+.container-prompt-content {
+    transform: translateY(-0.5em);
+    word-wrap: break-word;
 }
 .container-prompt-pass {
     text-decoration: underline;
     z-index: 8;
     color: #023739;
-    transform: translate(0.0em,2.8em);
+    transform: translate(0.0em);
 }
 .container-prompt-complete {
     background-color: #FF6555;
     z-index:8;
     color:#FFFFFF;
     border-radius:6px;
-    transform:translate(0.0em,2.8em);
+    max-width:35%;
+    transform:translateX(-1.3em)
 }
