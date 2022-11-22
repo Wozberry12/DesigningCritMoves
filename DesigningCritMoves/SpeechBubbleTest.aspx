@@ -1,0 +1,15 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MobileStudent.Master" AutoEventWireup="true" CodeBehind="SpeechBubbleTest.aspx.cs" Inherits="DesigningCritMoves.WebForm5" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <section class="speech-bubble align-items-center">
+        <div class="container container-prompt-title text-center">Composition</div>
+        <div class="container container-prompt-content text-center align-item-center">Is the Concept Clear?</div>
+        <div class="row">
+            <div class="container container-prompt-pass text-center w-50">Pass</div>
+            <div class="container container-prompt-complete text-center w-50">Complete</div>
+        </div>
+
+    </section>
+</asp:Content>

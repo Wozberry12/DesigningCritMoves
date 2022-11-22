@@ -2,22 +2,77 @@
     margin: 0;
     border: 0;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
     /*Will-Changed Color to match Figma- No gradient*/
     background-color: #D9EEEA;
     font-size: 20px;
     font-family: 'Albert Sans', sans-serif;
 }
-.square-box{
-    max-width:600px;
-    min-height:600px;
+
+.square-box {
+    max-width: 600px;
+    min-height: 600px;
 }
+
 .crit-moves-login-btn {
     min-width: 60%;
     min-height: auto;
     color: #FF6555;
 }
+
 .form-control-login {
     color: #4cff00;
+}
+
+section {
+    padding: 8vh 8vh; 
+    box-shadow: 0px 4px 4px rgba(2, 55, 57, 0.25);
+}
+
+.speech-bubble {
+    background: #FFFFFF;
+    position: relative;
+    border-radius:28%;
+}
+    .speech-bubble::after {
+        position: absolute;
+        content: '';
+        width: 10.5vh;
+        height: 5.3vh;
+        background: #FFFFFF;
+        bottom: -1.0em;
+        z-index: 5;
+    }
+    .speech-bubble::after {
+        transform:translateY(4.0em);
+        left: 45%;
+        background-color: #D9EEEA;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 100px 25px 0 25px;
+        border-color: #FFFFFF transparent transparent transparent;
+    }
+.container-prompt-title {
+    transform: translateY(-3.9em);
+    background-color: #023739;
+    width:25vh;
+    color:#FFFFFF;
+    font-weight:800;
+    border-radius: 21%;
+}
+.container-prompt-content{
+    transform:translateY(-1.0em);
+}
+.container-prompt-pass {
+    text-decoration: underline;
+    z-index: 8;
+    color: #023739;
+    transform: translate(0.0em,2.8em);
+}
+.container-prompt-complete {
+    background-color: #FF6555;
+    z-index:8;
+    color:#FFFFFF;
+    border-radius:6px;
+    transform:translate(0.0em,2.8em);
 }

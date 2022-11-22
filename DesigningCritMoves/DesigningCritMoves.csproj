@@ -80,6 +80,7 @@
     <Content Include="StudentPreload.aspx" />
     <Content Include="StudentLogin.aspx" />
     <Content Include="StudentSelectCourse.aspx" />
+    <Content Include="SpeechBubbleTest.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MobileStudent.Master.cs">
@@ -131,6 +132,13 @@
     </Compile>
     <Compile Include="StudentSelectCourse.aspx.designer.cs">
       <DependentUpon>StudentSelectCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SpeechBubbleTest.aspx.cs">
+      <DependentUpon>SpeechBubbleTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SpeechBubbleTest.aspx.designer.cs">
+      <DependentUpon>SpeechBubbleTest.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
