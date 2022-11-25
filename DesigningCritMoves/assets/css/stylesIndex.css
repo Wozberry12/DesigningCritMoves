@@ -40,7 +40,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-#masterFooter {
+footer {
     position: fixed;
     background-color: rgba(2,55,57);
     width: 100%;
