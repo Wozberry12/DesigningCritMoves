@@ -6,7 +6,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/stylesIndex.css">
+    <link rel="stylesheet" href="assets/css/stylesMaster.css">
 </head>
 <body>
     <!--Header for Crit Moves-->
@@ -76,13 +76,11 @@
             </div>
         </div>
         
-        <div class="container p-0 m-0">
-            <div id="masterFooter" class="d-flex border-top text-white">
+            <footer class="d-flex border-top text-white">
                 <a class="text-start float-start" href="#" style=" padding-left:1em; color: rgb(255,255,255);">Terms and Conditons</a>
                 <a class="text-center float-start" href="#" style="width: 70%; color: rgb(255,255,255);">Interested In Custom Prompts?</a>
                 <span class="text-end float-end" style="color: rgb(255,255,255);">@2022</span>
-            </div>
-        </div>
+            </footer>
 
     </form>
     <div style="clear: both;">

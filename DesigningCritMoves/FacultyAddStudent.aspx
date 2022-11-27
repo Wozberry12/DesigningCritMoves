@@ -54,7 +54,7 @@
                     <p>Instructions on how to drag / upload file </p>
                 </div>
             </div>
-            <div class="container">
+            <div class="container" id="dragUpload">
                 <div class="drag-area">
                     <div class="icon">
                         <span>&#8853;</span>

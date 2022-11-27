@@ -45,7 +45,7 @@
         <!--Begin Navbar-->
         <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">
             <div class="container-fluid col-6" style="background-color: #023739">
-                <a class="navbar-brand" href="#" style="color: #FFFFFF">EDIT PROMPTS AND CATEGORIES</a>
+                <a class="navbar-brand" href="#" style="color: #FFFFFF">GAD 2021 Computers for Design 001</a>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
@@ -62,7 +62,7 @@
                 <a class="navbar-brand" href="#">PROMPTS</a>
             </div>
             <div class="container-fluid col" style="background-color: #FFFFFF">
-                <a class="navbar-brand" href="#">STUDENTS</a>
+                <a class="navbar-brand" href="FacultyAddStudent.aspx">STUDENTS</a>
             </div>
 
         </nav>

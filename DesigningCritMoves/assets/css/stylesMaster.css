@@ -1,5 +1,6 @@
 ﻿body {
     background-color: #D9EEEA;
+    overflow:hidden;
 }
 nav {
     background-color: #D9EEEA;
@@ -13,11 +14,11 @@ footer {
     height: auto;
     z-index: 1;
 }
-.container{
-    height:500px;
-    width:100%;
-    background-color:#ffffff;
-    border-radius:20px;
+#dragUpload{
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 .drag-area{
     height:400px;
