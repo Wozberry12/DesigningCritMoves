@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminViewMaster.Master.cs" Inherits="DesigningCritMoves.AdminViewMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FacultyViewMaster.Master.cs" Inherits="DesigningCritMoves.FacultyViewMaster" %>
 
 <!DOCTYPE html>
 
@@ -9,6 +9,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/stylesMaster.css">
 
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -27,7 +28,7 @@
                     <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false">Spring 2022
                         <img src="assets/img/Group.png" alt="Default Photo" width="45" height="45" class="rounded-circle">
                     </a>
-                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                    <%--<ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
                         <li>
                             <a class="dropdown-item" href="AdminAddPrompt.aspx">Administrator View</a>
                         </li>
@@ -37,14 +38,14 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li><a class="dropdown-item" href="#">Log Out</a></li>
-                    </ul>
+                    </ul>--%>
                 </div>
             </div>  
         </header>
         <!--Begin Navbar-->
         <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">
             <div class="container-fluid col-6" style="background-color: #023739">
-                <a class="navbar-brand" href="#" style="color: #FFFFFF">EDIT PROMPTS AND CATEGORIES</a>
+                <a class="navbar-brand" href="#" style="color: #FFFFFF">GAD 2021 Computers for Design 001</a>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
@@ -61,7 +62,7 @@
                 <a class="navbar-brand" href="#">PROMPTS</a>
             </div>
             <div class="container-fluid col" style="background-color: #FFFFFF">
-                <a class="navbar-brand" href="#">CATEGORIES</a>
+                <a class="navbar-brand" href="FacultyAddStudent.aspx">STUDENTS</a>
             </div>
 
         </nav>
@@ -69,21 +70,21 @@
         <div class="row align-items-start">
             <div class="col-3" style="padding-left: 2em; padding-top: 1em;">
                 <!--Fil <!--Begin Left Column-->
-                <asp:ContentPlaceHolder ID="AdminContentLeftCol" runat="server">
+                <asp:ContentPlaceHolder ID="FacultyContentLeftCol" runat="server">
                     FacultyContent Default Left Text
                 </asp:ContentPlaceHolder>
 
             </div>
-            <div class="col-4">
+            <div class="col-4" style="width:42%;">
                 <!--Begin Middle Column-->
-                <asp:ContentPlaceHolder ID="AdminContentMiddleCol" runat="server">
+                <asp:ContentPlaceHolder ID="FacultyContentMiddleCol" runat="server">
                     FacultyContent Default Middle Text
                 </asp:ContentPlaceHolder>
 
             </div>
-            <div class="col-5">
+            <div class="col-5" style="width:33%;">
                 <!--Begin Right Column-->
-                <asp:ContentPlaceHolder ID="AdminContentRightCol" runat="server">
+                <asp:ContentPlaceHolder ID="FacultyContentRightCol" runat="server">
                     FacultyContent Default Right Text
                 </asp:ContentPlaceHolder>
             </div>
@@ -91,7 +92,7 @@
 
         <div>
         </div>
-            <footer id="masterFooter" class="d-flex border-top text-white">
+        <footer>
                 <a class="text-start float-start" href="#" style="padding-left: 1em; color: rgb(255,255,255);">Terms and Conditons</a>
                 <a class="text-center float-start" href="#" style="width: 80%; color: rgb(255,255,255);">Interested In Custom Prompts?</a>
                 <span class="fs-5 text-end float-end" style="padding-right: 2em; color: rgb(255,255,255);">@2022</span>

@@ -77,8 +77,16 @@
     <Content Include="index.html" />
     <Content Include="Web.config" />
     <Content Include="AdminAddPrompt.aspx" />
+    <Content Include="FacultyAddStudent.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FacultyViewMaster.Master.cs">
+      <DependentUpon>FacultyViewMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyViewMaster.Master.designer.cs">
+      <DependentUpon>FacultyViewMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="FacultyLandingPage.aspx.cs">
       <DependentUpon>FacultyLandingPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,9 +116,17 @@
     <Compile Include="AdminAddPrompt.aspx.designer.cs">
       <DependentUpon>AdminAddPrompt.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FacultyAddStudent.aspx.cs">
+      <DependentUpon>FacultyAddStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyAddStudent.aspx.designer.cs">
+      <DependentUpon>FacultyAddStudent.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminViewMaster.Master" />
+    <Content Include="FacultyViewMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
