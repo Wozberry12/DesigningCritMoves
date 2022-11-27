@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="container-fluid col" style="background-color: #D9EEEA; box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5) ">
-                <a class="navbar-brand" href="#">PROMPTS</a>
+                <a class="navbar-brand" href="FacultyAddPrompt.aspx">PROMPTS</a>
             </div>
             <div class="container-fluid col" style="background-color: #FFFFFF">
                 <a class="navbar-brand" href="FacultyAddStudent.aspx">STUDENTS</a>
@@ -75,14 +75,14 @@
                 </asp:ContentPlaceHolder>
 
             </div>
-            <div class="col-4" style="width:42%;">
+            <div class="col-4" style="width:36%;">
                 <!--Begin Middle Column-->
                 <asp:ContentPlaceHolder ID="FacultyContentMiddleCol" runat="server">
                     FacultyContent Default Middle Text
                 </asp:ContentPlaceHolder>
 
             </div>
-            <div class="col-5" style="width:33%;">
+            <div class="col-5" style="width:36%;">
                 <!--Begin Right Column-->
                 <asp:ContentPlaceHolder ID="FacultyContentRightCol" runat="server">
                     FacultyContent Default Right Text

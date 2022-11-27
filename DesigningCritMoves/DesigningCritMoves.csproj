@@ -64,6 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\img\Minus.png" />
+    <Content Include="assets\img\Plus.png" />
     <Content Include="FacultyLandingPage.aspx" />
     <Content Include="Older_References\AdminPagePrompts.html" />
     <Content Include="Older_References\AdminPrompt.aspx" />
@@ -78,6 +80,7 @@
     <Content Include="Web.config" />
     <Content Include="AdminAddPrompt.aspx" />
     <Content Include="FacultyAddStudent.aspx" />
+    <Content Include="FacultyAddPrompt.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FacultyViewMaster.Master.cs">
@@ -122,6 +125,13 @@
     </Compile>
     <Compile Include="FacultyAddStudent.aspx.designer.cs">
       <DependentUpon>FacultyAddStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyAddPrompt.aspx.cs">
+      <DependentUpon>FacultyAddPrompt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyAddPrompt.aspx.designer.cs">
+      <DependentUpon>FacultyAddPrompt.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
