@@ -3,7 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container container-speech-bubble-container py-5  px-5">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+    <div class="container container-speech-bubble-container py-5 px-5">
         <section class="speech-bubble align-items-center">
             <div class="container container-prompt-title text-center">Composition</div>
             <div class="container container-prompt-content text-center">Is the concept clear?</div>
@@ -13,6 +16,9 @@
                 <div class="container container-prompt-complete text-center w-30 px-0">Complete</div>
             </div>
         </section>
+    </div>
+            </div>
+        </div>
     </div>
     
     <div class="container container-speech-bubble-container pt-5 px-5">
