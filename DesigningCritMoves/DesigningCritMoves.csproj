@@ -66,6 +66,7 @@
   <ItemGroup>
     <Content Include="assets\img\Minus.png" />
     <Content Include="assets\img\Plus.png" />
+    <Content Include="FacultyEditCourse.aspx" />
     <Content Include="FacultyLandingPage.aspx" />
     <Content Include="FacultyAddCourse.aspx" />
     <Content Include="Older_References\AdminPagePrompts.html" />
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="FacultyAddCourse.aspx.designer.cs">
       <DependentUpon>FacultyAddCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyEditCourse.aspx.cs">
+      <DependentUpon>FacultyEditCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyEditCourse.aspx.designer.cs">
+      <DependentUpon>FacultyEditCourse.aspx</DependentUpon>
     </Compile>
     <Compile Include="FacultyViewMaster.Master.cs">
       <DependentUpon>FacultyViewMaster.Master</DependentUpon>

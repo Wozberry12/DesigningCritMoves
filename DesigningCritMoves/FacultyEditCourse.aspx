@@ -1,13 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FacultyAddCourse.aspx.cs" Inherits="DesigningCritMoves.FacultyAddCourse" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FacultyEditCourse.aspx.cs" Inherits="DesigningCritMoves.FacultyEditCourse" %>
 
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Crit Moves</title>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/stylesMaster.css">
+    <title></title>
 </head>
+<body>
 <body>
     <!--Header for Crit Moves-->
 
@@ -39,12 +38,12 @@
             <div class="row">
                 <div class="container w-50 mx-auto">
                     <label class="fs-3 fw-bold mt-3 mb-2">Course: </label>
-                    <span id="promptModifyType" class="fs-3 fw-bold" style="color: #FF6555;">Add New</span>
+                    <span id="promptModifyType" class="fs-3 fw-bold" style="color: #FF6555;">Edit</span>
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="CRN" />
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Nane" />
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Section Number" />
                     <br />
-                    <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">CREATE COURSE</button>
+                    <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SAVE COURSE</button>
                 </div>
             </div>
         </div>
@@ -57,3 +56,4 @@
 
     </form>
 </body>
+</html>

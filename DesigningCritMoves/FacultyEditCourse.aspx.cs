@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace DesigningCritMoves
 {
-    public partial class FacultyAddCourse : System.Web.UI.Page
+    public partial class FacultyEditCourse : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
