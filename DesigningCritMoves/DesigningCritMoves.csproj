@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\stylesStudent.css" />
+    <Content Include="assets\javascript\studentLogic.js" />
     <Content Include="Older_References\AdminPagePrompts.html" />
     <Content Include="Older_References\AdminPrompt.aspx" />
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />

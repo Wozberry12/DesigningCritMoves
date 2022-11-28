@@ -92,3 +92,6 @@ section {
     max-width:35%;
     transform:translateX(-1.3em)
 }
+#btnCompletedPrompt:hover{
+    cursor:pointer;
+}
