@@ -11,35 +11,33 @@
         <div class="card-body scroll">
             <ul class="list-group text-start">
                 <li class="list-group-item">
-
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">Concept</label>
-
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
+                    <label class="form-check-label" for="flexRadioDefault1">Anecdote</label></li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                    <label class="form-check-label" for="flexRadioDefault1" style="padding-right: 8.2em">Color</label></li>
+                    <label class="form-check-label" for="flexRadioDefault1">Color</label></li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
                     <label class="form-check-label" for="flexRadioDefault1">Compose</label></li>
                 <li class="list-group-item">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                    <label class="form-check-label" for="flexRadioDefault1">Motion</label>
-                </li>
-                <li class="list-group-item">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-                    <label class="form-check-label" for="flexRadioDefault1">Project</label></li>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">Concept</label></li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
                     <label class="form-check-label" for="flexRadioDefault1">Goals</label></li>
                 <li class="list-group-item">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
-                    <label class="form-check-label" for="flexRadioDefault1">Anecdote</label></li>
-                <li class="list-group-item">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8">
-                    <label class="form-check-label" for="flexRadioDefault1">Wordplay</label></li>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                    <label class="form-check-label" for="flexRadioDefault1">Motion</label></li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault9">
                     <label class="form-check-label" for="flexRadioDefault1">Perform</label></li>
+                <li class="list-group-item">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                    <label class="form-check-label" for="flexRadioDefault1">Project</label></li>
+                <li class="list-group-item">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault8">
+                    <label class="form-check-label" for="flexRadioDefault1">Wordplay</label></li>
+
             </ul>
         </div>
     </div>
@@ -47,6 +45,8 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FacultyContentMiddleCol" runat="server">
     <section class="scroll" style="overflow-y: scroll">
+        <label class="fs-3 fw-bold mt-3 mb-2">Prompts: </label>
+        <span id="promptCategorySelected" class="fs-3 fw-bold" style="color: #FF6555;">Composition</span>
         <div class="container">
             <div class="col">
                 <div class="col-sm-10">
@@ -60,7 +60,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary border-warning text-center w-100" runat="server">
+                            <button class="card-footer bg-primary border-warning text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Plus.png" />
                             </button>
                         </div>
@@ -81,7 +81,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary border-warning text-center w-100" runat="server">
+                            <button class="card-footer bg-primary border-warning text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Plus.png" />
                             </button>
                         </div>
@@ -93,6 +93,10 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FacultyContentRightCol" runat="server">
     <section class="scroll" style="overflow-y: scroll">
+        <div class="w-75">
+            <label class="fs-3 fw-bold mt-3 mb-2">Prompts Added</label>
+            <button id="btnPromptSave" class="fs-2 fw-bold border-0 float-end mt-2" style="background-color: #FF6555; color: #ffffff; border-radius: 5px;" runat="server">Save </button>
+        </div>
         <div class="container">
             <div class="col">
                 <div class="col-sm-10">
@@ -106,7 +110,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary border-warning text-center w-100" runat="server">
+                            <button class="card-footer bg-primary border-warning text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Minus.png" />
                             </button>
                         </div>
@@ -127,7 +131,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary border-warning text-center w-100" runat="server">
+                            <button class="card-footer bg-primary border-warning text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Minus.png" />
                             </button>
                         </div>
