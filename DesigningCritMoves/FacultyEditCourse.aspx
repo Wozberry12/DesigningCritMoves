@@ -1,12 +1,13 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FacultyEditCourse.aspx.cs" Inherits="DesigningCritMoves.FacultyEditCourse" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Crit Moves</title>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/stylesMaster.css">
 </head>
-<body>
 <body>
     <!--Header for Crit Moves-->
 
@@ -34,26 +35,23 @@
                 </div>
             </div>
         </header>
-        <div class="container">
-            <div class="row">
-                <div class="container w-50 mx-auto">
-                    <label class="fs-3 fw-bold mt-3 mb-2">Course: </label>
-                    <span id="promptModifyType" class="fs-3 fw-bold" style="color: #FF6555;">Edit</span>
-                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="CRN" />
-                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Nane" />
-                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Section Number" />
+        <section class="w-50 mt-2" style="margin-left:auto; margin-right:auto;">
+                    <div class="w-100 text-center">
+                        <label class="fs-3 fw-bold mt-3 mb-2">Course: </label>
+                        <span id="promptModifyType" class="fs-3 fw-bold" style="color: #FF6555;">Edit</span>
+                    </div>
+                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="CRN" />
+                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Nane" />
+                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Section Number" />
                     <br />
-                    <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SAVE COURSE</button>
-                </div>
-            </div>
-        </div>
+                    <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder w-75" style="background-color: #FF6555; margin-right: auto; margin-left:auto; ">SAVE COURSE</button>
+                </section>
 
         <footer class="d-flex border-top text-white">
             <a class="text-start float-start" href="#" style="padding-left: 1em; color: rgb(255,255,255);">Terms and Conditons</a>
             <a class="text-center float-start" href="#" style="width: 70%; color: rgb(255,255,255);">Interested In Custom Prompts?</a>
-            <span class="text-end float-end mr-0" style="color: rgb(255,255,255);">@2022</span>
+            <span class="text-end float-start mr-0" style="color: rgb(255,255,255);">@2022</span>
         </footer>
 
     </form>
 </body>
-</html>

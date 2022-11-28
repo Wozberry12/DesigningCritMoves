@@ -15,7 +15,11 @@ namespace DesigningCritMoves
         }
         protected void addCourse(object sender, EventArgs e)
         {
-
+            Response.Redirect("FacultyAddCourse.aspx");
+        }
+        protected void editCourse(object sender, EventArgs e)
+        {
+            Response.Redirect("FacultyEditCourse.aspx");
         }
     }
 }
