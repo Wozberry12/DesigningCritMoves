@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DesigningCritMoves</RootNamespace>
     <AssemblyName>DesigningCritMoves</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -67,6 +67,7 @@
     <Content Include="assets\img\Minus.png" />
     <Content Include="assets\img\Plus.png" />
     <Content Include="FacultyLandingPage.aspx" />
+    <Content Include="FacultyModifyCourse.aspx" />
     <Content Include="Older_References\AdminPagePrompts.html" />
     <Content Include="Older_References\AdminPrompt.aspx" />
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
@@ -83,6 +84,13 @@
     <Content Include="FacultyAddPrompt.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FacultyModifyCourse.aspx.cs">
+      <DependentUpon>FacultyModifyCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyModifyCourse.aspx.designer.cs">
+      <DependentUpon>FacultyModifyCourse.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FacultyViewMaster.Master.cs">
       <DependentUpon>FacultyViewMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
