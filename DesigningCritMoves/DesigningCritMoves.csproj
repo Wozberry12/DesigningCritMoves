@@ -67,7 +67,7 @@
     <Content Include="assets\img\Minus.png" />
     <Content Include="assets\img\Plus.png" />
     <Content Include="FacultyLandingPage.aspx" />
-    <Content Include="FacultyModifyCourse.aspx" />
+    <Content Include="FacultyAddCourse.aspx" />
     <Content Include="Older_References\AdminPagePrompts.html" />
     <Content Include="Older_References\AdminPrompt.aspx" />
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
@@ -84,12 +84,12 @@
     <Content Include="FacultyAddPrompt.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FacultyModifyCourse.aspx.cs">
-      <DependentUpon>FacultyModifyCourse.aspx</DependentUpon>
+    <Compile Include="FacultyAddCourse.aspx.cs">
+      <DependentUpon>FacultyAddCourse.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FacultyModifyCourse.aspx.designer.cs">
-      <DependentUpon>FacultyModifyCourse.aspx</DependentUpon>
+    <Compile Include="FacultyAddCourse.aspx.designer.cs">
+      <DependentUpon>FacultyAddCourse.aspx</DependentUpon>
     </Compile>
     <Compile Include="FacultyViewMaster.Master.cs">
       <DependentUpon>FacultyViewMaster.Master</DependentUpon>
