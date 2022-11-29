@@ -42,7 +42,7 @@
                     <div class="card text-dark text-center bg-light">
                     <div style="width: 100%;">
                         <div class="card-body">
-                            <button class="btn btn-secondary">Add A Course</button>
+                            <button class="btn btn-secondary" onserverclick="addCourse" runat="server">Add A Course</button>
                         </div>
                     </div>
                 </div>
