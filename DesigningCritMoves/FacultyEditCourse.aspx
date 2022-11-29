@@ -48,9 +48,9 @@
                 </section>
 
         <footer class="d-flex border-top text-white">
-            <a class="text-start float-start" href="#" style="padding-left: 1em; color: rgb(255,255,255);">Terms and Conditons</a>
-            <a class="text-center float-start" href="#" style="width: 70%; color: rgb(255,255,255);">Interested In Custom Prompts?</a>
-            <span class="text-end float-start mr-0" style="color: rgb(255,255,255);">@2022</span>
+            <a class="text-start float-start w-25" href="#" style="padding-left: 1em; color: rgb(255,255,255);">Terms and Conditons</a>
+            <a class="text-center float-start w-50" href="#" style="color: rgb(255,255,255);">Interested In Custom Prompts?</a>
+            <span class="text-end float-end mr-0 w-25" style="color: rgb(255,255,255); padding-right: 1em; float:right">@2022</span>
         </footer>
 
     </form>

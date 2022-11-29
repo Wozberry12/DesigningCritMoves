@@ -37,50 +37,49 @@
         </header>
         <div class="container">
             <div class="row">
-            
-                <div class="container" style="width:25%">
+
+                <div class="container" style="width: 25%">
                     <div class="card text-dark text-center bg-light">
-                    <div style="width: 100%;">
-                        <div class="card-body">
-                            <button class="btn btn-secondary" onserverclick="addCourse" runat="server">Add A Course</button>
+                        <div style="width: 100%;">
+                            <div class="card-body">
+                                <button class="btn btn-secondary" onserverclick="addCourse" runat="server">Add A Course</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                </div>
-                <div class="container" style="width:25%">
+                <div class="container" style="width: 25%">
                     <div class="card text-dark text-center bg-light">
-                    <div style="width: 100%;">
-                        <div class="card-title bg-primary text-center text-warning" style="width: 55%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
-                            <h5>Fall 2022</h5>
+                        <div style="width: 100%;">
+                            <div class="card-title bg-primary text-center text-warning" style="width: 55%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                                <h5>Fall 2022</h5>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card-body ">
-                        <p class="card-text text-center">GAD 2021 - 001 </p>
-                        <h3>Computers For Design</h3>
-                        <div style="margin-bottom: 5px;">
-                            <button class="btn btn-primary">Begin Critique</button>
-                        </div>
-<%--                        <div style="margin-bottom: 5px;">
+                        <div class="card-body ">
+                            <p class="card-text text-center">GAD 2021 - 001 </p>
+                            <h3>Computers For Design</h3>
+                            <div style="margin-bottom: 5px;">
+                                <button class="btn btn-primary">Begin Critique</button>
+                            </div>
+                            <%--                        <div style="margin-bottom: 5px;">
                             <button class="btn btn-primary">Enter Course</button>
                         </div>--%>
-                        
-                    </div>
-                    <div style="width: 100%;">
-                        <div class="card-footer bg-primary border-warning text-center" style="width: 25%; border-radius: 15px 15px 0px 0px; margin: 0 auto;">
-                            <a href="FacultyAddStudent.aspx" class="btn btn-danger btn-sm">Edit</a>
+                        </div>
+                        <div style="width: 100%;">
+                            <div class="card-footer bg-primary border-warning text-center" style="width: 25%; border-radius: 15px 15px 0px 0px; margin: 0 auto;">
+                                <a href="FacultyAddStudent.aspx" class="btn btn-danger btn-sm">Edit</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                
+
                 </div>
             </div>
         </div>
-        
-            <footer class="d-flex border-top text-white">
-                <a class="text-start float-start" href="#" style=" padding-left:1em; color: rgb(255,255,255);">Terms and Conditons</a>
-                <a class="text-center float-start" href="#" style="width: 70%; color: rgb(255,255,255);">Interested In Custom Prompts?</a>
-                <span class="text-end float-end" style="color: rgb(255,255,255);">@2022</span>
-            </footer>
+
+        <footer class="d-flex border-top text-white">
+            <a class="text-start float-start w-25" href="#" style="padding-left: 1em; color: rgb(255,255,255);">Terms and Conditons</a>
+            <a class="text-center float-start w-50" href="#" style="color: rgb(255,255,255);">Interested In Custom Prompts?</a>
+            <span class="text-end float-end mr-0 w-25" style="color: rgb(255,255,255); padding-right: 1em; float: right">@2022</span>
+        </footer>
 
     </form>
     <div style="clear: both;">
