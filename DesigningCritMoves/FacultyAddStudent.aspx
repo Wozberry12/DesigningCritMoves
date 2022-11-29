@@ -56,10 +56,10 @@
             </div>
             <div class="container" id="dragUpload">
                 <div class="drag-area">
-                    <div class="icon">
+                    <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto" />
+                    <%--<div class="icon">
                         <span>&#8853;</span>
-                    </div>
-                    uplad area
+                    </div>  --%>
                 </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ namespace DesigningCritMoves
 {
 
 
-    public partial class FacultyAddStudentPage
+    public partial class FacultyAddStudent
     {
 
         /// <summary>

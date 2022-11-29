@@ -27,10 +27,18 @@ footer {
     align-items:center;
     justify-content:center;
 }
-.drag-area .icon{
-    font-size:50px;
+#iconAddCourse{
+    font-size:1000px;
 }
-    .drag-area .icon > span {
+    #iconAddCourse > span {
+        content: "\2295";
+        color:#FF6555;
+        font-size:500px;
+    }
+.icon{
+    font-size:500px;
+}
+    .icon > span {
         content: "\2295";
         color: #FF6555
     }

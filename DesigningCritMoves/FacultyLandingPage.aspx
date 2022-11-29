@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
     <link rel="stylesheet" href="assets/css/stylesMaster.css">
 </head>
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 <body>
     <!--Header for Crit Moves-->
 
@@ -40,9 +41,11 @@
 
                 <div class="container" style="width: 25%">
                     <div class="card text-dark text-center bg-light">
-                        <div style="width: 100%;">
+                        <div class="w-100 h-50">
                             <div class="card-body">
-                                <button class="btn btn-secondary" onserverclick="addCourse" runat="server">Add A Course</button>
+
+                                <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto float-none mb-5" /><br />
+                                <button class="btn btn-secondary mt-2" onserverclick="addCourse" runat="server">Add A Course</button>
                             </div>
                         </div>
                     </div>
@@ -50,23 +53,25 @@
                 <div class="container" style="width: 25%">
                     <div class="card text-dark text-center bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-warning" style="width: 55%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title bg-primary text-center text-warning" style="width: 55%; height: 3%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
                                 <h5>Fall 2022</h5>
                             </div>
                         </div>
                         <div class="card-body ">
                             <p class="card-text text-center">GAD 2021 - 001 </p>
-                            <h3>Computers For Design</h3>
+                            <h2>Computers For Design</h2>
                             <div style="margin-bottom: 5px;">
-                                <button class="btn btn-primary">Begin Critique</button>
+                                <button class="btn btn-primary w-75">Begin Critique</button>
+                                <br />
+                                <a href="FacultyAddStudent.aspx" class="btn btn-primary mt-2 w-75">Enter Course</a>
                             </div>
                             <%--                        <div style="margin-bottom: 5px;">
                             <button class="btn btn-primary">Enter Course</button>
                         </div>--%>
                         </div>
                         <div style="width: 100%;">
-                            <div class="card-footer bg-primary border-warning text-center" style="width: 25%; border-radius: 15px 15px 0px 0px; margin: 0 auto;">
-                                <a href="FacultyAddStudent.aspx" class="btn btn-danger btn-sm">Edit</a>
+                            <div class="card-footer bg-primary border-warning text-center" style="width: 50%; border-radius: 15px 15px 0px 0px; margin: 0 auto;">
+                                <a href="FacultyEditCourse.aspx" class="btn btn-danger btn-sm">Edit Course Information</a>
                             </div>
                         </div>
                     </div>
