@@ -56,10 +56,8 @@
             </div>
             <div class="container" id="dragUpload">
                 <div class="drag-area">
-                    <div class="icon">
-                        <span>&#8853;</span>
-                    </div>
-                    uplad area
+
+                    upload area
                 </div>
             </div>
         </div>
