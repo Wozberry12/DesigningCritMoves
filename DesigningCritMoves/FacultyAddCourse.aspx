@@ -35,14 +35,14 @@
                 </div>
             </div>
         </header>
-                <section class="w-50 mt-2" style="margin-left:auto; margin-right:auto;">
+                <section class="w-50 mt-2 text-center" style="margin-left:auto; margin-right:auto; ">
                     <div class="w-100 text-center">
                         <label class="fs-3 fw-bold mt-3 mb-2">Course: </label>
                         <span id="promptModifyType" class="fs-3 fw-bold" style="color: #FF6555;">Add New</span>
                     </div>
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="CRN" />
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Nane" />
-                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Section Number" />
+                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px; " BorderStyle="None" CssClass="form-control" placeholder="Section Number" />
                     <br />
                     <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder w-75" style="background-color: #FF6555; margin-right: auto; margin-left:auto; ">CREATE COURSE</button>
                 </section>

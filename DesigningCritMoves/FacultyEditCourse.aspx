@@ -35,7 +35,7 @@
                 </div>
             </div>
         </header>
-        <section class="w-50 mt-2" style="margin-left:auto; margin-right:auto;">
+        <section class="w-50 mt-2 text-center" style="margin-left:auto; margin-right:auto;">
                     <div class="w-100 text-center">
                         <label class="fs-3 fw-bold mt-3 mb-2">Course: </label>
                         <span id="promptModifyType" class="fs-3 fw-bold" style="color: #FF6555;">Edit</span>
