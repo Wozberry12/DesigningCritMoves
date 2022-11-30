@@ -53,7 +53,7 @@
                 <div class="container" style="width: 25%">
                     <div class="card text-dark text-center bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-warning" style="width: 55%; height: 3%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
+                            <div class="card-title bg-primary text-center text-light" style="width: 55%; height: 3%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
                                 <h5>Fall 2022</h5>
                             </div>
                         </div>
@@ -63,14 +63,14 @@
                             <div style="margin-bottom: 5px;">
                                 <button class="btn btn-primary w-75">Begin Critique</button>
                                 <br />
-                                <a href="FacultyAddStudent.aspx" class="btn btn-primary mt-2 w-75">Enter Course</a>
+                                <a href="FacultyAddStudent.aspx" class="btn btn-danger mt-2 w-75">Enter Course</a>
                             </div>
                             <%--                        <div style="margin-bottom: 5px;">
                             <button class="btn btn-primary">Enter Course</button>
                         </div>--%>
                         </div>
                         <div style="width: 100%;">
-                            <div class="card-footer bg-primary border-warning text-center" style="width: 50%; border-radius: 15px 15px 0px 0px; margin: 0 auto;">
+                            <div class="card-footer bg-primary text-center" style="width: 50%; border-radius: 15px 15px 0px 0px; margin: 0 auto;">
                                 <a href="FacultyEditCourse.aspx" class="btn btn-danger btn-sm">Edit Course Information</a>
                             </div>
                         </div>

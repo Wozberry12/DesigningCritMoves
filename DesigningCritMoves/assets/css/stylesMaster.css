@@ -5,7 +5,6 @@
 nav {
     background-color: #D9EEEA;
 }
-
 footer {
     position: fixed;
     background-color: rgba(2,55,57);
@@ -114,6 +113,20 @@ footer {
     margin-bottom: 25px;
    
 }
+.btn-primary{
+    background-color: #FF6555!important;
+}
+.btn-danger{
+    background-color:rgba(2,55,57);
+}
+
+.bg-primary {
+    background-color: #023739!important;
+    
+}
+.card-text{
+    color:black;
+}
 
 .force-overflow {
     min-height: 450px;
@@ -127,6 +140,7 @@ footer {
 ::-webkit-scrollbar-track {
     background: #f5f5f5;
     border-radius: 10px;
+    height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
