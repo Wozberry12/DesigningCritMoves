@@ -45,21 +45,24 @@
     </form>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FacultyContentRightCol" runat="server">
-        <div class="p-4">
-            <div id="label">
-                <label class="fs-3 fw-bold " for="modifyStudent">STUDENTS: </label>
-                <span class="fs-3 fw-bold" style="color: #FF6555;">Import</span>
-                <div class="help-tip">
-                    <p >Instructions on how to drag / upload file </p>
-                </div>
-            </div>
-            <div class="container" id="dragUpload">
-                <div class="drag-area">
-                    <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto" />
-                    <%--<div class="icon">
-                        <span>&#8853;</span>
-                    </div>  --%>
-                </div>
+    <div class="p-4">
+        <div id="label">
+            <label class="fs-3 fw-bold " for="modifyStudent">STUDENTS: </label>
+            <span class="fs-3 fw-bold" style="color: #FF6555;">Import</span>
+            <div class="help-tip">
+                <p>Instructions on how to drag / upload file </p>
             </div>
         </div>
+        <div class="container" id="dragUpload">
+            <div class="drag-area">
+                <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto" />
+                <%--<div class="icon">
+                        <span>&#8853;</span>
+                    </div>  --%>
+            </div>
+            <div class="w-100 text-center">
+                <button class="btn w-50 fs-3 fw-bolder" style="background-color: #FF6555; color:white;">IMPORT FILE</button>
+            </div>
+        </div>
+    </div>
 </asp:Content>
