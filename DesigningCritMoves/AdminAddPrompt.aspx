@@ -3,6 +3,30 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<!--Begin Navbar-->
+            <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">
+                <div class="container-fluid col-6" style="background-color: #023739">
+                    <a class="navbar-brand" href="#" style="color: #FFFFFF">EDIT PROMPTS AND CATEGORIES</a>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">View Prompts</a></li>
+                                    <li><a class="dropdown-item" href="#">Edit Categories</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-fluid container-inactive col">
+                    <a class="navbar-brand btn w-100 border-0" style="text-align:left;" href="#">PROMPTS</a>
+                </div>
+                <div class="container-fluid container-active col">
+                    <a class="navbar-brand btn w-100 border-0" style="text-align:left;" href="#">CATEGORIES</a>
+                </div>
+
+            </nav>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
 

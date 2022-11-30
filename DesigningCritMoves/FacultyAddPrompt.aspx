@@ -1,6 +1,29 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacultyViewMaster.Master" AutoEventWireup="true" CodeBehind="FacultyAddPrompt.aspx.cs" Inherits="DesigningCritMoves.WebForm3" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">
+            <div class="container-fluid col-6" style="background-color: #023739">
+                <a class="navbar-brand" href="#" style="color: #FFFFFF">GAD 2021 Computers for Design 001</a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">GAD 2021 - 001</a></li>
+                                <li><a class="dropdown-item" href="#">GAD 3001 - 002</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="container-active" class="container-fluid container-active col">
+                <a class="navbar-brand btn w-100 border-0" style="text-align:left;" href="FacultyAddPrompt.aspx">PROMPTS</a>
+            </div>
+            <div id="container-inactive" class="container-fluid container-inactive col">
+                <a class="navbar-brand btn w-100 border-0" style="text-align:left;" href="FacultyAddStudent.aspx">STUDENTS</a>
+            </div>
+
+        </nav>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FacultyContentLeftCol" runat="server">
 
@@ -60,7 +83,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary border-warning text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
+                            <button class="card-footer bg-primary text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Plus.png" />
                             </button>
                         </div>
@@ -81,7 +104,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary border-warning text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
+                            <button class="card-footer bg-primary text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Plus.png" />
                             </button>
                         </div>
