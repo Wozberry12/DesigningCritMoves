@@ -13,9 +13,7 @@ body{
 .main-container-class{
     height:35vh;
 }
-.container-speech-bubble-container {
-    height: 100%;
-}
+
 .card-custom-space{
     border:none;
 }
@@ -41,7 +39,7 @@ body{
 }
 
 section {
-    padding:0px; 25px;
+    padding:0px 25px 20px;
     box-shadow: 0px 4px 4px rgba(2, 55, 57, 0.25);
 }
 
@@ -49,8 +47,11 @@ section {
     background: #FFFFFF;
     position: relative;
     border-radius:28%;
+    min-height:80%;
 }
-
+.container-speech-bubble-container,.container-speech-bubble-completed{
+    height:100%;
+}
 .container-speech-bubble-completed{
     background-color:transparent;
 }
@@ -82,8 +83,9 @@ section {
         border-width: 75px 20px 0 20px;
         border-color: #FFFFFF transparent transparent transparent;
     }
-/*Begin COM*/
+/*Begin Completed Side*/
 .speech-bubble-completed:after {
+    left:30%;
     background-color: #D9EEEA;
     border-color: #023739 transparent transparent transparent;
 }
@@ -105,7 +107,12 @@ section {
     max-width:35%;
     transform:translateX(-1.3em)
 }
-
+.container-prompt-mistake{
+    margin-top:20%;
+}
+.speech-bubble-content{
+   
+}
 #btnCompletedPromptOne:hover, #btnCompletedPromptTwo:hover, #unflipOne:hover, unflip, #unflipTwo:hover {
     cursor: pointer;
 }
