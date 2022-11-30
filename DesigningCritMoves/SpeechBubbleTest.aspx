@@ -23,7 +23,7 @@
             <div class="back h-100">
                 <div class="container container-speech-bubble-completed">
                     <section class="speech-bubble-completed align-content-center">
-                        <div class="card-text card-text-custom-padding container-prompt-content text-center">
+                        <div class="card-text card-text-custom-padding container-prompt-c ontent text-center">
                             <p class="h3 text-uppercase text-white"> Whew! You're done</p>
                             <p class="text-white"><small>that wasn't so bad...</small></p>
                         </div>
@@ -35,7 +35,6 @@
             </div>
         </div>
      </div>
-    <div class="container"></div>
         <div id="cardContainerTwo" class="card-custom-space text-center">
         <div id="cardTwo" class="card card-custom-space bg-transparent align-content-center justify-content-center">
             <div class="front">
@@ -67,19 +66,8 @@
             </div>
         </div>
      </div>
-    <!--
-    <div class="container container-speech-bubble-container">
-        <section class="speech-bubble align-items-center">
-            <div class="container container-prompt-title text-center">General</div>
-            <div class="container container-prompt-content text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful.</div>
 
-            <div class="row">
-                <div class="container container-prompt-pass text-center w-50">Pass</div>
-                <div class="container container-prompt-complete text-center w-30 px-0">Complete</div>
-            </div>
-        </section>
-    </div>
-        -->
-    <script src="assets/javascript/studentLogic.js"> </script>
+    
+    <script src="assets/js/flipCard.js"> </script>
 
 </asp:Content>
