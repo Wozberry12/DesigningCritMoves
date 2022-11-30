@@ -10,9 +10,11 @@ body{
     font-size: 20px;
     font-family: 'Albert Sans', sans-serif;
 }
-
+.main-container-class{
+    height:35vh;
+}
 .container-speech-bubble-container {
-    height:
+    height: 100%;
 }
 .card-custom-space{
     border:none;
@@ -39,18 +41,16 @@ body{
 }
 
 section {
-    padding:20px;
+    padding:0px; 25px;
     box-shadow: 0px 4px 4px rgba(2, 55, 57, 0.25);
 }
-
 
 .speech-bubble,.speech-bubble-completed {
     background: #FFFFFF;
     position: relative;
     border-radius:28%;
-    min-height:100%;
-   
 }
+
 .container-speech-bubble-completed{
     background-color:transparent;
 }
@@ -88,11 +88,9 @@ section {
     border-color: #023739 transparent transparent transparent;
 }
 
-
-    .container-prompt-content {
-        transform: translateY(-0.5em);
-        word-wrap: break-word;
-    }
+.container-prompt-content {
+    word-wrap: break-word;
+}
 .container-prompt-pass {
     text-decoration: underline;
     z-index: 8;
