@@ -20,7 +20,7 @@
                     <label class="form-check-label" for="flexRadioDefault1">Color</label></li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                    <label class="form-check-label" for="flexRadioDefault1">Compose</label></li>
+                    <label class="form-check-label" for="flexRadioDefault1">Composition</label></li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     <label class="form-check-label" for="flexRadioDefault1">Concept</label></li>
@@ -52,7 +52,7 @@
     <div class="col-sm-10">
         <div class="card text-dark bg-light">
             <div style="width:100%;">
-                <div class="card-title bg-primary text-center text-warning" style="width:35%; height:3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;"><h4>Composition</h4></div>
+                <div class="card-title bg-primary text-center text-warning" style="width:45%; height:3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;"><h4>Composition</h4></div>
             </div>
                 <div class="card-body ">
                     <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
@@ -71,7 +71,7 @@
     <div class="col-sm-10">
         <div class="card text-dark bg-light">
             <div style="width:100%;">
-                <div class="card-title bg-primary text-center text-warning" style="width:35%; height:3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;"><h4>Composition</h4></div>
+                <div class="card-title bg-primary text-center text-warning" style="width:45%; height:3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;"><h4>Composition</h4></div>
             </div>
                 <div class="card-body ">
                     <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
