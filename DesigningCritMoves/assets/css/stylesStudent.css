@@ -1,4 +1,9 @@
-﻿body {
+﻿html {
+height:100%;
+
+}
+body{
+    min-height:100%;
     margin: 0;
     border: 0;
     overflow: hidden;
@@ -10,10 +15,6 @@
 .border-custom-color {
 }
 
-.square-box {
-    width: 100%;
-    min-height:300px;
-}
 
 .crit-moves-login-btn {
     min-width: 60%;
@@ -30,15 +31,48 @@ section {
     box-shadow: 0px 4px 4px rgba(2, 55, 57, 0.25);
 }
 
-.container-speech-bubble-container{
-    max-height:40%;
+.container-speech-bubble-container, .container-speech-bubble-completed {
+    height: 100%;
 }
-.speech-bubble {
+
+
+
+.container-speech-bubble-completed {
+   background-color: #D9EEEA;
+}
+.speech-bubble{
     background: #FFFFFF;
     position: relative;
     border-radius:28%;
 }
-    .speech-bubble:after {
+.speech-bubble-completed {
+    background: #023739;
+    position: relative;
+    border-radius: 28%;
+}
+    .speech-bubble-completed:after {
+        position: absolute;
+        content: '';
+        background: #023739;
+        bottom: 0em;
+        z-index: 5;
+        transform: translateY(0em);
+        left: 60%;
+        background-color: #023739;
+    }
+/*Begin Triangle*/
+    .speech-bubble-completed::after {
+        transform: translateY(3.5em);
+        left: 30%;
+        background-color: #D9EEEA;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 75px 20px 0 20px;
+        border-color: #023739 transparent transparent transparent;
+    }
+
+    .speech-bubble:after{
         position: absolute;
         content: '';
         width: 10.5vh;
@@ -66,14 +100,11 @@ section {
         border-width: 75px 20px 0 20px;
         border-color: #FFFFFF transparent transparent transparent;
     }
-.container-prompt-title {
-    transform: translateY(-1em);
-    background-color: #023739;
-    width:25vh;
-    color:#FFFFFF;
-    font-weight:800;
-    border-radius: 21%;
-}
+
+
+
+
+
 .container-prompt-content {
     transform: translateY(-0.5em);
     word-wrap: break-word;
@@ -91,4 +122,13 @@ section {
     border-radius:6px;
     max-width:35%;
     transform:translateX(-1.3em)
+}
+.container-prompt-mistake{
+    transform:t
+}
+.card-text-custom-padding{
+    padding:50px;
+}
+#btnCompletedPrompt:hover{
+    cursor:pointer;
 }
