@@ -45,13 +45,12 @@
     </form>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FacultyContentRightCol" runat="server">
-    <form>
         <div class="p-4">
             <div id="label">
                 <label class="fs-3 fw-bold " for="modifyStudent">STUDENTS: </label>
                 <span class="fs-3 fw-bold" style="color: #FF6555;">Import</span>
                 <div class="help-tip">
-                    <p>Instructions on how to drag / upload file </p>
+                    <p >Instructions on how to drag / upload file </p>
                 </div>
             </div>
             <div class="container" id="dragUpload">
@@ -63,6 +62,4 @@
                 </div>
             </div>
         </div>
-
-    </form>
 </asp:Content>

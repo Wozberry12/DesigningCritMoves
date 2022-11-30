@@ -54,6 +54,7 @@ footer {
     font-size: 14px;
     line-height: 26px;
     cursor: default;
+    display:inline-block;
 }
 
     .help-tip:before {
@@ -78,7 +79,7 @@ footer {
         position: absolute;
         border-radius: 3px;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-        right: -4px;
+        /*right: -4px;*/
         color: #FFF;
         font-size: 13px;
         line-height: 1.4;
@@ -91,7 +92,7 @@ footer {
             height: 0;
             border: 6px solid transparent;
             border-bottom-color: #1E2021;
-            right: 10px;
+            right: 282px;
             top: -12px;
         }
 
