@@ -18,7 +18,7 @@
                     <label class="form-check-label" for="flexRadioDefault1">Color</label></li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                    <label class="form-check-label" for="flexRadioDefault1">Compose</label></li>
+                    <label class="form-check-label" for="flexRadioDefault1">Composition</label></li>
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     <label class="form-check-label" for="flexRadioDefault1">Concept</label></li>

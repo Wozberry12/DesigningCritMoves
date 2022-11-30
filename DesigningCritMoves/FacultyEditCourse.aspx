@@ -40,9 +40,10 @@
                         <label class="fs-3 fw-bold mt-3 mb-2">Course: </label>
                         <span id="promptModifyType" class="fs-3 fw-bold" style="color: #FF6555;">Edit</span>
                     </div>
-                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="CRN" />
-                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Nane" />
+                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Subject" />
+                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Number" />
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Section Number" />
+                    <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Title" />
                     <br />
                     <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder w-75" style="background-color: #FF6555; margin-right: auto; margin-left:auto; ">SAVE COURSE</button>
                 </section>
