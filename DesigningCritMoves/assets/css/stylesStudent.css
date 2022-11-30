@@ -10,18 +10,21 @@ body{
     font-size: 20px;
     font-family: 'Albert Sans', sans-serif;
 }
-.border-custom-color {
-}
 
+.container-speech-bubble-container {
+    height:
+}
 .card-custom-space{
-    min-height:20em;
+    border:none;
 }
-
+.card-holder{
+    min-height:100%;
+}
 .card-header-custom {
     background-color: #023739;
     color: #FFFFFF;
     font-weight: 800;
-    border-radius: 21%;
+    border-radius: 21%;     
     margin-left:25%
 }
 
@@ -36,36 +39,42 @@ body{
 }
 
 section {
+    padding:20px;
     box-shadow: 0px 4px 4px rgba(2, 55, 57, 0.25);
 }
 
-.container-speech-bubble-container{
-    max-height:80%;
-}
-.speech-bubble {
+
+.speech-bubble,.speech-bubble-completed {
     background: #FFFFFF;
     position: relative;
     border-radius:28%;
+    min-height:100%;
+   
 }
-    .speech-bubble:after {
+.container-speech-bubble-completed{
+    background-color:transparent;
+}
+.speech-bubble-completed {
+    background-color: #023739;
+}
+
+    .speech-bubble:after,.speech-bubble-completed:after {
         position: absolute;
         content: '';
         background: #FFFFFF;
-        bottom: 0em;
         z-index: 5;
         transform: translateY(0em);
         left: 60%;
         background-color: #D9EEEA;
-        width: 0;
-        height: 0;
         border-style: solid;
         border-width: 100px 25px 0 25px;
         border-color: #FFFFFF transparent transparent transparent;
     }
     /*Begin Triangle*/
-    .speech-bubble::after {
-        transform:translateY(3.5em);
+    .speech-bubble::after, .speech-bubble-completed:after {
+        transform: translateY(3.5em);
         left: 60%;
+        bottom: 0em;
         background-color: #D9EEEA;
         width: 0;
         height: 0;
@@ -73,11 +82,17 @@ section {
         border-width: 75px 20px 0 20px;
         border-color: #FFFFFF transparent transparent transparent;
     }
-
-.container-prompt-content {
-    transform: translateY(-0.5em);
-    word-wrap: break-word;
+/*Begin COM*/
+.speech-bubble-completed:after {
+    background-color: #D9EEEA;
+    border-color: #023739 transparent transparent transparent;
 }
+
+
+    .container-prompt-content {
+        transform: translateY(-0.5em);
+        word-wrap: break-word;
+    }
 .container-prompt-pass {
     text-decoration: underline;
     z-index: 8;
@@ -92,9 +107,7 @@ section {
     max-width:35%;
     transform:translateX(-1.3em)
 }
-.card-text-custom-padding{
-    padding:50px;
-}
-#btnCompletedPrompt:hover{
-    cursor:pointer;
+
+#btnCompletedPromptOne:hover, #btnCompletedPromptTwo:hover, #unflipOne:hover, unflip, #unflipTwo:hover {
+    cursor: pointer;
 }
