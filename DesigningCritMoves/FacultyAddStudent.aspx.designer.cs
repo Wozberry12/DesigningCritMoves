@@ -11,8 +11,7 @@ namespace DesigningCritMoves
 {
 
 
-    public partial class FacultyLandingPage
-    {
+    public partial class FacultyAddStudent { 
 
         /// <summary>
         /// form1 control.
