@@ -115,9 +115,13 @@ footer {
 }
 .btn-primary{
     background-color: #FF6555!important;
+    border:none;
+    outline:none;
 }
-.btn-danger{
-    background-color:rgba(2,55,57);
+.btn-danger {
+    background-color: rgba(2,55,57);
+    border: none;
+    outline: none;
 }
 
 .bg-primary {
