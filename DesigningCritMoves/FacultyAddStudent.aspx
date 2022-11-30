@@ -3,32 +3,36 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FacultyContentLeftCol" runat="server">
-    <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 100%; background-color: #023739">
+    <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 100%; height: 700px; background-color: #023739">
         <div class="card-header text-white">
-            Filter By Category
+            Student List
         </div>
-        <div class="card-body scroll">
-            <ul class="list-group text-start" style="overflow: auto; height: 500px;">
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Krishna Patel</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Riya Tailor</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Ben Kamide</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Will Oswald</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Marco Kosasih</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Sarah Thomas</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
-            </ul>
-        </div>
+        <div class="scrollbar scrollbar-primary" style="height:700px;">
+            <div class="force-overflow">
+                <div class="card-body">
+                    <ul class="list-group text-start" style="height: 700px;">
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">Krishna Patel</label></li>
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">Riya Tailor</label></li>
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">Ben Kamide</label></li>
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">Will Oswald</label></li>
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">Marco Kosasih</label></li>
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">Sarah Thomas</label></li>
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
+                    <li class="list-group-item mb-3" style="border-radius: 5px;">
+                        <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
+                    </ul>
+                </div>
+            </div>
+       </div>
     </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FacultyContentMiddleCol" runat="server">
