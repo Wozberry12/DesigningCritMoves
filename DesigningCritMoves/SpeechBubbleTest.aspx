@@ -20,21 +20,21 @@
             </div>
         </div>
         <div class="back">
-                        <div class="container container-speech-bubble-container">
+            <div class="container container-speech-bubble-container">
                 <section class="speech-bubble align-self-center">
                 <div class="card-title card-header-custom w-50">Composition</div>
-                    <div class="card-text container-prompt-content text-center">Is the concept clear?</div>
+                    <div class="card-text card-text-custom-padding container-prompt-content text-center">Is the concept clear?</div>
                     <div class="row">
                         <div class="container container-prompt-pass text-center w-50">Pass</div>
                         <div class="container container-prompt-complete text-center w-30 px-0">
-                            <div id="btnCompletedPromp2t"class="btn h-100 w-100 text-white btn-complete-flip">Complete </div></div>
+                            <div id="btnCompletedPrompt2"class="btn h-100 w-100 text-white btn-complete-flip">Complete </div></div>
                     </div>
                 </section>
             </div>
         </div>
     </div>
     </div>
-    
+    <!--End of Card One-->
             <div class="container container-speech-bubble-container">
                 <section class="speech-bubble align-items-center">
                     <div class="container container-prompt-title text-center">General</div>
