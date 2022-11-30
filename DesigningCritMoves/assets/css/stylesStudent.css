@@ -1,7 +1,5 @@
 ﻿html {
-height:100%;
-
-}
+height:100%;}
 body{
     min-height:100%;
     margin: 0;
@@ -9,12 +7,23 @@ body{
     overflow: hidden;
     /*Will-Changed Color to match Figma- No gradient*/
     background-color: #D9EEEA;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Albert Sans', sans-serif;
 }
 .border-custom-color {
 }
 
+.card-custom-space{
+    min-height:20em;
+}
+
+.card-header-custom {
+    background-color: #023739;
+    color: #FFFFFF;
+    font-weight: 800;
+    border-radius: 21%;
+    margin-left:25%
+}
 
 .crit-moves-login-btn {
     min-width: 60%;
@@ -27,60 +36,24 @@ body{
 }
 
 section {
-    padding: 3.0vh 1.5vh; 
     box-shadow: 0px 4px 4px rgba(2, 55, 57, 0.25);
 }
 
-.container-speech-bubble-container, .container-speech-bubble-completed {
-    height: 100%;
+.container-speech-bubble-container{
+    max-height:80%;
 }
-
-
-
-.container-speech-bubble-completed {
-   background-color: #D9EEEA;
-}
-.speech-bubble{
+.speech-bubble {
     background: #FFFFFF;
     position: relative;
     border-radius:28%;
 }
-.speech-bubble-completed {
-    background: #023739;
-    position: relative;
-    border-radius: 28%;
-}
-    .speech-bubble-completed:after {
+    .speech-bubble:after {
         position: absolute;
         content: '';
-        background: #023739;
+        background: #FFFFFF;
         bottom: 0em;
         z-index: 5;
         transform: translateY(0em);
-        left: 60%;
-        background-color: #023739;
-    }
-/*Begin Triangle*/
-    .speech-bubble-completed::after {
-        transform: translateY(3.5em);
-        left: 30%;
-        background-color: #D9EEEA;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 75px 20px 0 20px;
-        border-color: #023739 transparent transparent transparent;
-    }
-
-    .speech-bubble:after{
-        position: absolute;
-        content: '';
-        width: 10.5vh;
-        height: 5.3vh;
-        background: #FFFFFF;
-        bottom: -1.0em;
-        z-index: 5;
-        transform: translateY(3.9em);
         left: 60%;
         background-color: #D9EEEA;
         width: 0;
@@ -101,10 +74,6 @@ section {
         border-color: #FFFFFF transparent transparent transparent;
     }
 
-
-
-
-
 .container-prompt-content {
     transform: translateY(-0.5em);
     word-wrap: break-word;
@@ -122,9 +91,6 @@ section {
     border-radius:6px;
     max-width:35%;
     transform:translateX(-1.3em)
-}
-.container-prompt-mistake{
-    transform:t
 }
 .card-text-custom-padding{
     padding:50px;
