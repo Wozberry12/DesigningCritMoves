@@ -34,7 +34,7 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="AdminContentMiddleCol" runat="server">
             <form id="modifyStudent">
         <div class="p-4">
-            <label class="fs-3 fw-bold " for="modifyStudent">Terms: </label>
+            <label class="fs-3 fw-bold " for="modifyStudent">Faculty: </label>
             <span id="formModeLabel" class="fs-3 fw-bold" style="color: #FF6555;">Add New</span>
             <br />
             <asp:DropDownList ID="SelectRole" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control">

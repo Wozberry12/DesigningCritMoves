@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
         <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 100%; background-color: #023739">
         <div class="card-header text-white">
-            Faculty Members
+            Existing Faculty Members
         </div>
         <div class="card-body scroll">
             <ul class="list-group text-start" style="overflow: auto; height: 500px;">
