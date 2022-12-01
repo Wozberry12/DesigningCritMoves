@@ -54,7 +54,7 @@
                     <div class="card text-dark text-center bg-light">
                         <div style="width: 100%;">
                             <div class="card-title bg-primary text-center text-light" style="width: 55%; height: 3%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
-                                <h5>Fall 2022</h5>
+                                <h5>Spring 2023</h5>
                             </div>
                         </div>
                         <div class="card-body ">
