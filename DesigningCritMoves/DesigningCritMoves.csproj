@@ -87,6 +87,11 @@
     <Content Include="AdminAddPrompt.aspx" />
     <Content Include="FacultyAddStudent.aspx" />
     <Content Include="FacultyAddPrompt.aspx" />
+    <Content Include="AdminAddTerms.aspx" />
+    <Content Include="AdminEditCategories.aspx" />
+    <Content Include="AdminEditFaculty.aspx" />
+    <Content Include="AdminAddFaculty.aspx" />
+    <Content Include="AdminEditTerms.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FacultyAddCourse.aspx.cs">
@@ -152,6 +157,41 @@
     </Compile>
     <Compile Include="FacultyAddPrompt.aspx.designer.cs">
       <DependentUpon>FacultyAddPrompt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddTerms.aspx.cs">
+      <DependentUpon>AdminAddTerms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAddTerms.aspx.designer.cs">
+      <DependentUpon>AdminAddTerms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEditCategories.aspx.cs">
+      <DependentUpon>AdminEditCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEditCategories.aspx.designer.cs">
+      <DependentUpon>AdminEditCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEditFaculty.aspx.cs">
+      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEditFaculty.aspx.designer.cs">
+      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddFaculty.aspx.cs">
+      <DependentUpon>AdminAddFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAddFaculty.aspx.designer.cs">
+      <DependentUpon>AdminAddFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEditTerms.aspx.cs">
+      <DependentUpon>AdminEditTerms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEditTerms.aspx.designer.cs">
+      <DependentUpon>AdminEditTerms.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
