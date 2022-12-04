@@ -4,17 +4,17 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div id="cardContainerOne" class="card-custom-space text-center">
-        <div id="cardOne" class="card card-custom-space bg-transparent align-content-center justify-content-center">
-            <div class="front">
-                <div class="container container-speech-bubble-container">
+    <div id="cardContainerOne" class="card-custom-space text-center b-0">
+        <div id="cardOne" class="card card-custom-space bg-transparent align-content-center justify-content-center b-0">
+            <div class="front b-0">
+                <div class="container container-speech-bubble-container b-0">
                     <section class="speech-bubble align-content-center h-100">
                         <div class="card-title card-header-custom w-50">Composition</div>
                         <div class="card-text card-text-custom-padding container-prompt-content text-center">Is the concept clear?</div>
                         <div class="row">
                             <div class="container container-prompt-pass text-center w-25">Pass</div>
                             <div class="container container-prompt-complete text-center w-25">
-                                <div id="btnCompletedPrompt1" class="btn text-white btn-complete-flip w-30">Complete</div>
+                                <div id="btnCompletedPrompt1" class="btn text-white btn-complete-flip px-0">Complete</div>
                             </div>
                         </div>
                     </section>
@@ -35,8 +35,8 @@
             </div>
         </div>
      </div>
-        <div id="cardContainerTwo" class="card-custom-space text-center">
-        <div id="cardTwo" class="card card-custom-space bg-transparent align-content-center justify-content-center">
+        <div id="cardContainerTwo" class="card-custom-space text-center b-0">
+        <div id="cardTwo" class="card card-custom-space bg-transparent align-content-center justify-content-center b-0">
             <div class="front">
                 <div class="container container-speech-bubble-container">
                     <section class="speech-bubble align-content-center h-100">
@@ -45,7 +45,7 @@
                         <div class="row">
                             <div class="container container-prompt-pass text-center w-25">Pass</div>
                             <div class="container container-prompt-complete text-center w-25">
-                                <div id="btnCompletedPrompt2" class="btn text-white btn-complete-flip w-30">Complete</div>
+                                <div id="btnCompletedPrompt2" class="btn text-white btn-complete-flip px-0">Complete</div>
                             </div>
                         </div>
                     </section>
