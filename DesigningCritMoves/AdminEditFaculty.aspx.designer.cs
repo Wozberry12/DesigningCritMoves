@@ -11,7 +11,7 @@ namespace DesigningCritMoves
 {
 
 
-    public partial class WebForm6
+    public partial class WebForm7
     {
 
         /// <summary>

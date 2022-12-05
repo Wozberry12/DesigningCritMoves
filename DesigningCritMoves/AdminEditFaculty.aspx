@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminViewMaster.Master" AutoEventWireup="true" CodeBehind="AdminEditFaculty.aspx.cs" Inherits="DesigningCritMoves.WebForm6" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminViewMaster2.Master" AutoEventWireup="true" CodeBehind="AdminEditFaculty.aspx.cs" Inherits="DesigningCritMoves.WebForm7" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
         <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">
             <div class="container-fluid col-6" style="background-color: #023739">
@@ -26,8 +26,9 @@
 
         </nav>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
-        <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 100%; background-color: #023739">
+
+<asp:Content ID="Content2" ContentPlaceHolderID="AdminContentCol1" runat="server">
+    <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 100%; background-color: #023739">
         <div class="card-header text-white">
             Existing Faculty Members
         </div>
@@ -56,8 +57,8 @@
     </div>
 </asp:Content>
 
-<asp:Content ID="Content3" ContentPlaceHolderID="AdminContentMiddleCol" runat="server">
-     <form id="modifyStudent">
+<asp:Content ID="Content3" ContentPlaceHolderID="AdminContentCol2" runat="server">
+    <form id="modifyStudent">
         <div class="p-4">
             <label class="fs-3 fw-bold " for="modifyStudent">Faculty Members: </label>
             <span id="formModeLabel" class="fs-3 fw-bold" style="color: #FF6555;">Edit</span>
@@ -79,6 +80,4 @@
             <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SAVE FACULTY</button>
         </div>
     </form>
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="AdminContentRightCol" runat="server">
 </asp:Content>
