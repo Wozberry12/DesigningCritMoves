@@ -33,14 +33,16 @@
         </div>
 
         <div class="container" style="height: 600px">
-            <div class="row" style="height: 60px">
-                <div class="row">
-                <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display:inline-block;">
-                    <div class="col-7" style="display:inline-block;">Riya Tailor</div>    
-                    <div class="col-2" style="display:inline-block; margin-left:30px; padding-right: 10px; margin-top:4px;"><button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                    <div class="col-2"style="display:inline-block;"><button class="text-center" runat="server"><img src="assets/img/editicon.png" /></button></div>
+            <div class="row">
+                <div class="row" style ="padding-left:2em; height: 80px">
+                <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display:inline-block">
+                    <div class="col-7" style="display:inline-block; color: green; font-size: 20px; padding-left: 2em">Riya Tailor</div>    
+                    <div class="col-2" style="display:inline-block; margin-left:30px; padding-right: 10px; margin-top:4px; padding-left: 6em"><button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                    <div class="col-2"style="display:inline-block; padding-left: 6em"><button class="text-center" runat="server"><img src="assets/img/editicon.png" /></button></div>
                 </div>
             </div>
+                </div>
+
 
             <div class="row">
                 <div class="col-8 card mb-4 rounded-3 shadow-sm" style="background-color: white">Ben Kamide</div>
@@ -81,7 +83,7 @@
     
   
             </div>
-    </div>
+
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="AdminContentCol2" runat="server">
