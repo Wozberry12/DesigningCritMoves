@@ -31,7 +31,7 @@
                 <input class="form-control form-control-lg" type="password" style="margin-right: auto;margin-left: auto;display: block;width: 75%;" placeholder="Password">
             </div>
             <div id="inputButtons" class="btn-group-vertical" style="width: 75%;margin-right: auto;margin-left: auto; display:block">
-                <button class="btn btn-primary fs-2 fw-normal" type="submit" style="background: #ff6555;margin-bottom: 4%;margin-top: 5%;border-radius: 10px;" onclick="openAdminPrompt()">LOGIN</button>
+                <button id="launchAll" class="btn btn-primary fs-2 fw-normal" type="submit" style="background: #ff6555;margin-bottom: 4%;margin-top: 5%;border-radius: 10px;">LOGIN</button>
                 <button class="btn btn-primary fs-2 fw-normal" type="submit" style="background: #023739;border-radius: 10px;">SIGN UP</button>
             </div>
         </div>
@@ -45,7 +45,7 @@
 </html>
 
 <script>
-    openAdminPrompt(); {
-        window.open('AdminPrompt.aspx', true);
+    document.getElementById("launchAll").onclick = function () {
+        window.open("AdminAddPrompt.aspx", false);
     }
 </script>
