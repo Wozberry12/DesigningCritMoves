@@ -32,29 +32,103 @@
         <div class="card-header text-white">
             Existing Faculty Members
         </div>
-        <div class="card-body scroll">
-            <ul class="list-group text-start" style="overflow: auto; height: 500px;">
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Krishna Patel</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Riya Tailor</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Ben Kamide</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Will Oswald</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Marco Kosasih</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">Sarah Thomas</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
-                <li class="list-group-item mb-3" style="border-radius: 5px;">
-                    <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
-            </ul>
+
+        <div class="container" style="height: 600px">
+            <div class="row">
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-7" style="display: inline-block; color: green; font-size: 20px; padding-left: 2em">Krishna Patel</div>
+                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
+                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                        <div class="col-2" style="display: inline-block; padding-left: 6em">
+                            <button class="text-center" runat="server">
+                                <img src="assets/img/editicon.png" /></button></div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-7" style="display: inline-block; color: green; font-size: 20px; padding-left: 2em">Riya Tailor</div>
+                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
+                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                        <div class="col-2" style="display: inline-block; padding-left: 6em">
+                            <button class="text-center" runat="server">
+                                <img src="assets/img/editicon.png" /></button></div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-7" style="display: inline-block; color: green; font-size: 20px; padding-left: 2em">Ben Kamide</div>
+                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
+                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                        <div class="col-2" style="display: inline-block; padding-left: 6em">
+                            <button class="text-center" runat="server">
+                                <img src="assets/img/editicon.png" /></button></div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-7" style="display: inline-block; color: green; font-size: 20px; padding-left: 2em">Will Oswald</div>
+                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
+                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                        <div class="col-2" style="display: inline-block; padding-left: 6em">
+                            <button class="text-center" runat="server">
+                                <img src="assets/img/editicon.png" /></button></div>
+                    </div>
+                </div>
+
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-7" style="display: inline-block; color: green; font-size: 20px; padding-left: 2em">Marco Kosasih</div>
+                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
+                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                        <div class="col-2" style="display: inline-block; padding-left: 6em">
+                            <button class="text-center" runat="server">
+                                <img src="assets/img/editicon.png" /></button></div>
+                    </div>
+                </div>
+
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-7" style="display: inline-block; color: green; font-size: 20px; padding-left: 2em">Sarah Thomas</div>
+                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
+                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                        <div class="col-2" style="display: inline-block; padding-left: 6em">
+                            <button class="text-center" runat="server">
+                                <img src="assets/img/editicon.png" /></button></div>
+                    </div>
+                </div>
+
+            <div class="row">
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-7" style="display: inline-block; color: green; font-size: 20px; padding-left: 2em">First, Last</div>
+                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
+                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                        <div class="col-2" style="display: inline-block; padding-left: 6em">
+                            <button class="text-center" runat="server">
+                                <img src="assets/img/editicon.png" /></button></div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-7" style="display: inline-block; color: green; font-size: 20px; padding-left: 2em">First, Last</div>
+                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
+                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
+                        <div class="col-2" style="display: inline-block; padding-left: 6em">
+                            <button class="text-center" runat="server">
+                                <img src="assets/img/editicon.png" /></button></div>
+                    </div>
+                </div>
+            </div>
+          </div>
         </div>
-    </div>
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="AdminContentCol2" runat="server">
