@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace DesigningCritMoves
 {
-    public partial class WebForm9 : System.Web.UI.Page
+    public partial class AdminViewMaster2 : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\img\editicon.png" />
     <Content Include="assets\img\Minus.png" />
     <Content Include="assets\img\Plus.png" />
     <Content Include="assets\img\PlusCircle.png" />
@@ -90,11 +91,18 @@
     <Content Include="FacultyAddPrompt.aspx" />
     <Content Include="AdminAddTerms.aspx" />
     <Content Include="AdminEditCategories.aspx" />
-    <Content Include="AdminEditFaculty.aspx" />
-    <Content Include="AdminAddFaculty.aspx" />
     <Content Include="AdminEditTerms.aspx" />
+    <Content Include="AdminAddFaculty.aspx" />
+    <Content Include="AdminEditFaculty.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminViewMaster2.Master.cs">
+      <DependentUpon>AdminViewMaster2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminViewMaster2.Master.designer.cs">
+      <DependentUpon>AdminViewMaster2.Master</DependentUpon>
+    </Compile>
     <Compile Include="FacultyAddCourse.aspx.cs">
       <DependentUpon>FacultyAddCourse.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -173,12 +181,12 @@
     <Compile Include="AdminEditCategories.aspx.designer.cs">
       <DependentUpon>AdminEditCategories.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminEditFaculty.aspx.cs">
-      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
+    <Compile Include="AdminEditTerms.aspx.cs">
+      <DependentUpon>AdminEditTerms.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminEditFaculty.aspx.designer.cs">
-      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
+    <Compile Include="AdminEditTerms.aspx.designer.cs">
+      <DependentUpon>AdminEditTerms.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminAddFaculty.aspx.cs">
       <DependentUpon>AdminAddFaculty.aspx</DependentUpon>
@@ -187,17 +195,18 @@
     <Compile Include="AdminAddFaculty.aspx.designer.cs">
       <DependentUpon>AdminAddFaculty.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminEditTerms.aspx.cs">
-      <DependentUpon>AdminEditTerms.aspx</DependentUpon>
+    <Compile Include="AdminEditFaculty.aspx.cs">
+      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminEditTerms.aspx.designer.cs">
-      <DependentUpon>AdminEditTerms.aspx</DependentUpon>
+    <Compile Include="AdminEditFaculty.aspx.designer.cs">
+      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminViewMaster.Master" />
     <Content Include="FacultyViewMaster.Master" />
+    <Content Include="AdminViewMaster2.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
