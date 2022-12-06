@@ -22,6 +22,8 @@ var cat7 = new Category(7, "Usability");
 var cat8 = new Category(8, "Project");
 var cat9 = new Category(9, "Typography");
 
+
+
 var prom1 = new Prompt(1, cat1, "Discuss the color contrast in this piece");
 var prom2 = new Prompt(2, cat2, "Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful.");
 var prom3 = new Prompt(3, cat3, "How does the color hinder to the success of this piece");
@@ -44,10 +46,16 @@ $(document).ready(function () {
     $('#submit').click(function () {
         for (var i = 0; i < baseCategoryBank.length; i++) {
             $('#cats')
-                .append('<li class="list-group-item">')
-                .append('<input class="form-check-input" type="radio" name="flexRadioDefault" id="' + baseCategoryBank[i].name +'">')
-                .append('<label class="form-check-label" for="' + baseCategoryBank[i].name + '"> ' + baseCategoryBank[i].name + '</label></li>');
+                .append('<li class="list-group-item"><input class="form-check-input" type="radio" name="flexRadioDefault" id="' + baseCategoryBank[i].name + '"><label class="form-check-label" for="' + baseCategoryBank[i].name + '"> ' + baseCategoryBank[i].name + '</label></li>');
+                
+        }
+    })
+    $('#proms').click(function () {
+        for (var i = 0; i < basePromptBank.length; i++) {
+            $('#promptHolder')
+                .append('<div class="container"> <div class= "col" ><div class="col-sm-10"><div class="card text-dark bg-light"> <div style="width:100%;"><div class="card-title bg-primary text-center text-warning" style="width:45%; height:3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;"><h4>'+basePromptBank[i].category.name + '</h4></div> </div><div class="card-body "><p class="card-text text-center">'+basePromptBank[i].propmptText + '</p></div><div style="width:100%;"><div class="card-footer bg-primary text-center" style="width:20%;border-radius: 10px 10px 0px 0px; margin: 0 auto;"><a href="#" class="btn btn-danger btn-sm"> Edit</a> </div></div> </div> </div></div></div >');
         }
     })
 });
+
 
