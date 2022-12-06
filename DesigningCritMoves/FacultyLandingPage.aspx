@@ -39,8 +39,8 @@
         <div class="container">
             <div class="row">
 
-                <div class="container" style="width: 25%">
-                    <div class="card text-dark text-center bg-light">
+                <div class="container" style="width: 25%;">
+                    <div class="card text-dark text-center bg-light" style="width:306px; height: 342px;">
                         <div class="w-100 h-50">
                             <div class="card-body">
 
@@ -51,9 +51,9 @@
                     </div>
                 </div>
                 <div class="container" style="width: 25%">
-                    <div class="card text-dark text-center bg-light">
+                    <div class="card text-dark text-center bg-light" style="width:306px; height:342px;">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-light" style="width: 55%; height: 3%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
+                            <div class="card-title bg-primary text-center text-light" style="width: 55%; height: 95%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
                                 <h5>Spring 2023</h5>
                             </div>
                         </div>

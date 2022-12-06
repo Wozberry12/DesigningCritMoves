@@ -178,6 +178,11 @@ footer {
     scrollbar-color: #4285F4 #F5F5F5;
 }
 
+.btn:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
 /* CSS animation */
 
 @-webkit-keyframes fadeIn {
