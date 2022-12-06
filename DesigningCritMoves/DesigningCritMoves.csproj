@@ -71,6 +71,7 @@
     <Content Include="assets\img\Minus.png" />
     <Content Include="assets\img\Plus.png" />
     <Content Include="assets\img\PlusCircle.png" />
+    <Content Include="assets\javascript\masterJavaScript.js" />
     <Content Include="assets\navbarFunction.js" />
     <Content Include="FacultyEditCourse.aspx" />
     <Content Include="FacultyLandingPage.aspx" />
