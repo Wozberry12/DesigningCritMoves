@@ -89,11 +89,12 @@
     <Content Include="AdminAddPrompt.aspx" />
     <Content Include="FacultyAddStudent.aspx" />
     <Content Include="FacultyAddPrompt.aspx" />
-    <Content Include="AdminAddTerms.aspx" />
     <Content Include="AdminEditCategories.aspx" />
-    <Content Include="AdminEditTerms.aspx" />
     <Content Include="AdminAddFaculty.aspx" />
     <Content Include="AdminEditFaculty.aspx" />
+    <Content Include="AdminAddTerm.aspx" />
+    <Content Include="AdminEditTerm.aspx" />
+    <Content Include="AdminAddCategories.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminViewMaster2.Master.cs">
@@ -167,26 +168,12 @@
     <Compile Include="FacultyAddPrompt.aspx.designer.cs">
       <DependentUpon>FacultyAddPrompt.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminAddTerms.aspx.cs">
-      <DependentUpon>AdminAddTerms.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminAddTerms.aspx.designer.cs">
-      <DependentUpon>AdminAddTerms.aspx</DependentUpon>
-    </Compile>
     <Compile Include="AdminEditCategories.aspx.cs">
       <DependentUpon>AdminEditCategories.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AdminEditCategories.aspx.designer.cs">
       <DependentUpon>AdminEditCategories.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminEditTerms.aspx.cs">
-      <DependentUpon>AdminEditTerms.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminEditTerms.aspx.designer.cs">
-      <DependentUpon>AdminEditTerms.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminAddFaculty.aspx.cs">
       <DependentUpon>AdminAddFaculty.aspx</DependentUpon>
@@ -201,6 +188,27 @@
     </Compile>
     <Compile Include="AdminEditFaculty.aspx.designer.cs">
       <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddTerm.aspx.cs">
+      <DependentUpon>AdminAddTerm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAddTerm.aspx.designer.cs">
+      <DependentUpon>AdminAddTerm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEditTerm.aspx.cs">
+      <DependentUpon>AdminEditTerm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEditTerm.aspx.designer.cs">
+      <DependentUpon>AdminEditTerm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddCategories.aspx.cs">
+      <DependentUpon>AdminAddCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAddCategories.aspx.designer.cs">
+      <DependentUpon>AdminAddCategories.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
