@@ -33,111 +33,40 @@
             Existing Faculty Members
         </div>
         <div class="scrollbar scrollbar-primary">
-        <div class="container" style="height: 600px">
-            <div class="row">
-                <div class="row" style="padding-left: 2em; height: 80px">
-                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
-                        <div class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em">Krishna Patel</div>
-                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
-                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                        <div class="col-2" style="display: inline-block; padding-left: 6em">
-                            <button class="text-center" runat="server">
-                                <img src="assets/img/editicon.png" /></button></div>
-                    </div>
-                </div>
-
-                <div class="row" style="padding-left: 2em; height: 80px">
-                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
-                        <div class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em">Riya Tailor</div>
-                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
-                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                        <div class="col-2" style="display: inline-block; padding-left: 6em">
-                            <button class="text-center" runat="server">
-                                <img src="assets/img/editicon.png" /></button></div>
-                    </div>
-                </div>
-
-                <div class="row" style="padding-left: 2em; height: 80px">
-                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
-                        <div class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em">Ben Kamide</div>
-                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
-                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                        <div class="col-2" style="display: inline-block; padding-left: 6em">
-                            <button class="text-center" runat="server">
-                                <img src="assets/img/editicon.png" /></button></div>
-                    </div>
-                </div>
-
-                <div class="row" style="padding-left: 2em; height: 80px">
-                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
-                        <div class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em">Will Oswald</div>
-                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
-                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                        <div class="col-2" style="display: inline-block; padding-left: 6em">
-                            <button class="text-center" runat="server">
-                                <img src="assets/img/editicon.png" /></button></div>
-                    </div>
-                </div>
-
-
-                <div class="row" style="padding-left: 2em; height: 80px">
-                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
-                        <div class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em">Marco Kosasih</div>
-                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
-                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                        <div class="col-2" style="display: inline-block; padding-left: 6em">
-                            <button class="text-center" runat="server">
-                                <img src="assets/img/editicon.png" /></button></div>
-                    </div>
-                </div>
-
-
-                <div class="row" style="padding-left: 2em; height: 80px">
-                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
-                        <div class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em">Sarah Thomas</div>
-                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
-                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                        <div class="col-2" style="display: inline-block; padding-left: 6em">
-                            <button class="text-center" runat="server">
-                                <img src="assets/img/editicon.png" /></button></div>
-                    </div>
-                </div>
-
-            <div class="row">
-                <div class="row" style="padding-left: 2em; height: 80px">
-                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
-                        <div class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em">First, Last</div>
-                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
-                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                        <div class="col-2" style="display: inline-block; padding-left: 6em">
-                            <button class="text-center" runat="server">
-                                <img src="assets/img/editicon.png" /></button></div>
-                    </div>
+            <div class="container" style="height: 600px">
+                <div class="row">
+                    <asp:Repeater runat="server" ID="rptFacultyItem" OnItemCommand="rptFacultyItem_ItemCommand">
+                        <ItemTemplate>
+                            <div class="row" style="padding-left: 2em; height: 80px">
+                                <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                                    <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-top: 10px">
+                                        <asp:Label ID="lblFirstName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyFirstName") %>' class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em"/>
+                                        <asp:Label ID="lblLastName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyLastName") %>' />
+                                        <asp:Label ID="lblAccesNet" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "AccessNetID") %>' visible="false"/>
+                                    </div>
+                                    <div class="col-3 float-end" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                                        <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-25 my-auto float-end" text="Disable" />
+                                        <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-25 my-auto float-end bg-white border-0" text="Edit" />
+                                        <%--<button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
+                                    <div class="handle"></div>
+                                </button>--%>
+                                    </div>
+                                </div>
+                            </div>
+                        </ItemTemplate>
+                    </asp:Repeater>
                 </div>
             </div>
-
-                <div class="row" style="padding-left: 2em; height: 80px">
-                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
-                        <div class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em">First, Last</div>
-                        <div class="col-2" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 4px; padding-left: 6em">
-                            <button type="button" class="btn btn-outline-danger">Delete User</button></div>
-                        <div class="col-2" style="display: inline-block; padding-left: 6em">
-                            <button class="text-center" runat="server">
-                                <img src="assets/img/editicon.png" /></button></div>
-                    </div>
-                </div>
-            </div>
-          </div>
         </div>
-        </div>
+    </div>
 
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="AdminContentCol2" runat="server">
     <form id="modifyStudent">
-        <div class="p-4">
+        <div class="p-4" id="addFaculty" runat="server">
             <label class="fs-3 fw-bold " for="modifyStudent">FACULTY: </label>
-            <span id="formModeLabel" class="fs-3 fw-bold" style="color: #FF6555;">Add New</span>
+            <span class="fs-3 fw-bold formModeLabel" style="color: #FF6555;">Add New</span>
             <br />
             <asp:DropDownList ID="SelectRole" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control">
                 <asp:ListItem Selected="True" Value="Select Role"> Select Role + </asp:ListItem>
@@ -149,6 +78,26 @@
             <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; height: 60px; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" />
             <br />
             <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SIGN UP</button>
+        </div>
+        <div class="p-4" id="editFaculty" runat="server">
+            <label class="fs-3 fw-bold " for="modifyStudent">FACULTY MEMBERS: </label>
+            <span class="fs-3 fw-bold formModeLabel" style="color: #FF6555;">Edit</span>
+            <br />
+            <asp:DropDownList ID="SelectTerm" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control">
+                  <asp:ListItem Selected="True" Value="Select Faculty"> Faculty + </asp:ListItem>
+                  <asp:ListItem Value="facultyKrishna"> Krishna Patel </asp:ListItem>
+                  <asp:ListItem Value="facultyRiya"> Riya Tailor </asp:ListItem>
+                  <asp:ListItem Value="facultyBen"> Ben Kamide </asp:ListItem>
+                  <asp:ListItem Value="facultyWill"> Will Oswald </asp:ListItem>
+                  <asp:ListItem Value="facultyMarco"> Marco Kosasih </asp:ListItem>
+                  <asp:ListItem Value="facultyName"> Faculty Name </asp:ListItem>
+            </asp:DropDownList>
+
+            <asp:TextBox id="txtAccessID" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Access Net ID" />
+            <asp:TextBox id="txtFirstName" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="First Name" />
+            <asp:TextBox id="txtLastName" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Last Name" />
+            <br />
+            <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SAVE FACULTY</button>
         </div>
     </form>
 </asp:Content>
