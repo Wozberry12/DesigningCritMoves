@@ -32,7 +32,7 @@
         <div class="card-header text-white">
             Existing Faculty Members
         </div>
-
+        <div class="scrollbar scrollbar-primary">
         <div class="container" style="height: 600px">
             <div class="row">
                 <div class="row" style="padding-left: 2em; height: 80px">
@@ -128,6 +128,7 @@
                 </div>
             </div>
           </div>
+        </div>
         </div>
 
 </asp:Content>
