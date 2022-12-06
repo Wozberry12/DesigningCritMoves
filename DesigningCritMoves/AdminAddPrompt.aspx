@@ -70,7 +70,6 @@
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="AdminContentMiddleCol" runat="server">
-    Default Middle Column
 <div class="container">
     <div class="col">
     <div class="col-sm-10">
