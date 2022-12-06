@@ -70,9 +70,9 @@
                         </div>--%>
                         </div>
                         <div style="width: 100%;">
-                            <div class="card-footer bg-primary text-center" style="width: 50%; border-radius: 15px 15px 0px 0px; margin: 0 auto;">
-                                <a href="FacultyEditCourse.aspx" class="btn btn-danger btn-sm">Edit Course Information</a>
-                            </div>
+                            <a href="FacultyEditCourse.aspx">
+                                <img src="assets/img/editicon.png" style="width:30px" />
+                            </a>
                         </div>
                     </div>
 
