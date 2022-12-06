@@ -27,6 +27,102 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentCol1" runat="server">
+    <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 75%; background-color: #023739">
+        <div class="card-header text-white">
+            Existing Terms
+        </div>
+
+        <div class="container" style="height: 600px">
+            <div class="row">
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Summer II 2023</div>
+                        <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                            <button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
+                                <div class="handle"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Summer I 2023</div>
+                        <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                            <input type="checkbox" checked data-toggle="toggle" data-onstyle="outline-danger" data-offstyle="outline-warning">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Spring 2023</div>
+                        <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+
+                            <div class="form-group row">
+                                <label for="checkbox4" class="form-control-label col-md-3 col-8"></label>
+                                <div class="o-switch">
+                                    <input class="checkbox success sr-only" id="checkbox4" type="checkbox" checked />
+                                    <label for="checkbox4" class="toggle rounded form-control-label" aria-hidden="true" style="width: 78px;">
+                                        <span class="on">On</span>
+                                        <span class="off">Off</span>
+                                    </label>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Winter 2022</div>
+                        <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                            <button type="button" class="btn btn-outline-danger">Delete Term</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Fall 2022</div>
+                        <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                            <button type="button" class="btn btn-outline-danger">Delete Term</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Summer II 2022</div>
+                        <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                            <button type="button" class="btn btn-outline-danger">Delete Term</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Summer I 2022</div>
+                        <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                            <button type="button" class="btn btn-outline-danger">Delete Term</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-left: 2em; height: 80px">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
+                        <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Spring 2022</div>
+                        <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                            <button type="button" class="btn btn-outline-danger">Delete Term</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="AdminContentCol2" runat="server">
@@ -41,6 +137,10 @@
                 <asp:ListItem Value="SummerI"> Summer I 2023 </asp:ListItem>
                 <asp:ListItem Value="Spring"> Spring 2023 </asp:ListItem>
                 <asp:ListItem Value="Winter"> Winter 2022 </asp:ListItem>
+                <asp:ListItem Value="SummerII"> Fall 2022 </asp:ListItem>
+                <asp:ListItem Value="SummerI"> Summer II 2022 </asp:ListItem>
+                <asp:ListItem Value="Spring"> Summer I 2022 </asp:ListItem>
+                <asp:ListItem Value="Winter"> Spring 2022 </asp:ListItem>
             </asp:DropDownList>
 
             <asp:TextBox class="modifyTermTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Year" />
