@@ -45,7 +45,7 @@
                             <div class="card-body" style ="text-align:center; padding-top: 90px">
 
                                 <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto float-none mb-5" style="padding-bottom:25px" /><br />
-                                <button class="btn btn-secondary mt-2" style="background-color:#023739; color: white" onserverclick="addCourse" runat="server">Add A Course</button>
+                                <button class="btn btn-secondary mt-2" style="background-color:#023739; color: white" onserverclick="addCourse" runat="server">ADD A COURSE</button>
                             </div>
                         </div>
                     </div>
