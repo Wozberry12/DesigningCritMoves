@@ -18,7 +18,7 @@
             </div>
             <div class="d-flex position-absolute top-0 end-0" style="padding-top: 2em; padding-right: 2em;">
                 <div class="flex-shrink-0 dropdown">
-                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false">Spring 2022
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false">Spring 2023
                         <img src="assets/img/Group.png" alt="Default Photo" width="45" height="45" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
@@ -45,7 +45,7 @@
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Section Number" />
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Title" />
                     <br />
-                    <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder w-75" style="background-color: #FF6555; margin-right: auto; margin-left:auto; ">SAVE COURSE</button>
+                    <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder w-75" style="background-color: #FF6555; margin-right: auto; margin-left:auto" runat="server" onserverclick="Unnamed_ServerClick">SAVE COURSE</button>
                 </section>
 
         <footer class="d-flex border-top text-white">

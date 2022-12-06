@@ -28,7 +28,7 @@
                     <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false">Spring 2022
                         <img src="assets/img/Group.png" alt="Default Photo" width="45" height="45" class="rounded-circle">
                     </a>
-                    <%--<ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
                         <li>
                             <a class="dropdown-item" href="AdminAddPrompt.aspx">Administrator View</a>
                         </li>
@@ -38,7 +38,7 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li><a class="dropdown-item" href="#">Log Out</a></li>
-                    </ul>--%>
+                    </ul>
                 </div>
             </div>  
         </header>
