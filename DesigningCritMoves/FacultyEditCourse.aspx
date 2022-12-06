@@ -45,9 +45,10 @@
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Section Number" />
                     <asp:TextBox class="modifyStudentTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-left:auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Course Title" />
                     <br />
-                    <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder w-75" style="background-color: #FF6555; margin-right: auto; margin-left:auto" runat="server" onserverclick="Unnamed_ServerClick">SAVE COURSE</button>
+                    <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder w-75" style="background-color: #FF6555; margin-right: auto; margin-left:auto;" runat="server" onserverclick="Unnamed_ServerClick">SAVE COURSE</button>
+                
                 </section>
-
+        
         <footer class="d-flex border-top text-white">
             <a class="text-start float-start w-25" href="#" style="padding-left: 1em; color: rgb(255,255,255);">Terms and Conditons</a>
             <a class="text-center float-start w-50" href="#" style="color: rgb(255,255,255);">Interested In Custom Prompts?</a>
