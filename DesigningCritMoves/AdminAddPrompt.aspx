@@ -12,8 +12,8 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
                                 <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">View Prompts</a></li>
-                                    <li><a class="dropdown-item" href="#">Edit Categories</a></li>
+                                    <li><a class="dropdown-item" href="AdminAddPrompt.aspx">View Prompts</a></li>
+                                    <li><a class="dropdown-item" href="AdminEditCategories.aspx">Edit Categories</a></li>
                                 </ul>
                             </li>
                         </ul>
