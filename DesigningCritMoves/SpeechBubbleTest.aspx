@@ -19,7 +19,7 @@
                         <div class="row">
                             <div class="container container-prompt-pass text-center w-25">Pass</div>
                             <div class="container container-prompt-complete text-center w-50">
-                                <div id="btnCompletedPrompt1" class="btn text-white btn-complete-flip w-30">Complete</div>
+                                <div id="btnCompletedPrompt1" class="btn text-white btn-complete-flip w-30" style ="width:105px">Complete</div>
                             </div>
                             </div>
                     </section>
