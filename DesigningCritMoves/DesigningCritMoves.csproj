@@ -94,6 +94,7 @@
     <Content Include="AdminEditFaculty.aspx" />
     <Content Include="AdminAddTerm.aspx" />
     <Content Include="AdminEditTerm.aspx" />
+    <Content Include="AdminAddCategories.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminViewMaster2.Master.cs">
@@ -201,6 +202,13 @@
     </Compile>
     <Compile Include="AdminEditTerm.aspx.designer.cs">
       <DependentUpon>AdminEditTerm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAddCategories.aspx.cs">
+      <DependentUpon>AdminAddCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminAddCategories.aspx.designer.cs">
+      <DependentUpon>AdminAddCategories.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

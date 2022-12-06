@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminViewMaster.Master" AutoEventWireup="true" CodeBehind="AdminEditCategories.aspx.cs" Inherits="DesigningCritMoves.WebForm5" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminViewMaster.Master" AutoEventWireup="true" CodeBehind="AdminAddCategories.aspx.cs" Inherits="DesigningCritMoves.WebForm8" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">
         <div class="container-fluid col-6" style="background-color: #023739">
@@ -27,7 +27,7 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
-     <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; background-color: #023739">
+         <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; background-color: #023739">
         <div class="card-header text-white">
             Filter By Category
         </div>
@@ -70,23 +70,12 @@
     <form id="modifyStudent">
         <div class="p-4">
             <label class="fs-3 fw-bold " for="modifyStudent">CATEGORIES: </label>
-            <span id="formModeLabel" class="fs-3 fw-bold" style="color: #FF6555;">Edit</span>
+            <span id="formModeLabel" class="fs-3 fw-bold" style="color: #FF6555;">Add New</span>
             <br />
-            <asp:DropDownList ID="SelectCategory" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control">
-                <asp:ListItem Selected="True" Value="Select Role"> Select Category + </asp:ListItem>
-                <asp:ListItem Value="concept"> Concept </asp:ListItem>
-                <asp:ListItem Value="color"> Color </asp:ListItem>
-                <asp:ListItem Value="composition"> Composition </asp:ListItem>
-                <asp:ListItem Value="ux"> Usability UX </asp:ListItem>
-                <asp:ListItem Value="goals"> Goals </asp:ListItem>
-                <asp:ListItem Value="motion"> Motion </asp:ListItem>
-                <asp:ListItem Value="perform"> Perform </asp:ListItem>
-                <asp:ListItem Value="project"> Project </asp:ListItem>
-                <asp:ListItem Value="wordplay"> Wordplay </asp:ListItem>
-            </asp:DropDownList>
 
-            <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Edit Category" />            <br />
-            <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SAVE CATEGORY</button>
+            <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Category" />
+            <br />
+            <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">ADD CATEGORY</button>
         </div>
     </form>
 </asp:Content>
