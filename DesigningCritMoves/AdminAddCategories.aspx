@@ -11,7 +11,7 @@
                             <li><a class="dropdown-item" href="AdminAddPrompt.aspx">PROMPTS</a></li>
                             <li><a class="dropdown-item" href="AdminAddCategories.aspx">CATEGORIES</a></li>
                             <li><a class="dropdown-item" href="AdminAddTerm.aspx">TERMS</a></li>
-                            <li><a class="dropdown-item" href="AdminAddFaculty.aspx">Faculty</a></li>
+                            <li><a class="dropdown-item" href="AdminAddFaculty.aspx">FACULTY</a></li>
                         </ul>
                     </li>
                 </ul>
