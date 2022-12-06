@@ -42,10 +42,10 @@
                 <div class="container" style="width: 25%;">
                     <div class="card text-dark text-center bg-light" style="width:306px; height: 342px;">
                         <div class="w-100 h-50">
-                            <div class="card-body">
+                            <div class="card-body" style ="text-align:center; padding-top: 90px">
 
-                                <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto float-none mb-5" /><br />
-                                <button class="btn btn-secondary mt-2" onserverclick="addCourse" runat="server">Add A Course</button>
+                                <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto float-none mb-5" style="padding-bottom:25px" /><br />
+                                <button class="btn btn-secondary mt-2" style="background-color:#023739; color: white" onserverclick="addCourse" runat="server">Add A Course</button>
                             </div>
                         </div>
                     </div>
