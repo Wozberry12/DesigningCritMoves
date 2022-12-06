@@ -91,7 +91,6 @@
     <Content Include="FacultyAddStudent.aspx" />
     <Content Include="FacultyAddPrompt.aspx" />
     <Content Include="AdminAddFaculty.aspx" />
-    <Content Include="AdminEditFaculty.aspx" />
     <Content Include="AdminAddTerm.aspx" />
     <Content Include="AdminAddCategories.aspx" />
   </ItemGroup>
@@ -173,13 +172,6 @@
     </Compile>
     <Compile Include="AdminAddFaculty.aspx.designer.cs">
       <DependentUpon>AdminAddFaculty.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminEditFaculty.aspx.cs">
-      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminEditFaculty.aspx.designer.cs">
-      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminAddTerm.aspx.cs">
       <DependentUpon>AdminAddTerm.aspx</DependentUpon>

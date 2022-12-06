@@ -9,17 +9,17 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="AdminAddTerm.aspx">Add Terms</a></li>
-                            <li><a class="dropdown-item" href="AdminEditTerm.aspx">Edit Terms</a></li>
-                            <li><a class="dropdown-item" href="AdminAddFaculty.aspx">Add Faculty</a></li>
-                            <li><a class="dropdown-item" href="AdminEditFaculty.aspx">Edit Faculty</a></li>
+                            <li><a class="dropdown-item" href="AdminAddPrompt.aspx">PROMPTS</a></li>
+                            <li><a class="dropdown-item" href="AdminAddCategories.aspx">CATEGORIES</a></li>
+                            <li><a class="dropdown-item" href="AdminAddTerm.aspx">TERMS</a></li>
+                            <li><a class="dropdown-item" href="AdminAddFaculty.aspx">Faculty</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="container-fluid container-inactive col">
-            <a class="navbar-brand btn w-100 border-0" style="text-align: left;" href="AdminAddTerms.aspx">TERMS</a>
+            <a class="navbar-brand btn w-100 border-0" style="text-align: left;" href="AdminAddTerm.aspx">TERMS</a>
         </div>
         <div class="container-fluid container-active col">
             <a class="navbar-brand btn w-100 border-0" style="text-align: left;" href="AdminAddFaculty.aspx">FACULTY</a>
