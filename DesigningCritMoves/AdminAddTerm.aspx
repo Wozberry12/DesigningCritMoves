@@ -9,10 +9,8 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="AdminAddPrompt.aspx">PROMPTS</a></li>
-                            <li><a class="dropdown-item" href="AdminAddCategories.aspx">CATEGORIES</a></li>
-                            <li><a class="dropdown-item" href="AdminAddTerm.aspx">TERMS</a></li>
-                            <li><a class="dropdown-item" href="AdminAddFaculty.aspx">FACULTY</a></li>
+                            <li><a class="dropdown-item" href="AdminAddPrompt.aspx">Edit Prompts and Categories</a></li>
+                           
                         </ul>
                     </li>
                 </ul>
@@ -47,7 +45,7 @@
                             </div>
                             <div class="col-3 float-end" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
                                 <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-25 my-auto float-end" text="Disable"/>
-                                <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-25 my-auto float-end bg-white border-0" text="Edit"/>
+                                <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-35 my-auto float-end bg-white border-0" text="Edit"/>
                                 <%--<button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
                                     <div class="handle"></div>
                                 </button>--%>
