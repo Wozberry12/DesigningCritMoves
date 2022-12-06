@@ -8,10 +8,10 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Add Terms</a></li>
-                            <li><a class="dropdown-item" href="#">Edit Terms</a></li>
-                            <li><a class="dropdown-item" href="#">Add Faculty</a></li>
-                            <li><a class="dropdown-item" href="#">Edit Faculty</a></li>
+                            <li><a class="dropdown-item" href="AdminAddTerm.aspx">Add Terms</a></li>
+                            <li><a class="dropdown-item" href="AdminEditTerm.aspx">Edit Terms</a></li>
+                            <li><a class="dropdown-item" href="AdminAddFaculty.aspx">Add Faculty</a></li>
+                            <li><a class="dropdown-item" href="AdminEditFaculty.aspx">Edit Faculty</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -79,7 +79,7 @@
                     <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
                         <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Winter 2022</div>
                         <div class="col-3" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
-                            <button type="button" class="btn btn-outline-danger">Delete Term</button>
+                            <label class="switch"><input type="checkbox" /><span class="slider round"></span></label>                           
                         </div>
                     </div>
                 </div>
