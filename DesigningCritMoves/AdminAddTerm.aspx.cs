@@ -24,7 +24,7 @@ namespace DesigningCritMoves
             {
                 editTerm.Visible = false;
                 myConnection = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source =" + Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "CritMoves.accdb"));
-                strSQL = "SELECT TermName FROM CRIT_Term";
+                strSQL = "SELECT TermName, TermYear, StartDate, EndDate FROM CRIT_Term";
                 myDataAdapter = new OleDbDataAdapter(strSQL, myConnection);
                 ds = new DataSet("CRIT_Term");
                 myDataAdapter.Fill(ds, "CRIT_Term");
@@ -35,7 +35,24 @@ namespace DesigningCritMoves
 
         protected void rptTermItem_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
+            if(e.CommandName == "edit")
+            {
+                addTerm.Visible = false;
+                editTerm.Visible = true;
+                int rowIndex = e.Item.ItemIndex;
+                Label TxtQ = (Label)rptTermItem.Items[rowIndex].FindControl("lblTermYear");
+                txtTermYear.Text = (TxtQ.Text);
+                TxtQ = (Label)rptTermItem.Items[rowIndex].FindControl("lblTermName");
+                lblTermName.InnerText = (TxtQ.Text);
+                TxtQ = (Label)rptTermItem.Items[rowIndex].FindControl("lblTermStart");
+                txtTermStart.Text = (TxtQ.Text);
+                TxtQ = (Label)rptTermItem.Items[rowIndex].FindControl("lblTermEnd");
+                txtTermEnd.Text = (TxtQ.Text);
+            }
+            else if(e.CommandName == "disable")
+            {
 
+            }
         }
     }
 }
