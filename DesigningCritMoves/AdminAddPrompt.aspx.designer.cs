@@ -42,6 +42,15 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.WebControls.Repeater rptPrompt;
 
         /// <summary>
+        /// lblPromptManage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblPromptManage;
+
+        /// <summary>
         /// CategoryDrop control.
         /// </summary>
         /// <remarks>
@@ -60,12 +69,12 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.WebControls.TextBox txtPromptText;
 
         /// <summary>
-        /// btnSubmit control.
+        /// btnPromptManage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnSubmit;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnPromptManage;
     }
 }

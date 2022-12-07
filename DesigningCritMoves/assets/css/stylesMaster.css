@@ -147,7 +147,7 @@ footer {
 
 .scrollbar-primary::-webkit-scrollbar {
     width: 10px;
-    background-color: #F5F5F5;
+    /*background-color: #F5F5F5;*/
     border-radius: 10px;
 }
 ::-webkit-scrollbar-track {

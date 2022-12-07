@@ -91,14 +91,14 @@
     <form>
         <div class="form-group" style="width: 70%">
             <label class="fs-3 fw-bold mt-3 mb-2">PROMPTS:</label>
-            <label class="fs-3 fw-bold" style="color: #FF6555;">Add New</label>
+            <label class="fs-3 fw-bold" style="color: #FF6555;" runat="server" id="lblPromptManage">Add New</label>
 
             <div>
                 <label for="CategoryDrop">Assign Prompt Category</label>
                 <asp:DropDownList runat="server" class="form-control" ID="CategoryDrop">
                 </asp:DropDownList>
                 <asp:TextBox runat="server" TextMode="MultiLine" CssClass="form-control" ID="txtPromptText" Style="width: 100%; height:200px; margin-right: auto; margin-top: 2%; border-radius: 15px;" BorderStyle="None" Placeholder="Enter New Prompt Here (Maximum 200 Characters)" />
-                <button type="submit" class="fs-2 fw-bold border-0 float-end mt-2" style="background-color: #FF6555; color: #ffffff; border-radius: 5px" id="btnSubmit" runat="server">Add Prompt</button>
+                <button type="submit" class="fs-2 fw-bold border-0 float-end mt-2" style="background-color: #FF6555; color: #ffffff; border-radius: 5px" id="btnPromptManage" runat="server" onserverclick="btnPromptManage_ServerClick">Add Prompt</button>
             </div>
         </div>
     </form>
