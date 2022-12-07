@@ -26,7 +26,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
         <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; height: 600px; background-color: #023739">
-            <div class="card-header text-white">
+            <div class="card-header text-white" Style="font-size: 20px">
                 Filter By Category
             </div>
 
