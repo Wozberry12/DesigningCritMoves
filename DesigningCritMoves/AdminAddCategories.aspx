@@ -26,7 +26,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
         <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; height: 600px; background-color: #023739">
-            <div class="card-header text-white">
+            <div class="card-header text-white" Style="font-size: 20px">
                 Filter By Category
             </div>
 
@@ -52,7 +52,7 @@
             <label class="fs-3 fw-bold " for="modifyStudent">CATEGORIES: </label>
             <span class="fs-3 fw-bold formModeLabel" style="color: #FF6555;">Add New</span>
             <br />
-            <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Category" />
+            <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Add a Category" />
             <br />
             <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">ADD CATEGORY</button>
         </div>
