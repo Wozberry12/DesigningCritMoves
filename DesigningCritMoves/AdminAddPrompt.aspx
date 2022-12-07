@@ -55,7 +55,7 @@
     <label class="fs-3 fw-bold mt-3 mb-2">PROMPTS:</label>
     <label class="fs-3 fw-bold" style="color: #FF6555;">All</label>
 
-    <div class="scrollbar scrollbar-primary" style="height: 525px">
+    <div class="scrollbar scrollbar-primary" style="height: 525px; background-color: #D9EEEA;">
 
         <asp:Repeater ID="rptPrompt" runat="server" OnItemCommand="rptPrompt_ItemCommand">
             <ItemTemplate>
