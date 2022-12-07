@@ -69,6 +69,7 @@
     <Content Include="AdminEditFaculty.aspx" />
     <Content Include="AdminEditTerm.aspx" />
     <Content Include="assets\css\stylesStudent.css" />
+    <Content Include="assets\img\deactivateicon.png" />
     <Content Include="assets\img\editicon.png" />
     <Content Include="assets\img\Minus.png" />
     <Content Include="assets\img\minusbtn.png" />
