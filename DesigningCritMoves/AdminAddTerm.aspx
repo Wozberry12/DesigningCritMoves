@@ -27,7 +27,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentCol1" runat="server">
     <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 100%; background-color: #023739">
-        <div class="card-header text-white">
+        <div class="card-header text-white" Style="font-size: 20px">
             Existing Terms
         </div>
 
@@ -68,8 +68,8 @@
             <span class="fs-3 fw-bold formModeLabel" style="color: #FF6555;">Add New</span>
             <br />
 
-            <asp:TextBox class="modifyTermTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Year" />
             <asp:TextBox class="modifyTermTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Season" />
+            <asp:TextBox class="modifyTermTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Year" />
             <asp:TextBox class="modifyTermTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Start Date XX/XX/XXXX" />
             <asp:TextBox class="modifyTermTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="End Date XX/XX/XXXX" />
             <br />

@@ -1,8 +1,11 @@
 ﻿body {
+    margin:0;
+    border:0;
     background-color: #D9EEEA;
-    overflow:hidden;
+    overflow: hidden;
+    font-family: 'Plus Jakarta Sans';
 }
-nav {
+nav {   
     background-color: #D9EEEA;
 }
 .container-active {
