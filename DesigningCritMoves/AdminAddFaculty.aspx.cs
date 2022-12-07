@@ -15,9 +15,9 @@ namespace DesigningCritMoves
     {
         OleDbConnection myConnection;
         OleDbDataAdapter myDataAdapter;
-        DataSet ds;
+        DataSet ds, dsRole;
         DataTable table;
-        string strSQL;
+        string strSQL, strSql1;
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -25,12 +25,21 @@ namespace DesigningCritMoves
             {
                 editFaculty.Visible = false;
                 myConnection = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0; Data Source =" + Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "CritMoves.accdb"));
-                strSQL = "SELECT FacultyFirstName, FacultyLastName, AccessNetID FROM CRIT_Faculty";
+                strSQL = "SELECT UserFirstName, UserLastName, AccessNetID, UserRole FROM CRIT_User WHERE UserRole = 'Faculty' OR UserRole = 'Administrator'";
                 myDataAdapter = new OleDbDataAdapter(strSQL, myConnection);
                 ds = new DataSet("CRIT_Faculty");
                 myDataAdapter.Fill(ds, "CRIT_Faculty");
                 rptFacultyItem.DataSource = ds.Tables["CRIT_Faculty"];
                 rptFacultyItem.DataBind();
+
+                strSql1 = "SELECT DISTINCT UserRole FROM Crit_User";
+                myDataAdapter = new OleDbDataAdapter(strSql1, myConnection);
+                dsRole = new DataSet();
+                myDataAdapter.Fill(dsRole);
+                ModifyRole.DataSource = dsRole;
+                ModifyRole.DataTextField = "UserRole";
+                ModifyRole.DataValueField = "UserRole";
+                ModifyRole.DataBind();
             }
         }
 
@@ -47,6 +56,8 @@ namespace DesigningCritMoves
                 txtLastName.Text = (TxtQ.Text);
                 TxtQ = (Label)rptFacultyItem.Items[rowIndex].FindControl("lblAccesNet");
                 txtAccessID.Text = (TxtQ.Text);
+                TxtQ = (Label)rptFacultyItem.Items[rowIndex].FindControl("lblUserRole");
+                ModifyRole.SelectedValue = TxtQ.Text;
             }
             else if (e.CommandName == "disable")
             {

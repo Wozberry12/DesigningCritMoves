@@ -39,9 +39,10 @@
                             <div class="row" style="padding-left: 2em; height: 80px">
                                 <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
                                     <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-top: 10px">
-                                        <asp:Label ID="lblFirstName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyFirstName") %>' class="col-7" Style="text-align: left; color: #023739; font-size: 20px; padding-left: 2em" />
-                                        <asp:Label ID="lblLastName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyLastName") %>' Style="text-align: right" />
+                                        <asp:Label ID="lblFirstName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "UserFirstName") %>' class="col-7" Style="text-align: left; color: #023739; font-size: 20px; padding-left: 2em" />
+                                        <asp:Label ID="lblLastName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "UserLastName") %>' Style="text-align: right" />
                                         <asp:Label ID="lblAccesNet" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "AccessNetID") %>' Visible="false" />
+                                        <asp:Label ID="lblUserRole" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "UserRole") %>' Visible="false" />
                                     </div>
                                     <div class="col-3 float-end" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
                                         <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-30 my-auto float-end" Style="margin-top: 200px" text="Disable" />
@@ -84,9 +85,7 @@
             <span class="fs-3 fw-bold formModeLabel" style="color: #FF6555;">Edit</span>
             <br />
             <asp:DropDownList ID="ModifyRole" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control">
-                <asp:ListItem Selected="True" Value="Select Role"> Select Role + </asp:ListItem>
-                <asp:ListItem Value="roleAdmin"> Administrator </asp:ListItem>
-                <asp:ListItem Value="roleFaculty"> Faculty </asp:ListItem>
+                <asp:ListItem Selected="True" Value="Select Role"> Select Role </asp:ListItem>
             </asp:DropDownList>
 
             <asp:TextBox id="txtAccessID" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Access Net ID" ReadOnly="true" />
