@@ -5,6 +5,11 @@
     overflow: hidden;
     font-family: 'Plus Jakarta Sans';
 }
+p{
+    font-weight:600;
+    font-size:20px;
+    line-height:31.5px;
+}
 button{
     font-weight:800;
     font-size:24px;
@@ -224,7 +229,7 @@ footer {
 
 .card-scooch-it {
     width: 50%;
-    text-transform:capitalize;
+    text-transform:uppercase;
     height: 3%;
     margin: 0 auto;
     border-radius: 0px 0px 15px 15px;
