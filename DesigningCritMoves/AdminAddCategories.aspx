@@ -25,20 +25,23 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
-         <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; background-color: #023739">
-        <div class="card-header text-white">
-            Filter By Category
-        </div>
-        <div class="card-body scroll">
-            <ul class="list-group text-start" runat="server" id="lstCategory" >
-                <asp:Repeater runat="server" id="rptCategoryItem" OnItemCommand="rptCategoryItem_ItemCommand">
-                    <ItemTemplate>
-                        <li class="list-group-item">
-                            <asp:Button  ID="radButton" runat="server" CommandName="edit"  />
-                            <asp:Label ID="lblCategoryName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "CategoryName") %>' cssclass="form-check-label" />
-                    </ItemTemplate>
-                </asp:Repeater>
-            </ul>
+        <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; height: 600px; background-color: #023739">
+            <div class="card-header text-white">
+                Filter By Category
+            </div>
+
+            <div class="scrollbar scrollbar-primary" style="height: 600px">
+            <div class="card-body">
+                <ul class="list-group text-start" runat="server" id="lstCategory">
+                    <asp:Repeater runat="server" ID="rptCategoryItem" OnItemCommand="rptCategoryItem_ItemCommand">
+                        <ItemTemplate>
+                            <li class="list-group-item">
+                                <asp:Button ID="radButton" runat="server" CommandName="edit" />
+                                <asp:Label ID="lblCategoryName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "CategoryName") %>' CssClass="form-check-label" />
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+            </div>
         </div>
     </div>
 </asp:Content>

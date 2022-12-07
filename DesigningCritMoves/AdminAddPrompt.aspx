@@ -30,51 +30,57 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
 
-    <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; background-color: #023739">
+    <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; height: 600px; background-color: #023739">
         <div class="card-header text-white">
             Filter By Category
         </div>
-        <div class="card-body scroll">
-            <ul class="list-group text-start" runat="server" id="lstCategory">
-                <asp:Repeater runat="server" ID="rptCategoryItem" OnItemCommand="rptCategoryItem_ItemCommand">
-                    <ItemTemplate>
-                        <li class="list-group-item">
-                            <asp:Button ID="radButton" runat="server" CommandName="sort" />
-                            <asp:Label ID="lblCategoryName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "CategoryName") %>' CssClass="form-check-label" />
-                    </ItemTemplate>
-                </asp:Repeater>
-            </ul>
+        <div class="scrollbar scrollbar-primary" style="height: 600px">
+            <div class="card-body">
+                <ul class="list-group text-start" runat="server" id="lstCategory">
+                    <asp:Repeater runat="server" ID="rptCategoryItem" OnItemCommand="rptCategoryItem_ItemCommand">
+                        <ItemTemplate>
+                            <li class="list-group-item">
+                                <asp:Button ID="radButton" runat="server" CommandName="sort" />
+                                <asp:Label ID="lblCategoryName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "CategoryName") %>' CssClass="form-check-label" />
+                        </ItemTemplate>
+                    </asp:Repeater>
+                </ul>
+            </div>
         </div>
     </div>
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="AdminContentMiddleCol" runat="server">
-    <asp:Repeater ID="rptPrompt" runat="server" OnItemCommand="rptPrompt_ItemCommand">
-        <ItemTemplate>
-            <div class="container my-2">
-                <div class="col">
-                    <div class="col-sm-10">
-                        <div class="card text-dark bg-light">
-                            <div style="width: 100%;">
-                                <div class="card-title bg-primary text-center text-warning" style="width: 45%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
-                                    <asp:Label ID="lblPromptCategory" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "CategoryName") %>' CssClass="form-check-label display-6 text-white text-uppercase" style="font-size:25px; font-weight:bold"/>
+
+    <div class="scrollbar scrollbar-primary" style="height: 525px; background-color: #D9EEEA">
+
+        <asp:Repeater ID="rptPrompt" runat="server" OnItemCommand="rptPrompt_ItemCommand">
+            <ItemTemplate>
+                <div class="container my-2">
+                    <div class="col">
+                        <div class="col-sm-10">
+                            <div class="card text-dark bg-light">
+                                <div style="width: 100%;">
+                                    <div class="card-title bg-primary text-center text-warning" style="width: 45%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                                        <asp:Label ID="lblPromptCategory" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "CategoryName") %>' CssClass="form-check-label display-6 text-white text-uppercase" Style="font-size: 25px; font-weight: bold" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body ">
-                                <asp:Label ID="lblPromptText" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "PromptText") %>' CssClass="form-check-label" />
-                                <asp:Label ID="lblPromptID" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "PromptID") %>' visible="false" />
-                            </div>
-                            <div style="width: 100%;">
-                                <div class="card-footer bg-primary text-center" style="width: 20%; border-radius: 10px 10px 0px 0px; margin: 0 auto;">
-                                    <asp:ImageButton ImageUrl="assets/img/editicon.png" runat="server" CssClass="btn text-white border-0 bg-white" CommandName="edit" />
+                                <div class="card-body ">
+                                    <asp:Label ID="lblPromptText" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "PromptText") %>' CssClass="form-check-label" />
+                                    <asp:Label ID="lblPromptID" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "PromptID") %>' Visible="false" />
+                                </div>
+                                <div style="width: 100%;">
+                                    <div class="card-footer bg-primary text-center" style="width: 20%; border-radius: 10px 10px 0px 0px; margin: 0 auto;">
+                                        <asp:ImageButton ImageUrl="assets/img/editicon.png" runat="server" CssClass="btn text-white border-0 bg-white" CommandName="edit" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </ItemTemplate>
-    </asp:Repeater>
+            </ItemTemplate>
+        </asp:Repeater>
+    </div>
 
 
 </asp:Content>

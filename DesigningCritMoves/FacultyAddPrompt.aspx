@@ -27,11 +27,13 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FacultyContentLeftCol" runat="server">
 
-    <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; background-color: #023739">
+    <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; height: 500px; background-color: #023739">
         <div class="card-header text-white">
             Filter By Category
         </div>
-        <div class="card-body scroll">
+
+        <div class="scrollbar scrollbar-primary" style="height: 400px">
+        <div class="card-body">
             <ul class="list-group text-start">
                 <li class="list-group-item">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault7">
@@ -64,13 +66,58 @@
             </ul>
         </div>
     </div>
+</div>
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="FacultyContentMiddleCol" runat="server">
-    <section class="scroll" style="overflow-y: scroll">
-        <label class="fs-3 fw-bold mt-3 mb-2">Prompts: </label>
-        <span id="promptCategorySelected" class="fs-3 fw-bold" style="color: #FF6555;">Composition</span>
+
+    <label class="fs-3 fw-bold mt-3 mb-2">Prompts: </label>
+    <span id="promptCategorySelected" class="fs-3 fw-bold" style="color: #FF6555;">Composition</span>
+
+    <section class="scrollbar scrollbar-primary" style="height: 525px; background-color: #D9EEEA">
         <div class="container">
+            <div class="col">
+                <div class="col-sm-10">
+                    <div class="card text-dark bg-light">
+                        <div style="width: 100%;">
+                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                                <h4>Composition</h4>
+                            </div>
+                        </div>
+                        <div class="card-body ">
+                            <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
+                        </div>
+                        <div style="width: 20%; margin: 0 auto auto">
+                            <button class="card-footer bg-primary text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
+                                <img src="assets/img/Plus.png" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-1">
+            <div class="col">
+                <div class="col-sm-10">
+                    <div class="card text-dark bg-light">
+                        <div style="width: 100%;">
+                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                                <h4>Composition</h4>
+                            </div>
+                        </div>
+                        <div class="card-body ">
+                            <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
+                        </div>
+                        <div style="width: 20%; margin: 0 auto auto">
+                            <button class="card-footer bg-primary text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
+                                <img src="assets/img/Plus.png" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-1">
             <div class="col">
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
@@ -115,12 +162,35 @@
     </section>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FacultyContentRightCol" runat="server">
-    <section class="scroll" style="overflow-y: scroll">
-        <div class="w-75">
-            <label class="fs-3 fw-bold mt-3 mb-2">Prompts Added</label>
-            <button id="btnPromptSave" class="fs-2 fw-bold border-0 float-end mt-2" style="background-color: #FF6555; color: #ffffff; border-radius: 5px;" runat="server">Save </button>
-        </div>
+
+    <div class="w-75">
+        <label class="fs-3 fw-bold mt-3 mb-2">Prompts Added</label>
+        <button id="btnPromptSave" class="fs-2 fw-bold border-0 float-end mt-2" style="background-color: #FF6555; color: #ffffff; border-radius: 5px;" runat="server">Save </button>
+    </div>
+
+    <section class="scrollbar scrollbar-primary" style="height: 525px; background-color: #D9EEEA">
         <div class="container">
+            <div class="col">
+                <div class="col-sm-10">
+                    <div class="card text-dark bg-light">
+                        <div style="width: 100%;">
+                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                                <h4>Composition</h4>
+                            </div>
+                        </div>
+                        <div class="card-body ">
+                            <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
+                        </div>
+                        <div style="width: 20%; margin: 0 auto auto">
+                            <button class="card-footer bg-primary text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
+                                <img src="assets/img/Minus.png" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-1">
             <div class="col">
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">

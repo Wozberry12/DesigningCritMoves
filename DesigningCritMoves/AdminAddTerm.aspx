@@ -31,29 +31,32 @@
             Existing Terms
         </div>
 
-        <div class="container" style="height: 600px">
-            <asp:Repeater runat="server" ID="rptTermItem" OnItemCommand="rptTermItem_ItemCommand">
-                <ItemTemplate>
-                    <div class="row w-100 my-1" style="padding-left: 1em; height: 80px">
-                        <div class=" mb-4 rounded-3 shadow-sm mr-5 my-auto h-75" style="background-color: white; display: inline-block">
-                            <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-top: 10px">
-                                <asp:Label ID="lblTermName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "TermName") %>'/>
-                                <asp:Label ID="lblTermYear" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "TermYear") %>'/>
-                                <asp:Label ID="lblTermStart" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "StartDate") %>' Visible="false"/>
-                                <asp:Label ID="lblTermEnd" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "EndDate") %>' Visible="false"/>
-                                <%--<div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Summer II 2023</div>--%>
-                            </div>
-                            <div class="col-3 float-end" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
-                                <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-35 my-auto float-end" text="Disable"/>
-                                <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-35 my-auto float-end bg-white border-0" text="Edit"/>
-                                <%--<button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
+        <div class="scrollbar scrollbar-primary" style="height: 500px">
+
+            <div class="container" style="height: 600px">
+                <asp:Repeater runat="server" ID="rptTermItem" OnItemCommand="rptTermItem_ItemCommand">
+                    <ItemTemplate>
+                        <div class="row w-100 my-1" style="padding-left: 1em; height: 80px">
+                            <div class=" mb-4 rounded-3 shadow-sm mr-5 my-auto h-75" style="background-color: white; display: inline-block">
+                                <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-top: 10px">
+                                    <asp:Label ID="lblTermName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "TermName") %>' />
+                                    <asp:Label ID="lblTermYear" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "TermYear") %>' />
+                                    <asp:Label ID="lblTermStart" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "StartDate") %>' Visible="false" />
+                                    <asp:Label ID="lblTermEnd" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "EndDate") %>' Visible="false" />
+                                    <%--<div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Summer II 2023</div>--%>
+                                </div>
+                                <div class="col-3 float-end" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
+                                    <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-35 my-auto float-end" text="Disable" />
+                                    <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-35 my-auto float-end bg-white border-0" text="Edit" />
+                                    <%--<button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
                                     <div class="handle"></div>
                                 </button>--%>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </ItemTemplate>
-            </asp:Repeater>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
         </div>
     </div>
 </asp:Content>

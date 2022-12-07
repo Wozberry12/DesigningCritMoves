@@ -30,7 +30,8 @@
         <div class="card-header text-white">
             Existing Faculty Members
         </div>
-        <div class="scrollbar scrollbar-primary">
+
+        <div class="scrollbar scrollbar-primary" style="height: 500px">
             <div class="container" style="height: 600px">
                 <div class="row">
                     <asp:Repeater runat="server" ID="rptFacultyItem" OnItemCommand="rptFacultyItem_ItemCommand">
@@ -38,12 +39,12 @@
                             <div class="row" style="padding-left: 2em; height: 80px">
                                 <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
                                     <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-top: 10px">
-                                        <asp:Label ID="lblFirstName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyFirstName") %>' class="col-7" style="text-align:left; color: #023739; font-size: 20px; padding-left: 2em"/>
-                                        <asp:Label ID="lblLastName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyLastName") %>' style="text-align:right" />
-                                        <asp:Label ID="lblAccesNet" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "AccessNetID") %>' visible="false"/>
+                                        <asp:Label ID="lblFirstName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyFirstName") %>' class="col-7" Style="text-align: left; color: #023739; font-size: 20px; padding-left: 2em" />
+                                        <asp:Label ID="lblLastName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyLastName") %>' Style="text-align: right" />
+                                        <asp:Label ID="lblAccesNet" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "AccessNetID") %>' Visible="false" />
                                     </div>
                                     <div class="col-3 float-end" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
-                                        <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-30 my-auto float-end" style="margin-top:200px" text="Disable" />
+                                        <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-30 my-auto float-end" Style="margin-top: 200px" text="Disable" />
                                         <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
                                         <%--<button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
                                     <div class="handle"></div>
