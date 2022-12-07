@@ -63,7 +63,7 @@
                             <div style="margin-bottom: 5px;">
                                 <button class="btn btn-primary w-75">BEGIN CRITIQUE</button>
                                 <br />
-                                <a href="FacultyAddStudent.aspx" class="btn mt-2 w-75 text-white" style="background-color:#023739;">ENTER COURSE</a>
+                                <a href="FacultyAddPrompt.aspx" class="btn mt-2 w-75 text-white" style="background-color:#023739;">ENTER COURSE</a>
                             </div>
                             <%--                        <div style="margin-bottom: 5px;">
                             <button class="btn btn-primary">Enter Course</button>

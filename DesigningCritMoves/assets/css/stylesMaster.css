@@ -128,14 +128,21 @@ footer {
     outline:none;
 }
 .btn-danger {
-    background-color: #023739;
+    background-color: #FF6555!important;
     border: none;
     outline: none;
 }
 
 .bg-primary {
     background-color: #023739!important;
-    
+    border: none;
+    outline: none;
+}
+
+.bg-danger {
+    background-color: #FF6555!important;
+    border: none;
+    outline: none;
 }
 .card-text{
     color:black;

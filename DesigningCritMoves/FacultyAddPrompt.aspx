@@ -174,7 +174,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title bg-danger text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -182,7 +182,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
+                            <button class="card-footer bg-danger text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Minus.png" />
                             </button>
                         </div>
@@ -195,7 +195,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title bg-danger text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
+                            <button class="card-footer bg-danger text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Minus.png" />
                             </button>
                         </div>
@@ -216,7 +216,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title bg-danger text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #FF6555;">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                             <p class="card-text text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful. </p>
                         </div>
                         <div style="width: 20%; margin: 0 auto auto">
-                            <button class="card-footer bg-primary text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
+                            <button class="card-footer bg-danger text-center w-100" style="border-radius: 10px 10px 0px 0px" runat="server">
                                 <img src="assets/img/Minus.png" />
                             </button>
                         </div>
