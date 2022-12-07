@@ -74,7 +74,7 @@
             </asp:DropDownList>
 
             <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder=" Search Access Net ID" />
-            <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; height: 60px; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" />
+            <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; height: 60px; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="First name, Last Name"/>
             <br />
             <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SIGN UP</button>
         </div>
@@ -90,6 +90,12 @@
                   <asp:ListItem Value="facultyWill"> Will Oswald </asp:ListItem>
                   <asp:ListItem Value="facultyMarco"> Marco Kosasih </asp:ListItem>
                   <asp:ListItem Value="facultyName"> Faculty Name </asp:ListItem>
+            </asp:DropDownList>
+
+            <asp:DropDownList ID="ModifyRole" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control">
+                <asp:ListItem Selected="True" Value="Select Role"> Select Role + </asp:ListItem>
+                <asp:ListItem Value="roleAdmin"> Administrator </asp:ListItem>
+                <asp:ListItem Value="roleFaculty"> Faculty </asp:ListItem>
             </asp:DropDownList>
 
             <asp:TextBox id="txtAccessID" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Access Net ID" />
