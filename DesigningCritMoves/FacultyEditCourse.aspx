@@ -30,6 +30,9 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
+                        <li>
+                            <a class="dropdown-item" href="StudentSelectCourse.aspx">Student View</a></li>
+                        <li>
                         <li><a class="dropdown-item" href="index.html">Log Out</a></li>
                     </ul>
                 </div>

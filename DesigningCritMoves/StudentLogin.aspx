@@ -1,4 +1,4 @@
-﻿e<%@ Page Title="" Language="C#" MasterPageFile="~/MobileStudent.Master" AutoEventWireup="true" CodeBehind="StudentLogin.aspx.cs" Inherits="DesigningCritMoves.WebForm3" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MobileStudent.Master" AutoEventWireup="true" CodeBehind="StudentLogin.aspx.cs" Inherits="DesigningCritMoves.StudentLogin" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

@@ -31,7 +31,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="AdminContentLeftCol" runat="server">
 
     <div class="card mb-4 rounded-3 shadow-sm" style="max-width: 80%; height: 600px; background-color: #023739">
-        <div class="card-header text-white">
+        <div class="card-header text-white" Style="font-size: 20px">
             Filter By Category
         </div>
         <div class="scrollbar scrollbar-primary" style="height: 600px">
@@ -55,7 +55,7 @@
     <label class="fs-3 fw-bold mt-3 mb-2">PROMPTS:</label>
     <label class="fs-3 fw-bold" style="color: #FF6555;">All</label>
 
-    <div class="scrollbar scrollbar-primary" style="height: 525px; background-color: #D9EEEA;">
+    <div class="scrollbar scrollbar-primary" style="height: 525px; background-color: #D9EEEA">
 
         <asp:Repeater ID="rptPrompt" runat="server" OnItemCommand="rptPrompt_ItemCommand">
             <ItemTemplate>

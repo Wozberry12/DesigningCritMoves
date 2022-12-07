@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MobileStudent.Master" AutoEventWireup="true" CodeBehind="SpeechBubbleTest.aspx.cs" Inherits="DesigningCritMoves.WebForm5" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MobileStudent.Master" AutoEventWireup="true" CodeBehind="SpeechBubbleTest.aspx.cs" Inherits="DesigningCritMoves.SpeechBubbleTest" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -11,14 +11,14 @@
             <div class="front h-100">
                 <div class="container container-speech-bubble-container">
                     <section class="speech-bubble align-content-center text-center">
-                    <div class="card-title card-header-custom w-50 text-uppercase">COMPOSITION</div>
+                    <div class="card-title card-header-custom text-uppercase" style="width:55%;">COMPOSITION</div>
 
                         <div class="row speech-bubble-content justify-content-center align-content-between">
                             <div class="card-text container-prompt-content text-center py-2">Is the concept clear?</div>
                         </div>
                         <div class="row">
                             <div class="container container-prompt-pass text-center w-25">Pass</div>
-                            <div class="container container-prompt-complete text-center w-25">
+                            <div class="container container-prompt-complete text-center w-50">
                                 <div id="btnCompletedPrompt1" class="btn text-white btn-complete-flip w-30">Complete</div>
                             </div>
                             </div>
@@ -45,11 +45,11 @@
             <div class="front">
                 <div class="container container-speech-bubble-container">
                     <section class="speech-bubble align-content-center justify-content-center">
-                        <div class="card-title card-header-custom w-50 text-uppercase">General</div>
+                        <div class="card-title card-header-custom text-uppercase" style="width:55%;">General</div>
                         <div class="card-text container-prompt-content text-center">Refer back to your peer's work from a previous class and share how their previous round of work might have been more successful.</div>
                         <div class="row py-2">
                             <div class="container container-prompt-pass text-center w-25">Pass</div>
-                            <div class="container container-prompt-complete text-center w-25">
+                            <div class="container container-prompt-complete text-center w-50">
                                 <div id="btnCompletedPrompt2" class="btn text-white btn-complete-flip w-30">Complete</div>
                             </div>
                         </div>
