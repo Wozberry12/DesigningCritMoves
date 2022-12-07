@@ -10,9 +10,9 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color:white"></a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="AdminAddTerm.aspx">Edit Terms and Faculty</a></li>
+                            <li><a class="dropdown-item" href="AdminAddTerm.aspx">EDIT TERMS & FACULTY</a></li>
                             
                         </ul>
                     </li>
@@ -86,7 +86,7 @@
             </asp:DropDownList>
             <label for="PromptText">Enter Prompt (Max 200 Characters)</label>
             <asp:TextBox runat="server" TextMode="MultiLine" cssclass="form-control" id="txtPromptText"/>
-            <button type="submit" class="btn btn-primary mb-2" id="btnSubmit" runat="server">Add Prompt!</button>
+            <button type="submit" class="btn btn-primary mb-2" id="btnSubmit" runat="server">Add Prompt</button>
         </div>
 
     </form>

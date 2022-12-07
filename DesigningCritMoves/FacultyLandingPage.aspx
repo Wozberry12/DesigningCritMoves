@@ -19,7 +19,7 @@
             </div>
             <div class="d-flex position-absolute top-0 end-0" style="padding-top: 2em; padding-right: 2em;">
                 <div class="flex-shrink-0 dropdown">
-                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false">Spring 2023
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="ddlProfileControls" data-bs-toggle="dropdown" aria-expanded="false"style="font-weight:bold; font-size:18px">SPRING 2023
                         <img src="assets/img/Group.png" alt="Default Photo" width="45" height="45" class="rounded-circle">
                     </a>
                     <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
@@ -31,7 +31,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        <li><a class="dropdown-item" href="index.html">Log Out</a></li>
                     </ul>
                 </div>
             </div>
@@ -54,11 +54,11 @@
                     <div class="card text-dark text-center bg-light" style="width: 306px; height: 342px;">
                         <div style="width: 100%;">
                             <div class="card-title bg-primary text-center text-light" style="width: 55%; height: 95%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
-                                <h5>Spring 2023</h5>
+                                <h5>SPRING 2023</h5>
                             </div>
                         </div>
                         <div class="card-body ">
-                            <p class="card-text text-center">GAD 2021 - 001 </p>
+                            <p class="card-text text-center" style="font-weight:600">GAD 2021 - 001 </p>
                             <h2>Computers For Design</h2>
                             <div style="margin-bottom: 5px;">
                                 <button class="btn btn-primary w-75">BEGIN CRITIQUE</button>

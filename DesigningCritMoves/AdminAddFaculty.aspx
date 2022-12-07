@@ -7,12 +7,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"style="color:white"></a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="AdminAddPrompt.aspx">PROMPTS</a></li>
-                            <li><a class="dropdown-item" href="AdminAddCategories.aspx">CATEGORIES</a></li>
-                            <li><a class="dropdown-item" href="AdminAddTerm.aspx">TERMS</a></li>
-                            <li><a class="dropdown-item" href="AdminAddFaculty.aspx">FACULTY</a></li>
+                            <li><a class="dropdown-item" href="AdminAddPrompt.aspx">EDIT PROMPTS & CATEGORIES</a></li>
+                            
                         </ul>
                     </li>
                 </ul>
@@ -40,13 +38,13 @@
                             <div class="row" style="padding-left: 2em; height: 80px">
                                 <div class="card mb-4 rounded-3 shadow-sm" style="background-color: white; display: inline-block">
                                     <div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-top: 10px">
-                                        <asp:Label ID="lblFirstName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyFirstName") %>' class="col-7" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em"/>
-                                        <asp:Label ID="lblLastName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyLastName") %>' />
+                                        <asp:Label ID="lblFirstName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyFirstName") %>' class="col-7" style="text-align:left; color: #023739; font-size: 20px; padding-left: 2em"/>
+                                        <asp:Label ID="lblLastName" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "FacultyLastName") %>' style="text-align:right" />
                                         <asp:Label ID="lblAccesNet" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "AccessNetID") %>' visible="false"/>
                                     </div>
                                     <div class="col-3 float-end" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
-                                        <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-25 my-auto float-end" text="Disable" />
-                                        <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-25 my-auto float-end bg-white border-0" text="Edit" />
+                                        <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-30 my-auto float-end" style="margin-top:200px" text="Disable" />
+                                        <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
                                         <%--<button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
                                     <div class="handle"></div>
                                 </button>--%>

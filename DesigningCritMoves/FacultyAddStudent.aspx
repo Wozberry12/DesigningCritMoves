@@ -6,9 +6,9 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white"></a>
                             <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">GAD 2021 - 001</a></li>
+                                <li><a class="dropdown-item" href="FacultyAddPrompt.aspx">GAD 2021 - 001</a></li>
                                 <li><a class="dropdown-item" href="#">GAD 3001 - 002</a></li>
                             </ul>
                         </li>
