@@ -52,7 +52,10 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="AdminContentMiddleCol" runat="server">
 
-    <div class="scrollbar scrollbar-primary" style="height: 525px; background-color: #D9EEEA">
+    <label class="fs-3 fw-bold mt-3 mb-2">PROMPTS:</label>
+    <label class="fs-3 fw-bold" style="color: #FF6555;">All</label>
+
+    <div class="scrollbar scrollbar-primary" style="height: 525px">
 
         <asp:Repeater ID="rptPrompt" runat="server" OnItemCommand="rptPrompt_ItemCommand">
             <ItemTemplate>
@@ -86,15 +89,18 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="AdminContentRightCol" runat="server">
     <form>
-        <div class="form-group" style="width: 60%">
-            <label for="CategoryDrop">Assign Prompt Category</label>
-            <asp:DropDownList runat="server" class="form-control" id="CategoryDrop">
-            </asp:DropDownList>
-            <label for="PromptText">Enter Prompt (Max 200 Characters)</label>
-            <asp:TextBox runat="server" TextMode="MultiLine" cssclass="form-control" id="txtPromptText"/>
-            <button type="submit" class="btn btn-primary mb-2" id="btnSubmit" runat="server">Add Prompt</button>
-        </div>
+        <div class="form-group" style="width: 70%">
+            <label class="fs-3 fw-bold mt-3 mb-2">PROMPTS:</label>
+            <label class="fs-3 fw-bold" style="color: #FF6555;">Add New</label>
 
+            <div>
+                <label for="CategoryDrop">Assign Prompt Category</label>
+                <asp:DropDownList runat="server" class="form-control" ID="CategoryDrop">
+                </asp:DropDownList>
+                <asp:TextBox runat="server" TextMode="MultiLine" CssClass="form-control" ID="txtPromptText" Style="width: 100%; height:200px; margin-right: auto; margin-top: 2%; border-radius: 15px;" BorderStyle="None" Placeholder="Enter New Prompt Here (Maximum 200 Characters)" />
+                <button type="submit" class="fs-2 fw-bold border-0 float-end mt-2" style="background-color: #FF6555; color: #ffffff; border-radius: 5px" id="btnSubmit" runat="server">Add Prompt</button>
+            </div>
+        </div>
     </form>
 </asp:Content>
 
