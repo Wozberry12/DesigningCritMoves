@@ -64,6 +64,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\Plus_Jakarta_Sans\OFL.txt" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\README.txt" />
     <Content Include="assets\css\stylesStudent.css" />
     <Content Include="assets\js\flipCard.js" />
     <Content Include="Older_References\AdminPagePrompts.html" />
@@ -145,6 +147,22 @@
   <ItemGroup>
     <Content Include="AdminViewMaster.Master" />
     <Content Include="MobileStudent.Master" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\PlusJakartaSans-Italic-VariableFont_wght.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\PlusJakartaSans-VariableFont_wght.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-Bold.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-BoldItalic.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-ExtraBold.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-ExtraBoldItalic.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-ExtraLight.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-ExtraLightItalic.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-Italic.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-Light.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-LightItalic.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-Medium.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-MediumItalic.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-Regular.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-SemiBold.ttf" />
+    <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-SemiBoldItalic.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
