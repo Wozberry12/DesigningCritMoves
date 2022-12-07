@@ -68,6 +68,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminEditCategories.aspx" />
+    <Content Include="AdminEditFaculty.aspx" />
+    <Content Include="AdminEditTerm.aspx" />
+    <Content Include="assets\css\stylesStudent.css" />
     <Content Include="assets\img\editicon.png" />
     <Content Include="assets\img\Minus.png" />
     <Content Include="assets\img\minusbtn.png" />
@@ -88,6 +92,10 @@
     <Content Include="assets\img\MainLogo.png" />
     <Content Include="assets\bootstrap\js\bootstrap.min.js" />
     <Content Include="index.html" />
+    <Content Include="SpeechBubbleTest.aspx" />
+    <Content Include="StudentLogin.aspx" />
+    <Content Include="StudentPreload.aspx" />
+    <Content Include="StudentSelectCourse.aspx" />
     <Content Include="Web.config" />
     <Content Include="AdminAddPrompt.aspx" />
     <Content Include="FacultyAddPrompt.aspx" />
@@ -97,6 +105,27 @@
     <Content Include="FacultyAddStudent.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminEditCategories.aspx.cs">
+      <DependentUpon>AdminEditCategories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEditCategories.aspx.designer.cs">
+      <DependentUpon>AdminEditCategories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEditFaculty.aspx.cs">
+      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEditFaculty.aspx.designer.cs">
+      <DependentUpon>AdminEditFaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEditTerm.aspx.cs">
+      <DependentUpon>AdminEditTerm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEditTerm.aspx.designer.cs">
+      <DependentUpon>AdminEditTerm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminViewMaster2.Master.cs">
       <DependentUpon>AdminViewMaster2.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -131,6 +160,13 @@
     </Compile>
     <Compile Include="FacultyLandingPage.aspx.designer.cs">
       <DependentUpon>FacultyLandingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileStudent.Master.cs">
+      <DependentUpon>MobileStudent.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileStudent.Master.designer.cs">
+      <DependentUpon>MobileStudent.Master</DependentUpon>
     </Compile>
     <Compile Include="Older_References\AdminPrompt.aspx.cs">
       <DependentUpon>AdminPrompt.aspx</DependentUpon>
@@ -189,6 +225,34 @@
     <Compile Include="FacultyAddStudent.aspx.designer.cs">
       <DependentUpon>FacultyAddStudent.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SpeechBubbleTest.aspx.cs">
+      <DependentUpon>SpeechBubbleTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SpeechBubbleTest.aspx.designer.cs">
+      <DependentUpon>SpeechBubbleTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentLogin.aspx.cs">
+      <DependentUpon>StudentLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentLogin.aspx.designer.cs">
+      <DependentUpon>StudentLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPreload.aspx.cs">
+      <DependentUpon>StudentPreload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPreload.aspx.designer.cs">
+      <DependentUpon>StudentPreload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSelectCourse.aspx.cs">
+      <DependentUpon>StudentSelectCourse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentSelectCourse.aspx.designer.cs">
+      <DependentUpon>StudentSelectCourse.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminViewMaster.Master" />
@@ -209,6 +273,8 @@
     <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-Regular.ttf" />
     <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-SemiBold.ttf" />
     <Content Include="assets\css\Plus_Jakarta_Sans\static\PlusJakartaSans-SemiBoldItalic.ttf" />
+    <Content Include="AdminViewMaster2.Master" />
+    <Content Include="FacultyViewMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

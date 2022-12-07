@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminViewMaster2.Master" AutoEventWireup="true" CodeBehind="AdminEditTerm.aspx.cs" Inherits="DesigningCritMoves.WebForm4" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AdminViewMaster2.Master" AutoEventWireup="true" CodeBehind="AdminEditTerm.aspx.cs" Inherits="DesigningCritMoves.AdminEditTerm" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">
         <div class="container-fluid col-6" style="background-color: #023739">

@@ -11,7 +11,7 @@ namespace DesigningCritMoves
 {
 
 
-    public partial class WebForm3
+    public partial class FacultyAddPrompt
     {
 
         /// <summary>

@@ -11,7 +11,7 @@ namespace DesigningCritMoves
 {
 
 
-    public partial class WebForm2
+    public partial class FacultyAddStudent
     {
     }
 }

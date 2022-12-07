@@ -7,7 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 namespace DesigningCritMoves
 {
-    public partial class WebForm4 : System.Web.UI.Page
+    public partial class StudentSelectCourse : System.Web.UI.Page
     {
 
         ColorConverter myConverter = new ColorConverter();

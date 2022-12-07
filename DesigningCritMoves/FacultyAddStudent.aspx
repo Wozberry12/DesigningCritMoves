@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacultyViewMaster.Master" AutoEventWireup="true" CodeBehind="FacultyAddStudent.aspx.cs" Inherits="DesigningCritMoves.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacultyViewMaster.Master" AutoEventWireup="true" CodeBehind="FacultyAddStudent.aspx.cs" Inherits="DesigningCritMoves.FacultyAddStudent" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">
             <div class="container-fluid col-6" style="background-color: #023739">

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacultyViewMaster.Master" AutoEventWireup="true" CodeBehind="FacultyAddPrompt.aspx.cs" Inherits="DesigningCritMoves.WebForm3" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/FacultyViewMaster.Master" AutoEventWireup="true" CodeBehind="FacultyAddPrompt.aspx.cs" Inherits="DesigningCritMoves.FacultyAddPrompt" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <nav class="navbar navbar-expand-lg" style="background-color: #D9EEEA">

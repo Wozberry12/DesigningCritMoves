@@ -11,7 +11,7 @@ namespace DesigningCritMoves
 {
 
 
-    public partial class WebForm5
+    public partial class AdminEditCategories
     {
 
         /// <summary>
