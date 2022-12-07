@@ -54,5 +54,11 @@ namespace DesigningCritMoves
 
             }
         }
+
+        protected void btnSaveTerm_ServerClick(object sender, EventArgs e)
+        {
+            addTerm.Visible = true;
+            editTerm.Visible = false;
+        }
     }
 }
