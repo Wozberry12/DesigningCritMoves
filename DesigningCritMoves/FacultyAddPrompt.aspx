@@ -80,7 +80,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title card-scooch-it bg-primary text-center text-light">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title card-scooch-it bg-primary text-center text-light">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -122,7 +122,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title card-scooch-it bg-primary text-center text-light">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-primary text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title card-scooch-it bg-primary text-center text-light">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-danger text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title card-scooch-it bg-danger text-center text-light">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-danger text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
+                            <div class="card-title card-scooch-it bg-danger text-center text-light">
                                 <h4>Composition</h4>
                             </div>
                         </div>
@@ -216,7 +216,7 @@
                 <div class="col-sm-10">
                     <div class="card text-dark bg-light">
                         <div style="width: 100%;">
-                            <div class="card-title bg-danger text-center text-light" style="width: 35%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #FF6555;">
+                            <div class="card-title card-scooch-it bg-danger text-center text-light">
                                 <h4>Composition</h4>
                             </div>
                         </div>
