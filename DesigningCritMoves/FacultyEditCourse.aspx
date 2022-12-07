@@ -26,7 +26,7 @@
                             <a class="dropdown-item" href="AdminAddPrompt.aspx">Administrator View</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Faculty View</a></li>
+                            <a class="dropdown-item" href="FacultyLandingPage.aspx">Faculty View</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
