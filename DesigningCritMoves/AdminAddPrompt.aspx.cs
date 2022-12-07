@@ -46,7 +46,7 @@ namespace DesigningCritMoves
                 myDataAdapter.Fill(dsPrompt);
                 rptPrompt.DataSource = dsPrompt;
                 rptPrompt.DataBind();
-                btnPromptManage.InnerText = "Add Prompt";
+                btnPromptManage.InnerText = "ADD PROMPT";
             }
         }
         protected void rptPrompt_ItemCommand(object source, RepeaterCommandEventArgs e)
@@ -59,16 +59,16 @@ namespace DesigningCritMoves
                 TxtQ = (Label)rptPrompt.Items[rowIndex].FindControl("lblPromptCategory");
                 CategoryDrop.SelectedValue = TxtQ.Text;
                 lblPromptManage.InnerText = "Edit";
-                btnPromptManage.InnerText = "Save Changes";
+                btnPromptManage.InnerText = "SAVE CHANGES";
             }
         }
         protected void btnPromptManage_ServerClick(object sender, EventArgs e)
         {
-            if(btnPromptManage.InnerText == "Save Changes")
+            if(btnPromptManage.InnerText == "SAVE CHANGES")
             {
                 txtPromptText.Text = "";
                 lblPromptManage.InnerText = "Add";
-                btnPromptManage.InnerText = "Add Prompt";
+                btnPromptManage.InnerText = "ADD PROMPT";
             }
         }
     }

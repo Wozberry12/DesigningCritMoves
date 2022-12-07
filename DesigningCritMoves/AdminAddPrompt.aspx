@@ -98,7 +98,7 @@
                 <asp:DropDownList runat="server" class="form-control" ID="CategoryDrop">
                 </asp:DropDownList>
                 <asp:TextBox runat="server" TextMode="MultiLine" CssClass="form-control" ID="txtPromptText" Style="width: 100%; height:200px; margin-right: auto; margin-top: 2%; border-radius: 15px;" BorderStyle="None" Placeholder="Enter New Prompt Here (Maximum 200 Characters)" />
-                <button type="submit" class="fs-2 fw-bold border-0 float-end mt-2" style="background-color: #FF6555; color: #ffffff; border-radius: 5px" id="btnPromptManage" runat="server" onserverclick="btnPromptManage_ServerClick">Add Prompt</button>
+                <button type="submit" class="fs-2 fw-bold border-0 float-end mt-2" style="background-color: #FF6555; color: #ffffff; border-radius: 5px" id="btnPromptManage" runat="server" onserverclick="btnPromptManage_ServerClick">ADD PROMPT</button>
             </div>
         </div>
     </form>
