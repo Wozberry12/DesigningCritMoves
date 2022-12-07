@@ -57,7 +57,7 @@
                         <div class="card text-dark bg-light">
                             <div style="width: 100%;">
                                 <div class="card-title bg-primary text-center text-warning" style="width: 45%; height: 3%; margin: 0 auto; border-radius: 0px 0px 15px 15px; background-color: #023739;">
-                                    <asp:Label ID="lblPromptCategory" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "CategoryName") %>' CssClass="form-check-label display-6 " />
+                                    <asp:Label ID="lblPromptCategory" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "CategoryName") %>' CssClass="form-check-label display-6 text-white text-uppercase" style="font-size:25px; font-weight:bold"/>
                                 </div>
                             </div>
                             <div class="card-body ">
@@ -66,7 +66,7 @@
                             </div>
                             <div style="width: 100%;">
                                 <div class="card-footer bg-primary text-center" style="width: 20%; border-radius: 10px 10px 0px 0px; margin: 0 auto;">
-                                    <asp:Button Text="Edit" runat="server" CssClass="btn text-white border-0" CommandName="edit" />
+                                    <asp:ImageButton ImageUrl="assets/img/editicon.png" runat="server" CssClass="btn text-white border-0 bg-white" CommandName="edit" />
                                 </div>
                             </div>
                         </div>

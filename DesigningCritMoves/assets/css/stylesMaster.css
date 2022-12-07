@@ -128,7 +128,7 @@ footer {
     outline:none;
 }
 .btn-danger {
-    background-color: rgba(2,55,57);
+    background-color: #023739;
     border: none;
     outline: none;
 }
@@ -178,10 +178,10 @@ footer {
     scrollbar-color: #4285F4 #F5F5F5;
 }
 
-.btn:hover {
-    color: #fff !important;
+/*.btn:hover {
+    color:rgba(2,55,57) !important;
     text-decoration: none;
-}
+}*/
 
 /* CSS animation */
 

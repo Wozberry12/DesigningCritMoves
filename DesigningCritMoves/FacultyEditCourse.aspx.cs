@@ -14,7 +14,7 @@ namespace DesigningCritMoves
 
         }
 
-        protected void Unnamed_ServerClick(object sender, EventArgs e)
+        protected void btnSaveEdit_Click(object sender, EventArgs e)
         {
             Response.Redirect("FacultyLandingPage.aspx");
         }

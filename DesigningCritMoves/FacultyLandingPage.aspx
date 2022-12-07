@@ -40,18 +40,18 @@
             <div class="row">
 
                 <div class="container" style="width: 25%;">
-                    <div class="card text-dark text-center bg-light" style="width:306px; height: 342px;">
+                    <div class="card text-dark text-center bg-light" style="width: 306px; height: 342px;">
                         <div class="w-100 h-50">
-                            <div class="card-body" style ="text-align:center; padding-top: 90px">
+                            <div class="card-body" style="text-align: center; padding-top: 90px">
 
-                                <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto float-none mb-5" style="padding-bottom:25px" /><br />
-                                <button class="btn btn-secondary mt-2" style="background-color:#023739; color: white" onserverclick="addCourse" runat="server">ADD A COURSE</button>
+                                <img src="assets/img/PlusCircle.png" class="mt-auto mb-auto float-none mb-5" style="padding-bottom: 25px" /><br />
+                                <button class="btn btn-secondary mt-2" style="background-color: #023739; color: white" onserverclick="addCourse" runat="server">ADD A COURSE</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="container" style="width: 25%">
-                    <div class="card text-dark text-center bg-light" style="width:306px; height:342px;">
+                    <div class="card text-dark text-center bg-light" style="width: 306px; height: 342px;">
                         <div style="width: 100%;">
                             <div class="card-title bg-primary text-center text-light" style="width: 55%; height: 95%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
                                 <h5>Spring 2023</h5>
@@ -61,9 +61,9 @@
                             <p class="card-text text-center">GAD 2021 - 001 </p>
                             <h2>Computers For Design</h2>
                             <div style="margin-bottom: 5px;">
-                                <button class="btn btn-primary w-75">Begin Critique</button>
+                                <button class="btn btn-primary w-75">BEGIN CRITIQUE</button>
                                 <br />
-                                <a href="FacultyAddStudent.aspx" class="btn btn-danger mt-2 w-75">Enter Course</a>
+                                <a href="FacultyAddStudent.aspx" class="btn mt-2 w-75 text-white" style="background-color:#023739;">ENTER COURSE</a>
                             </div>
                             <%--                        <div style="margin-bottom: 5px;">
                             <button class="btn btn-primary">Enter Course</button>
@@ -71,11 +71,10 @@
                         </div>
                         <div style="width: 100%;">
                             <a href="FacultyEditCourse.aspx">
-                                <img src="assets/img/editicon.png" style="width:30px" />
-                            </a>
+                                <img src="assets/img/editicon.png" style="width: 30px" />
+                                </a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

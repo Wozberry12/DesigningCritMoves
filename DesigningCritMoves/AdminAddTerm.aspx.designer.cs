@@ -42,39 +42,39 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl editTerm;
 
         /// <summary>
-        /// lblTermName control.
+        /// txtEditTermName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblTermName;
+        protected global::System.Web.UI.WebControls.TextBox txtEditTermName;
 
         /// <summary>
-        /// txtTermYear control.
+        /// txtEditTermYear control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTermYear;
+        protected global::System.Web.UI.WebControls.TextBox txtEditTermYear;
 
         /// <summary>
-        /// txtTermStart control.
+        /// txtEditTermStart control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTermStart;
+        protected global::System.Web.UI.WebControls.TextBox txtEditTermStart;
 
         /// <summary>
-        /// txtTermEnd control.
+        /// txtEditTermEnd control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTermEnd;
+        protected global::System.Web.UI.WebControls.TextBox txtEditTermEnd;
     }
 }

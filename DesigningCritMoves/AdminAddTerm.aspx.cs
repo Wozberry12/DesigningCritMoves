@@ -41,13 +41,13 @@ namespace DesigningCritMoves
                 editTerm.Visible = true;
                 int rowIndex = e.Item.ItemIndex;
                 Label TxtQ = (Label)rptTermItem.Items[rowIndex].FindControl("lblTermYear");
-                txtTermYear.Text = (TxtQ.Text);
+                txtEditTermYear.Text = (TxtQ.Text);
                 TxtQ = (Label)rptTermItem.Items[rowIndex].FindControl("lblTermName");
-                lblTermName.InnerText = (TxtQ.Text);
+                txtEditTermName.Text = (TxtQ.Text);
                 TxtQ = (Label)rptTermItem.Items[rowIndex].FindControl("lblTermStart");
-                txtTermStart.Text = (TxtQ.Text);
+                txtEditTermStart.Text = (TxtQ.Text);
                 TxtQ = (Label)rptTermItem.Items[rowIndex].FindControl("lblTermEnd");
-                txtTermEnd.Text = (TxtQ.Text);
+                txtEditTermEnd.Text = (TxtQ.Text);
             }
             else if(e.CommandName == "disable")
             {
