@@ -34,23 +34,47 @@
                 <div class="card-body">
                     <ul class="list-group text-start" style="height: 700px;">
                     <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">Krishna Patel</label></li>
+                        <label class="form-check-label" for="flexRadioDefault1">Krishna Patel</label>
+                        <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                    </li>
+
                     <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">Riya Tailor</label></li>
+                        <label class="form-check-label" for="flexRadioDefault1">Riya Tailor</label>
+                        <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton1" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                    </li>
                     <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">Ben Kamide</label></li>
-                    <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">Will Oswald</label></li>
-                    <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">Marco Kosasih</label></li>
-                    <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">Sarah Thomas</label></li>
-                    <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
-                    <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
-                    <li class="list-group-item mb-3" style="border-radius: 5px;">
-                        <label class="form-check-label" for="flexRadioDefault1">First, Last</label></li>
+                        <label class="form-check-label" for="flexRadioDefault1">Ben Kamide</label>
+                        <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton2" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                    </li>
+                        <li class="list-group-item mb-3" style="border-radius: 5px;">
+                            <label class="form-check-label" for="flexRadioDefault1">Will Oswald</label>
+                            <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton3" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        </li>
+                        <li class="list-group-item mb-3" style="border-radius: 5px;">
+                            <label class="form-check-label" for="flexRadioDefault1">Marco Kosasih</label>
+                            <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton4" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+
+                        </li>
+                        <li class="list-group-item mb-3" style="border-radius: 5px;">
+                            <label class="form-check-label" for="flexRadioDefault1">Sarah Thomas</label>
+                            <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton5" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+
+                        </li>
+                        <li class="list-group-item mb-3" style="border-radius: 5px;">
+                            <label class="form-check-label" for="flexRadioDefault1">First, Last</label>
+                            <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton6" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+
+                        </li>
+                        <li class="list-group-item mb-3" style="border-radius: 5px;">
+                            <label class="form-check-label" for="flexRadioDefault1">First, Last</label>
+                            <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton7" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+
+                        </li>
+                        <li class="list-group-item mb-3" style="border-radius: 5px;">
+                            <label class="form-check-label" for="flexRadioDefault1">First, Last</label>
+                            <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton8" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+
+                        </li>
                     </ul>
                 </div>
             </div>
