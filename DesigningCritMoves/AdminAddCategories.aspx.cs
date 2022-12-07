@@ -51,5 +51,11 @@ namespace DesigningCritMoves
                 txtEdit.Text = categoryName;
             }
         }
+
+        protected void btnSaveCategory_ServerClick(object sender, EventArgs e)
+        {
+            addCategory.Visible = true;
+            editCategory.Visible = false;
+        }
     }
 }

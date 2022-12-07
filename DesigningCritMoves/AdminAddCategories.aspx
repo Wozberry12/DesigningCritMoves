@@ -62,7 +62,7 @@
             <br />
             <asp:TextBox id="txtEdit" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Edit Category" />            
             <br />
-            <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SAVE CATEGORY</button>
+            <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;" id="btnSaveCategory" runat="server" onserverclick="btnSaveCategory_ServerClick">SAVE CATEGORY</button>
         </div>
     </form>
 </asp:Content>
