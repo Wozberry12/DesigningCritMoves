@@ -36,43 +36,52 @@
                     <li class="list-group-item mb-3" style="border-radius: 5px;">
                         <label class="form-check-label" for="flexRadioDefault1">Krishna Patel</label>
                         <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DelteButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
                     </li>
 
                     <li class="list-group-item mb-3" style="border-radius: 5px;">
                         <label class="form-check-label" for="flexRadioDefault1">Riya Tailor</label>
                         <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton1" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DeleteButton1" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
                     </li>
                     <li class="list-group-item mb-3" style="border-radius: 5px;">
                         <label class="form-check-label" for="flexRadioDefault1">Ben Kamide</label>
                         <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton2" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DeleteButton2" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
                     </li>
                         <li class="list-group-item mb-3" style="border-radius: 5px;">
                             <label class="form-check-label" for="flexRadioDefault1">Will Oswald</label>
                             <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton3" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DeleteButton3" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
                         </li>
                         <li class="list-group-item mb-3" style="border-radius: 5px;">
                             <label class="form-check-label" for="flexRadioDefault1">Marco Kosasih</label>
                             <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton4" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DeleteButton4" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
 
                         </li>
                         <li class="list-group-item mb-3" style="border-radius: 5px;">
                             <label class="form-check-label" for="flexRadioDefault1">Sarah Thomas</label>
                             <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton5" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DeleteButton5" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
 
                         </li>
                         <li class="list-group-item mb-3" style="border-radius: 5px;">
                             <label class="form-check-label" for="flexRadioDefault1">First, Last</label>
                             <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton6" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DeleteButton6" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
 
                         </li>
                         <li class="list-group-item mb-3" style="border-radius: 5px;">
                             <label class="form-check-label" for="flexRadioDefault1">First, Last</label>
                             <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton7" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DeleteButton7" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
 
                         </li>
                         <li class="list-group-item mb-3" style="border-radius: 5px;">
                             <label class="form-check-label" for="flexRadioDefault1">First, Last</label>
                             <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="ImageButton8" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
+                        <asp:ImageButton ImageUrl="assets/img/minusbtn.png" ID="DeleteButton8" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active my-auto float-end bg-white border-0" style="width:18%" text="delete" />
 
                         </li>
                     </ul>
