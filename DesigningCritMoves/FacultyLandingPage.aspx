@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Crit Moves</title>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Plus Jakarta Sans">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans&amp;display=swap">
     <link rel="stylesheet" href="assets/css/stylesMaster.css">
 </head>
 <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
