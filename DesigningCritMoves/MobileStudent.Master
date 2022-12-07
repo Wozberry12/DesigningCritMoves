@@ -46,7 +46,7 @@
                         <li>
                             <hr class="dropdown-divider border-white" />
                         </li>
-                        <li><a class="dropdown-item text-uppercase" href="#">Sign out</a></li>
+                        <li><a class="dropdown-item text-uppercase text-white" href="#">Sign out</a></li>
 
                     </ul>
                 </div>
