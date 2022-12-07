@@ -53,5 +53,11 @@ namespace DesigningCritMoves
 
             }
         }
+
+        protected void btnSaveFaculty_ServerClick(object sender, EventArgs e)
+        {
+            addFaculty.Visible = true;
+            editFaculty.Visible = false;
+        }
     }
 }

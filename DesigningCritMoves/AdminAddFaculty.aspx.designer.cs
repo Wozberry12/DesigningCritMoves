@@ -42,6 +42,33 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.WebControls.DropDownList SelectRole;
 
         /// <summary>
+        /// txtAddAccessNet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAddAccessNet;
+
+        /// <summary>
+        /// txtAddFirstName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAddFirstName;
+
+        /// <summary>
+        /// txtAddLastName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAddLastName;
+
+        /// <summary>
         /// editFaculty control.
         /// </summary>
         /// <remarks>
@@ -49,15 +76,6 @@ namespace DesigningCritMoves
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl editFaculty;
-
-        /// <summary>
-        /// SelectTerm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList SelectTerm;
 
         /// <summary>
         /// ModifyRole control.
@@ -94,5 +112,14 @@ namespace DesigningCritMoves
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLastName;
+
+        /// <summary>
+        /// btnSaveFaculty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btnSaveFaculty;
     }
 }

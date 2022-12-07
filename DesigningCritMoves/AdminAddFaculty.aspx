@@ -73,8 +73,9 @@
                 <asp:ListItem Value="roleFaculty"> Faculty </asp:ListItem>
             </asp:DropDownList>
 
-            <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder=" Search Access Net ID" />
-            <asp:TextBox class="modifyFacultyTextbox" runat="server" Style="width: 75%; height: 60px; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="First name, Last Name"/>
+            <asp:TextBox id="txtAddAccessNet" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder=" Search Access Net ID" />
+            <asp:TextBox id="txtAddFirstName" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="First name"/>
+            <asp:TextBox id="txtAddLastName" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Last Name"/>
             <br />
             <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SIGN UP</button>
         </div>
@@ -82,27 +83,17 @@
             <label class="fs-3 fw-bold " for="modifyStudent">FACULTY MEMBERS: </label>
             <span class="fs-3 fw-bold formModeLabel" style="color: #FF6555;">Edit</span>
             <br />
-            <asp:DropDownList ID="SelectTerm" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control">
-                  <asp:ListItem Selected="True" Value="Select Faculty"> Faculty + </asp:ListItem>
-                  <asp:ListItem Value="facultyKrishna"> Krishna Patel </asp:ListItem>
-                  <asp:ListItem Value="facultyRiya"> Riya Tailor </asp:ListItem>
-                  <asp:ListItem Value="facultyBen"> Ben Kamide </asp:ListItem>
-                  <asp:ListItem Value="facultyWill"> Will Oswald </asp:ListItem>
-                  <asp:ListItem Value="facultyMarco"> Marco Kosasih </asp:ListItem>
-                  <asp:ListItem Value="facultyName"> Faculty Name </asp:ListItem>
-            </asp:DropDownList>
-
             <asp:DropDownList ID="ModifyRole" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control">
                 <asp:ListItem Selected="True" Value="Select Role"> Select Role + </asp:ListItem>
                 <asp:ListItem Value="roleAdmin"> Administrator </asp:ListItem>
                 <asp:ListItem Value="roleFaculty"> Faculty </asp:ListItem>
             </asp:DropDownList>
 
-            <asp:TextBox id="txtAccessID" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Access Net ID" />
-            <asp:TextBox id="txtFirstName" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="First Name" />
-            <asp:TextBox id="txtLastName" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Last Name" />
+            <asp:TextBox id="txtAccessID" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Access Net ID" ReadOnly="true" />
+            <asp:TextBox id="txtFirstName" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="First Name" ReadOnly="true" />
+            <asp:TextBox id="txtLastName" class="modifyFacultyTextbox" runat="server" Style="width: 75%; margin-right: auto; margin-top: 3%; border-radius: 15px;" BorderStyle="None" CssClass="form-control" placeholder="Last Name" ReadOnly="true" />
             <br />
-            <button type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;">SAVE FACULTY</button>
+            <button id="btnSaveFaculty" type="submit" class="btn btn-primary mb-2 fs-4 fw-bolder" style="background-color: #FF6555; width: 75%;" runat="server" onserverclick="btnSaveFaculty_ServerClick">SAVE FACULTY</button>
         </div>
     </form>
 </asp:Content>
