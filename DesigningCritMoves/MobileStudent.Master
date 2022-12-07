@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MobileStudent.master.cs" Inherits="DesigningCritMoves.MobileStudent" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Crit Moves</title>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Plus Jakarta Sans" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/stylesStudent.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header class="border-bottom border-white align-content-center mb-5">
+        <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 0.5fr;">
+            <img src="assets/img/MainLogo.png" class="img-fluid float-end" alt="Crit Moves">
+            <div class="d-flex text-white" style="padding-left: 8em;">
+                <div id="dropdownAccount" class="container letterCircle align-content-center text-white text-center dropdown-content" style="background-color: #023739" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="container pt-1">S</div>
+                    <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="dropdownAccount">
+                        <li><a class="dropdown-item " href="#" />
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div class="container nestedLetterCircle text-center" style="color: #023739">
+                                            <div class="container pt-1">S</div>
+                                        </div>
+                                        <div class="col-11">
+                                            <div class="row">
+                                                <div class="col">Sophia Mazza</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">tuk11615@temple.edu</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider border-white" />
+                        </li>
+                        <li><a class="dropdown-item text-uppercase" href="#">Sign out</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+</body>
+</html>
