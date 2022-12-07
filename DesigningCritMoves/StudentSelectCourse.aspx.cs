@@ -9,25 +9,23 @@ namespace DesigningCritMoves
 {
     public partial class WebForm4 : System.Web.UI.Page
     {
+
+        ColorConverter myConverter = new ColorConverter();
+        Button newCourse = new Button();
+        bool isSelected = false;
+
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
 
-            
+            }
+        }
+       
+        protected void btnEnterCourse_click(object sender, EventArgs e)
+        {            
+            Response.Redirect("SpeechBubbleTest.aspx");
         }
 
-        protected void selectCourse_onClick(object sender, EventArgs e)
-        {
-            Button myButton = (Button)sender;
-            ColorConverter myConverter = new ColorConverter();
-
-            myButton.ForeColor = (Color)myConverter.ConvertFromString("#9CCCCC");
-        }
-
-
-
-        protected void btnEnterCourse_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -11,7 +11,7 @@ namespace DesigningCritMoves
 {
 
 
-    public partial class FacultyViewMaster
+    public partial class AdminViewMaster
     {
 
         /// <summary>

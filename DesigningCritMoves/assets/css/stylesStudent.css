@@ -13,7 +13,14 @@ body{
 .main-container-class{
     height:35vh;
 }
-
+.letterCircle {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    padding: 8px;
+    background: #023739;
+    font: 32px Arial, sans-serif;
+}
 .card-custom-space{
     border:none;
 }
