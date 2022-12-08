@@ -24,10 +24,15 @@ body{
 
 }
 
+.little-S-class {
+    transform: translate(-.2em,-0.2em);
+    color: #023739;
+}
+
 
 .nestedLetterCircle {
-    height: 18px;
-    width: 20px;
+    height: 45px;
+    width: 45px;
     font:12px;
     font-weight:800;
     background: #D9EEEA;
