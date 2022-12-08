@@ -24,6 +24,15 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.WebControls.ImageButton editButton;
 
         /// <summary>
+        /// DelteButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DelteButton;
+
+        /// <summary>
         /// ImageButton1 control.
         /// </summary>
         /// <remarks>
@@ -31,6 +40,15 @@ namespace DesigningCritMoves
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+
+        /// <summary>
+        /// DeleteButton1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DeleteButton1;
 
         /// <summary>
         /// ImageButton2 control.
@@ -42,6 +60,15 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
 
         /// <summary>
+        /// DeleteButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DeleteButton2;
+
+        /// <summary>
         /// ImageButton3 control.
         /// </summary>
         /// <remarks>
@@ -49,6 +76,15 @@ namespace DesigningCritMoves
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton3;
+
+        /// <summary>
+        /// DeleteButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DeleteButton3;
 
         /// <summary>
         /// ImageButton4 control.
@@ -60,6 +96,15 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.WebControls.ImageButton ImageButton4;
 
         /// <summary>
+        /// DeleteButton4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DeleteButton4;
+
+        /// <summary>
         /// ImageButton5 control.
         /// </summary>
         /// <remarks>
@@ -67,6 +112,15 @@ namespace DesigningCritMoves
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton5;
+
+        /// <summary>
+        /// DeleteButton5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DeleteButton5;
 
         /// <summary>
         /// ImageButton6 control.
@@ -78,6 +132,15 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.WebControls.ImageButton ImageButton6;
 
         /// <summary>
+        /// DeleteButton6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DeleteButton6;
+
+        /// <summary>
         /// ImageButton7 control.
         /// </summary>
         /// <remarks>
@@ -87,6 +150,15 @@ namespace DesigningCritMoves
         protected global::System.Web.UI.WebControls.ImageButton ImageButton7;
 
         /// <summary>
+        /// DeleteButton7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DeleteButton7;
+
+        /// <summary>
         /// ImageButton8 control.
         /// </summary>
         /// <remarks>
@@ -94,5 +166,14 @@ namespace DesigningCritMoves
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton8;
+
+        /// <summary>
+        /// DeleteButton8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton DeleteButton8;
     }
 }
