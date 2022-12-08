@@ -45,7 +45,7 @@
                                         <asp:Label ID="lblUserRole" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "UserRole") %>' Visible="false" />
                                     </div>
                                     <div class="col-3 float-end" style="display: inline-block; margin-left: 30px; padding-right: 10px; margin-top: 5px">
-                                        <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-30 my-auto float-end" Style= "background-color:red; margin-top: 200px;" text="Disable"/>
+                                        <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-30 my-auto float-end" Style= "background-color:#FF6555; margin-top: 200px;" text="Disable"/>
                                         <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-40 my-auto float-end bg-white border-0" text="Edit" />
                                         <%--<button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
                                     <div class="handle"></div>
