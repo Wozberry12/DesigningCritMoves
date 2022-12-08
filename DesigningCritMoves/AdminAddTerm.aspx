@@ -46,7 +46,7 @@
                                     <%--<div class="col-6" style="display: inline-block; color: #023739; font-size: 20px; padding-left: 2em; padding-top: 10px">Summer II 2023</div>--%>
                                 </div>
                                 <div class="col-3 float-end" style="display: inline-block; margin-left: 20px; padding-right: 10px; margin-top: 5px">
-                                    <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-35 my-auto float-end" text="Disable" style ="background-color:red" />
+                                    <asp:ImageButton ImageUrl="assets/img/Minus.png" runat="server" CommandName="disable" CssClass="btn btn-lg btn-secondary btn-toggle active w-35 my-auto float-end" text="Disable" style ="background-color:#FF6555" />
                                     <asp:ImageButton ImageUrl="assets/img/editicon.png" ID="editButton" runat="server" CommandName="edit" CssClass="btn btn-lg btn-secondary btn-toggle active w-35 my-auto float-end bg-white border-0" text="Edit" />
                                     <%--<button type="button" class="btn btn-lg btn-secondary btn-toggle active" data-toggle="button" aria-pressed="true" autocomplete="off">
                                     <div class="handle"></div>
