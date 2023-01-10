@@ -219,13 +219,6 @@
     <Compile Include="AdminAddCategories.aspx.designer.cs">
       <DependentUpon>AdminAddCategories.aspx</DependentUpon>
     </Compile>
-    <Compile Include="FacultyAddStudent.aspx.cs">
-      <DependentUpon>FacultyAddStudent.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FacultyAddStudent.aspx.designer.cs">
-      <DependentUpon>FacultyAddStudent.aspx</DependentUpon>
-    </Compile>
     <Compile Include="SpeechBubbleTest.aspx.cs">
       <DependentUpon>SpeechBubbleTest.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -253,6 +246,13 @@
     </Compile>
     <Compile Include="StudentSelectCourse.aspx.designer.cs">
       <DependentUpon>StudentSelectCourse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyAddStudent.aspx.cs">
+      <DependentUpon>FacultyAddStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyAddStudent.aspx.designer.cs">
+      <DependentUpon>FacultyAddStudent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
