@@ -10,37 +10,41 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-
-    <div class="container" id="mainLogo">
-        <img src="assets/img/MainLogo.png" />
-    </div>
-    <div class="container float-start" id="mainTitle">
-        <h1 class="fs-1 fw-bold">Welcome</h1>
-        <p class="fs-5 text-white" style="width: 85%;"><br>A conversation tool that is determined to get students more engaged during classes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.<br><br></p>
-    </div>
-    <div class="container float-start" id="MainLoginBox">
-        <img src="assets/img/Crit_Moves_FINAL_logos-02%201.png" style="width: 50%;margin-right: auto;margin-left: auto;display: block;height: 50%;margin-top: 10%;margin-bottom: 10%;" width="486" height="222">
-        <div id="MainLoginForm">
-            <div id="inputEmail" class="input-group mb-3">
-                <span class="input-group-text"><img src="assets/img/Group.png"></span>
-                <input class="form-control form-control-lg" type="email" style="margin-right: auto;margin-left: auto;display: block;width: 75%;" placeholder="Email">
-            </div>
-            <div id="inputPassword" class="input-group mb-3">
-                <span class="input-group-text"><img src="assets/img/Group.png"></span>
-                <input class="form-control form-control-lg" type="password" style="margin-right: auto;margin-left: auto;display: block;width: 75%;" placeholder="Password">
-            </div>
-            <div id="inputButtons" class="btn-group-vertical" style="width: 75%;margin-right: auto;margin-left: auto; display:block">
-                <button id="launchAll" class="btn btn-primary fs-2 fw-normal" type="submit" style="background: #ff6555;margin-bottom: 4%;margin-top: 5%;border-radius: 10px;">LOGIN</button>
-                <button class="btn btn-primary fs-2 fw-normal" type="submit" style="background: #023739;border-radius: 10px;">SIGN UP</button>
-            </div>
+<body class="vh-100">
+    <div class="row px-5 justify-content-center align-items-center vh-100">
+        <div class="col">
+            <img src="assets/img/MainLogo.png" />
+            <h1 class="fs-1 fw-bold">Welcome</h1>
+            <p class="fs-5 text-white" style="width: 85%;">
+                <br>A conversation tool that is determined to get students more engaged during classes.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud.<br><br>
+            </p>
+        </div>
+        <div class="col">
+                <div class="container w-75 h-50"  id="MainLoginBox">
+                    <img src="assets/img/Crit_Moves_FINAL_logos-02%201.png" style="width: 50%;margin-right: auto;margin-left: auto;display: block;height: 50%;margin-top: 10%;margin-bottom: 10%;" width="394" height="167">
+                    <div id="MainLoginForm">
+                        <div id="inputEmail" class="input-group mb-3">
+                            <span class="input-group-text"><img src="assets/img/Group.png"></span>
+                            <input class="form-control form-control-lg" type="email" placeholder="Email">
+                        </div>
+                        <div id="inputPassword" class="input-group mb-3">
+                            <span class="input-group-text"><img src="assets/img/Group.png"></span>
+                            <input class="form-control form-control-lg" type="password" placeholder="Password">
+                        </div>
+                        <div id="inputButtons" class="btn-group-vertical" style="width: 75%;margin-right: auto;margin-left: auto; display:block">
+                            <button id="launchAll" class="btn btn-primary fs-2 fw-normal" type="submit" style="background: #ff6555;margin-bottom: 4%;margin-top: 5%;border-radius: 10px;">LOGIN</button>
+                            <button class="btn btn-primary fs-2 fw-normal" type="submit" style="background: #023739;border-radius: 10px;">SIGN UP</button>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
-    <footer>
-        <a class="text-start float-start" href="#" style="color: rgb(255,255,255);padding-top: 10px;">Terms and Conditions</a>
-        <p class="fs-5 text-end float-end" style="color: rgb(255,255,255);">@2022</p>
-    </footer>
-
+        <footer class="container indexFooter" style="background-color:rgba(2,55,57);">
+            <a class="text-start float-start" href="#" style="color: rgb(255,255,255);padding-top: 10px;">Terms and Conditions</a>
+            <p class="text-end float-end" style="color: rgb(255,255,255);">@2022</p>
+        </footer>
 </body>
 </html>
 

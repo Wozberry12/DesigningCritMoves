@@ -1,5 +1,7 @@
 html, body {
     height: 100%;
+    margin:0;
+    border:0;
 }
 * {
     font-family: 'Plus Jakarta Sans';
@@ -13,6 +15,7 @@ body {
     background-color: #D9EEEA;
     background-image: linear-gradient(#D9eeea, #023739);
     font-size: 20px;
+    margin:0;
 }
 h1{
     font-size: 96px;
@@ -48,11 +51,11 @@ h1{
     margin-right: auto;
     margin-left: auto;
 }
-footer {
+.indexFooter {
     position: fixed;
     background-color: rgba(2,55,57);
     width: 100%;
-    height:auto;
+    height: auto;
     bottom: 0;
     z-index: 1;
 }
@@ -60,4 +63,10 @@ footer {
 .scroll{
     max-height:80%;
     overflow-y:auto;
+}
+input{
+    margin-right:auto;
+    margin-left: auto;
+    display:block;
+    width:75%;
 }
