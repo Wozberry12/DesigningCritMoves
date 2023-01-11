@@ -55,16 +55,16 @@
                 </div>
                 <div class="container" style="width: 10%">
                     <div class="card text-dark text-center bg-light" style="width: 306px; height: 342px;">
-                        <div style="width: 100%;">
+                        <div style="width: 100%">
                             <div class="card-title bg-primary text-center text-light" style="width: 55%; height: 95%; margin: 0 auto; border-radius: 0px 0px 5px 5px; background-color: #023739;">
-                                <h5>SPRING 2023</h5>
+                                <h3 style="font-size:20px">SPRING 2023</h3>
                             </div>
                         </div>
                         <div class="card-body ">
                             <p class="card-text text-center" style="font-weight:600">GAD 2021 - 001 </p>
-                            <h2>Computers For Design</h2>
+                            <h2 style="text-transform:uppercase; font-weight:900; color: #023739;">Computers For Design</h2>
                             <div style="margin-bottom: 5px;">
-                                <button class="btn btn-primary w-75">BEGIN CRITIQUE</button>
+                                <button class="btn btn-primary w-75" style="margin-top:25px">BEGIN CRITIQUE</button>
                                 <br />
                                 <a href="FacultyAddPrompt.aspx" class="btn mt-2 w-75 text-white" style="background-color:#023739;">ENTER COURSE</a>
                             </div>
@@ -72,7 +72,7 @@
                             <button class="btn btn-primary">Enter Course</button>
                         </div>--%>
                         </div>
-                        <div style="width: 100%;">
+                        <div style="width: 100%">
                             <a href="FacultyEditCourse.aspx">
                                 <img src="assets/img/editicon.png" style="width: 30px" />
                                 </a>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="card-body ">
                             <p class="card-text text-center" style="font-weight:600">GAD 2021 - 001 </p>
-                            <h2>Computers For Design</h2>
+                            <h2 style="text-transform:uppercase;">Computers For Design</h2>
                             <div style="margin-bottom: 5px;">
                                 <button class="btn btn-primary w-75">BEGIN CRITIQUE</button>
                                 <br />
